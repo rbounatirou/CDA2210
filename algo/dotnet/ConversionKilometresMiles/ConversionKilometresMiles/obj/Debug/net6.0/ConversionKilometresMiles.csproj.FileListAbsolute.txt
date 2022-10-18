@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\bin\Debug\net6.0\ConversionKilometresMiles.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\bin\Debug\net6.0\ConversionKilometresMiles.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\bin\Debug\net6.0\ConversionKilometresMiles.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\bin\Debug\net6.0\ConversionKilometresMiles.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\bin\Debug\net6.0\ref\ConversionKilometresMiles.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\bin\Debug\net6.0\ConversionKilometresMiles.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\obj\Debug\net6.0\ConversionKilometresMiles.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\obj\Debug\net6.0\ConversionKilometresMiles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\obj\Debug\net6.0\ConversionKilometresMiles.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\obj\Debug\net6.0\ConversionKilometresMiles.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\obj\Debug\net6.0\ConversionKilometresMiles.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\obj\Debug\net6.0\ConversionKilometresMiles.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\obj\Debug\net6.0\ref\ConversionKilometresMiles.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\obj\Debug\net6.0\ConversionKilometresMiles.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionKilometresMiles\ConversionKilometresMiles\obj\Debug\net6.0\ConversionKilometresMiles.genruntimeconfig.cache

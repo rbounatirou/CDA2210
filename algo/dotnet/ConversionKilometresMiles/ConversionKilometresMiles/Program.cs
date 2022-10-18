@@ -1,28 +1,9 @@
-﻿/*bool isCorrect = true;
-int saisie = 0;
-do
-{
-    Console.WriteLine((isCorrect ? "Bonjour, veuillez entrer un nombre de nombre parfaits à obtenir (au moins 1)" :
-        "Nombre incorrect,veuillez entrer un nombre de nombre parfaits à obtenir (au moins 1)"));
-    try
-    {
-        saisie = int.Parse(Console.ReadLine());
-        isCorrect = (saisie > 0);
-    }
-    catch (Exception e)
-    {
-        isCorrect = false;
-    }
-} while (!isCorrect);
-afficherNombreDeParfait(saisie);
-*/
-
-double distance;
+﻿double distance;
 String uniteConversion = "km";
-bool isCorrect = false;
+bool wantExit = false;
 do
 {
-    Console.WriteLine("Veuillez entrez une valeur à convertir suivie de l'unite de mesure (km ou mi)  ou q pour quitter le programme (ex 12 mi).");
+    Console.WriteLine("Veuillez entrez une valeur à convertir suivie de son unite de mesure(km ou mi)  ou q pour quitter le programme(ex 12 mi)");
     String saisie = Console.ReadLine().ToLower();
     String[] split = saisie.Split(" ");
     if (split.Count() >= 1)
@@ -31,47 +12,21 @@ do
         {
             try
             {
-                convertir(split);
-            } catch (Exception e)
+                double convertValue = convertir(split);
+                Console.WriteLine((split.Count() == 2 && split[1].Equals("mi")) ? split[0] + " mi font " + convertValue + " km." :
+                    split[0] + " km font " + convertValue + " mi.");
+            }
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
         } else
         {
-
-        }
-    } else
-    {
-        try
-        {
-            distance = double.Parse(split[0]);
-            if (distance > 0)
-            {
-                if (split[1].Equals("km") || split[1].Equals("mi"))
-                {
-                    if (split[1] != "km")
-                    {
-                        uniteConversion = split[1];
-                        isCorrect = true;
-                    }
-                    else
-                    {
-                        uniteConversion = split[1];
-                        isCorrect = true;
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Mauvaise unite de conversion, les unites acceptes sont km ou mi");
-                }
-            }
-        } catch (Exception e)
-        {
-            Console.WriteLine("");
+            wantExit = true;
         }
     }
 
-} while (!isCorrect);
+} while (!wantExit);
 
 
 double convertir(String[] split)
@@ -106,6 +61,12 @@ double convertir(String[] split)
         {
             throw new Exception("Unite de mesure invalide (km ou mi seulement)");
         }
+    } else
+    {
+        double[] minMax = { 0.01, 1000000 };
+        if (!(distance >= minMax[0] && distance <= minMax[1]))
+            throw new Exception("Distance invalide (elle doit etre comprise entre " + minMax[0] + " et " + minMax[1] + " km).");
+        return distance / 1.609;
     }
     return 0; 
 }

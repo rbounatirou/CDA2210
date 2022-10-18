@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dc2e26a0-cd77-4e94-8759-4e79b1fbe909": {
+      "ProjectGuid": "dc2e26a0-cd77-4e94-8759-4e79b1fbe909",
+      "DisplayName": "ConversionDegresFarenheit",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
