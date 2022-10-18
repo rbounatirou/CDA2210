@@ -25,9 +25,21 @@ do
     Console.WriteLine("Veuillez entrez une valeur à convertir suivie de l'unite de mesure (km ou mi)  ou q pour quitter le programme (ex 12 mi).");
     String saisie = Console.ReadLine().ToLower();
     String[] split = saisie.Split(" ");
-    if (split.Count() == 1)
+    if (split.Count() >= 1)
     {
-        
+        if (!split[0].Equals("q"))
+        {
+            try
+            {
+                convertir(split);
+            } catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        } else
+        {
+
+        }
     } else
     {
         try
@@ -64,6 +76,7 @@ do
 
 double convertir(String[] split)
 {
+    double distance = 0;
     try
     {
         distance = double.Parse(split[0]);
@@ -80,13 +93,14 @@ double convertir(String[] split)
             double[] minMax = { 0.01, 1000000 };
             if (!(distance >= minMax[0] && distance <= minMax[1]))
                 throw new Exception("Distance invalide (elle doit etre comprise entre " + minMax[0] + " et " + minMax[1] + " km).");
+            return distance / 1.609;
         }
         else if (split[1].Equals("mi"))
         {
             double[] minMax = { 0.01 / 1.609, 1000000 / 1.609 };
             if (!(distance >= minMax[0] && distance <= minMax[1]))
                 throw new Exception("Distance invalide (elle doit etre comprise entre " + minMax[0] + " et " + minMax[1] + " mi).");
-
+            return distance * 1.609;
         }
         else
         {
