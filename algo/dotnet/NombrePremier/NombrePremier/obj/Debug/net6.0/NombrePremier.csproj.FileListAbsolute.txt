@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\bin\Debug\net6.0\NombrePremier.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\bin\Debug\net6.0\NombrePremier.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\bin\Debug\net6.0\NombrePremier.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\bin\Debug\net6.0\NombrePremier.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\bin\Debug\net6.0\ref\NombrePremier.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\bin\Debug\net6.0\NombrePremier.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\obj\Debug\net6.0\NombrePremier.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\obj\Debug\net6.0\NombrePremier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\obj\Debug\net6.0\NombrePremier.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\obj\Debug\net6.0\NombrePremier.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\obj\Debug\net6.0\NombrePremier.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\obj\Debug\net6.0\NombrePremier.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\obj\Debug\net6.0\ref\NombrePremier.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\obj\Debug\net6.0\NombrePremier.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombrePremier\NombrePremier\obj\Debug\net6.0\NombrePremier.genruntimeconfig.cache

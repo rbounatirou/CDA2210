@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\bin\Debug\net6.0\NombreParfait.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\bin\Debug\net6.0\NombreParfait.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\bin\Debug\net6.0\NombreParfait.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\bin\Debug\net6.0\NombreParfait.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\bin\Debug\net6.0\ref\NombreParfait.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\bin\Debug\net6.0\NombreParfait.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\obj\Debug\net6.0\NombreParfait.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\obj\Debug\net6.0\NombreParfait.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\obj\Debug\net6.0\NombreParfait.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\obj\Debug\net6.0\NombreParfait.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\obj\Debug\net6.0\NombreParfait.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\obj\Debug\net6.0\NombreParfait.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\obj\Debug\net6.0\ref\NombreParfait.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\obj\Debug\net6.0\NombreParfait.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\NombreParfait\NombreParfait\obj\Debug\net6.0\NombreParfait.genruntimeconfig.cache
