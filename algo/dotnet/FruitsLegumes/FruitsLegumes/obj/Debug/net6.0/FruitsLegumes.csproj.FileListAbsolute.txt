@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\bin\Debug\net6.0\FruitsLegumes.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\bin\Debug\net6.0\FruitsLegumes.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\bin\Debug\net6.0\FruitsLegumes.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\bin\Debug\net6.0\FruitsLegumes.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\bin\Debug\net6.0\ref\FruitsLegumes.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\bin\Debug\net6.0\FruitsLegumes.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\obj\Debug\net6.0\FruitsLegumes.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\obj\Debug\net6.0\FruitsLegumes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\obj\Debug\net6.0\FruitsLegumes.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\obj\Debug\net6.0\FruitsLegumes.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\obj\Debug\net6.0\FruitsLegumes.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\obj\Debug\net6.0\FruitsLegumes.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\obj\Debug\net6.0\ref\FruitsLegumes.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\obj\Debug\net6.0\FruitsLegumes.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\FruitsLegumes\FruitsLegumes\obj\Debug\net6.0\FruitsLegumes.genruntimeconfig.cache

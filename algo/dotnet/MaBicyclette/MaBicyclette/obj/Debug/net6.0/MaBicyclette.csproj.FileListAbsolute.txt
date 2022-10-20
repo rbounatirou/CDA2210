@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\bin\Debug\net6.0\MaBicyclette.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\bin\Debug\net6.0\MaBicyclette.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\bin\Debug\net6.0\MaBicyclette.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\bin\Debug\net6.0\MaBicyclette.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\bin\Debug\net6.0\ref\MaBicyclette.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\bin\Debug\net6.0\MaBicyclette.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\obj\Debug\net6.0\MaBicyclette.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\obj\Debug\net6.0\MaBicyclette.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\obj\Debug\net6.0\MaBicyclette.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\obj\Debug\net6.0\MaBicyclette.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\obj\Debug\net6.0\MaBicyclette.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\obj\Debug\net6.0\MaBicyclette.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\obj\Debug\net6.0\ref\MaBicyclette.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\obj\Debug\net6.0\MaBicyclette.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\MaBicyclette\MaBicyclette\obj\Debug\net6.0\MaBicyclette.genruntimeconfig.cache

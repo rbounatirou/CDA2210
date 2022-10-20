@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\bin\Debug\net6.0\Jeu02.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\bin\Debug\net6.0\Jeu02.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\bin\Debug\net6.0\Jeu02.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\bin\Debug\net6.0\Jeu02.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\bin\Debug\net6.0\ref\Jeu02.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\bin\Debug\net6.0\Jeu02.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\obj\Debug\net6.0\Jeu02.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\obj\Debug\net6.0\Jeu02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\obj\Debug\net6.0\Jeu02.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\obj\Debug\net6.0\Jeu02.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\obj\Debug\net6.0\Jeu02.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\obj\Debug\net6.0\Jeu02.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\obj\Debug\net6.0\ref\Jeu02.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\obj\Debug\net6.0\Jeu02.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Jeu02\Jeu02\obj\Debug\net6.0\Jeu02.genruntimeconfig.cache

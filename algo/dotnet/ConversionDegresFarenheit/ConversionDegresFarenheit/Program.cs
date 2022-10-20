@@ -3,7 +3,7 @@
 bool correctUnit;
 double minVal = 0, maxVal = 0;
 String saisie;
-char convertUnit;
+char convertUnit='C';
 do
 {
     correctUnit = false;
@@ -29,7 +29,10 @@ do
                     Console.WriteLine("Veuillez entrer l'unite de conversion C ou F uniquement");
                 }
             }
-            else
+            else if (saisie.Equals("QUIT"))
+            {
+                wantExit = true;
+            } else
             {
                 Console.WriteLine("Veuillez entrer l'unite de conversion C ou F uniquement");
             }
@@ -37,12 +40,12 @@ do
     } while (!correctUnit && !wantExit);
     if (correctUnit)
     {
-        Console.WriteLine("Veuillez entrer une plage de valeur dont les valeurs doivent etre comprise entre -459.67 et 50000000 separes par un tiret(ex 12-14)");
         //---
         bool allowedVal = false;
         String[] split;
         do
         {
+            Console.WriteLine("Veuillez entrer une plage de valeur dont les valeurs doivent etre comprise entre -459.67 et 5000000 separes par un tiret(ex 12-14)");
             saisie = Console.ReadLine().ToLower();
             if (saisie.Equals("quit"))
             {
@@ -60,17 +63,17 @@ do
                 {
                     minVal = double.Parse(split[0]);
                     maxVal = double.Parse(split[1]);
+                    double lcMin, lcMax;
+                    lcMin = (minVal < maxVal ? minVal : maxVal);
+                    lcMax = (maxVal > minVal ? maxVal : minVal);
+                    lancerConversion(lcMin, lcMax, convertUnit);
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine("une valeur est incorrecte veuillez resaisir");
-                }
-                double lcMin, lcMax;
-                lcMin = (minVal < maxVal ? minVal : maxVal);
-                lcMax = (maxVal > minVal ? maxVal : minVal);
+                }                
             }
         } while (!allowedVal && !wantExit);
-        allowedVal = false;
     }
 } while (!wantExit);
 
@@ -84,7 +87,7 @@ void lancerConversion(double min, double max, char unite)
         throw new Exception("La plage de valeur doit etre comprise entre -459.67 et 5000000");
     for (double i = min; i <= max; i++)
     {
-        Console.WriteLine(i + unite + " font " + (uniteTo == 'C' ? convertirEnCelsius(i) : convertirEnFarenheit(i)) + uniteTo);
+        Console.WriteLine(String.Format("{0}{1} font {2}{3}", i, unite, (uniteTo == 'C' ? convertirEnFarenheit(i) : convertirEnCelsius(i)), uniteTo));
     }
 }
 

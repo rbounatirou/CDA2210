@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "97a15c65-8c6f-4576-b7af-9dad8aa2419c": {
+      "ProjectGuid": "97a15c65-8c6f-4576-b7af-9dad8aa2419c",
+      "DisplayName": "DenombrerLettre",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

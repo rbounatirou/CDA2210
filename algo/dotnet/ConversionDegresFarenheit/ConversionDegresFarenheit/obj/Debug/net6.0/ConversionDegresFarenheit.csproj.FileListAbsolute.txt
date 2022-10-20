@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\obj\Debug\net6.0\ConversionDegresFarenheit.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\obj\Debug\net6.0\ConversionDegresFarenheit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\obj\Debug\net6.0\ConversionDegresFarenheit.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\obj\Debug\net6.0\ConversionDegresFarenheit.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\obj\Debug\net6.0\ConversionDegresFarenheit.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\bin\Debug\net6.0\ConversionDegresFarenheit.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\bin\Debug\net6.0\ConversionDegresFarenheit.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\bin\Debug\net6.0\ConversionDegresFarenheit.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\bin\Debug\net6.0\ConversionDegresFarenheit.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\bin\Debug\net6.0\ref\ConversionDegresFarenheit.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\bin\Debug\net6.0\ConversionDegresFarenheit.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\obj\Debug\net6.0\ConversionDegresFarenheit.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\obj\Debug\net6.0\ref\ConversionDegresFarenheit.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\obj\Debug\net6.0\ConversionDegresFarenheit.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\ConversionDegresFarenheit\ConversionDegresFarenheit\obj\Debug\net6.0\ConversionDegresFarenheit.genruntimeconfig.cache

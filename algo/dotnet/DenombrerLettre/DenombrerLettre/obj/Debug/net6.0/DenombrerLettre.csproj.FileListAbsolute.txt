@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\bin\Debug\net6.0\DenombrerLettre.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\bin\Debug\net6.0\DenombrerLettre.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\bin\Debug\net6.0\DenombrerLettre.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\bin\Debug\net6.0\DenombrerLettre.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\bin\Debug\net6.0\ref\DenombrerLettre.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\bin\Debug\net6.0\DenombrerLettre.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\obj\Debug\net6.0\DenombrerLettre.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\obj\Debug\net6.0\DenombrerLettre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\obj\Debug\net6.0\DenombrerLettre.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\obj\Debug\net6.0\DenombrerLettre.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\obj\Debug\net6.0\DenombrerLettre.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\obj\Debug\net6.0\DenombrerLettre.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\obj\Debug\net6.0\ref\DenombrerLettre.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\obj\Debug\net6.0\DenombrerLettre.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\DenombrerLettre\DenombrerLettre\obj\Debug\net6.0\DenombrerLettre.genruntimeconfig.cache
