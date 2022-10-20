@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\bin\Debug\net6.0\RegexTest.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\bin\Debug\net6.0\RegexTest.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\bin\Debug\net6.0\RegexTest.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\bin\Debug\net6.0\RegexTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\bin\Debug\net6.0\ref\RegexTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\bin\Debug\net6.0\RegexTest.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\obj\Debug\net6.0\RegexTest.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\obj\Debug\net6.0\RegexTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\obj\Debug\net6.0\RegexTest.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\obj\Debug\net6.0\RegexTest.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\obj\Debug\net6.0\RegexTest.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\obj\Debug\net6.0\RegexTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\obj\Debug\net6.0\ref\RegexTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\obj\Debug\net6.0\RegexTest.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\RegexTest\RegexTest\obj\Debug\net6.0\RegexTest.genruntimeconfig.cache

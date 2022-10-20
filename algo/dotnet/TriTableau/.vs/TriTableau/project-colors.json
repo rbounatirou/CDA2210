@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bb3ef3ae-d81b-41d3-a017-5beb3645cc1a": {
+      "ProjectGuid": "bb3ef3ae-d81b-41d3-a017-5beb3645cc1a",
+      "DisplayName": "TriTableau",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

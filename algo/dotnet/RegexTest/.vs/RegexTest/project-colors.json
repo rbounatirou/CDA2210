@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9a5916c6-d915-4247-94d7-fb62558b369a": {
+      "ProjectGuid": "9a5916c6-d915-4247-94d7-fb62558b369a",
+      "DisplayName": "RegexTest",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

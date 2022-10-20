@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\bin\Debug\net6.0\TriTableau.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\bin\Debug\net6.0\TriTableau.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\bin\Debug\net6.0\TriTableau.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\bin\Debug\net6.0\TriTableau.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\bin\Debug\net6.0\ref\TriTableau.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\bin\Debug\net6.0\TriTableau.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\obj\Debug\net6.0\TriTableau.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\obj\Debug\net6.0\TriTableau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\obj\Debug\net6.0\TriTableau.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\obj\Debug\net6.0\TriTableau.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\obj\Debug\net6.0\TriTableau.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\obj\Debug\net6.0\TriTableau.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\obj\Debug\net6.0\ref\TriTableau.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\obj\Debug\net6.0\TriTableau.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\TriTableau\TriTableau\obj\Debug\net6.0\TriTableau.genruntimeconfig.cache

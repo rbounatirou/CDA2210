@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\bin\Debug\net6.0\Dichotomie.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\bin\Debug\net6.0\Dichotomie.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\bin\Debug\net6.0\Dichotomie.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\bin\Debug\net6.0\Dichotomie.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\bin\Debug\net6.0\ref\Dichotomie.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\bin\Debug\net6.0\Dichotomie.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\obj\Debug\net6.0\Dichotomie.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\obj\Debug\net6.0\Dichotomie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\obj\Debug\net6.0\Dichotomie.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\obj\Debug\net6.0\Dichotomie.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\obj\Debug\net6.0\Dichotomie.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\obj\Debug\net6.0\Dichotomie.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\obj\Debug\net6.0\ref\Dichotomie.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\obj\Debug\net6.0\Dichotomie.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Dichotomie\Dichotomie\obj\Debug\net6.0\Dichotomie.genruntimeconfig.cache
