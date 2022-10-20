@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\bin\Debug\net6.0\CalculNombrePersonnes.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\bin\Debug\net6.0\CalculNombrePersonnes.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\bin\Debug\net6.0\CalculNombrePersonnes.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\bin\Debug\net6.0\CalculNombrePersonnes.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\bin\Debug\net6.0\ref\CalculNombrePersonnes.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\bin\Debug\net6.0\CalculNombrePersonnes.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\obj\Debug\net6.0\CalculNombrePersonnes.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\obj\Debug\net6.0\CalculNombrePersonnes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\obj\Debug\net6.0\CalculNombrePersonnes.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\obj\Debug\net6.0\CalculNombrePersonnes.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\obj\Debug\net6.0\CalculNombrePersonnes.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\obj\Debug\net6.0\CalculNombrePersonnes.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\obj\Debug\net6.0\ref\CalculNombrePersonnes.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\obj\Debug\net6.0\CalculNombrePersonnes.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\CalculNombrePersonnes\CalculNombrePersonnes\obj\Debug\net6.0\CalculNombrePersonnes.genruntimeconfig.cache
