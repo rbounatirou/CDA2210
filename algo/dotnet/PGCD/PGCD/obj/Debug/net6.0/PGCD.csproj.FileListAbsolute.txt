@@ -1,0 +1,14 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\bin\Debug\net6.0\PGCD.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\bin\Debug\net6.0\PGCD.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\bin\Debug\net6.0\PGCD.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\bin\Debug\net6.0\PGCD.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\bin\Debug\net6.0\ref\PGCD.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\bin\Debug\net6.0\PGCD.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\obj\Debug\net6.0\PGCD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\obj\Debug\net6.0\PGCD.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\obj\Debug\net6.0\PGCD.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\obj\Debug\net6.0\PGCD.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\obj\Debug\net6.0\PGCD.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\obj\Debug\net6.0\ref\PGCD.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\obj\Debug\net6.0\PGCD.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\PGCD\PGCD\obj\Debug\net6.0\PGCD.genruntimeconfig.cache

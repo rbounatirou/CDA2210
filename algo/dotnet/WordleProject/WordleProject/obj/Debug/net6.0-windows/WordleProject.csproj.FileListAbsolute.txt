@@ -1,0 +1,17 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\bin\Debug\net6.0-windows\WordleProject.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\bin\Debug\net6.0-windows\WordleProject.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\bin\Debug\net6.0-windows\WordleProject.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\bin\Debug\net6.0-windows\WordleProject.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\bin\Debug\net6.0-windows\ref\WordleProject.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\bin\Debug\net6.0-windows\WordleProject.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.Form1.resources
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.csproj.GenerateResource.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\ref\WordleProject.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\WordleProject\WordleProject\obj\Debug\net6.0-windows\WordleProject.genruntimeconfig.cache

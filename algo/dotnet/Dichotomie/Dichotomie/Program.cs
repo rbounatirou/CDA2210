@@ -5,14 +5,14 @@
 "Olga",
 "Raymonde",
 "Sidonie"};
-
+nom = tabToUpper(nom);
 int median = nom.Length;
 bool more = false;
 bool finded = false;
 bool ended = false;
 int[] intervalle = { 0, nom.Length };
 Console.WriteLine("Quel nom cherchez vous?");
-String saisie = Console.ReadLine();
+String saisie = Console.ReadLine().ToUpper();
 while (!finded && !ended)
 {
     int delta = (intervalle[1] - intervalle[0]) / 2;
@@ -36,3 +36,13 @@ while (!finded && !ended)
         ended = true;
 } 
 Console.WriteLine(finded ? "trouvé à l'indice " + median : "element non trouvé");
+
+String[] tabToUpper(String[] str)
+{
+    String[] rt = str;
+    for (int i = 0; i < rt.Length; i++)
+    {
+        rt[i] = rt[i].ToUpper();
+    }
+    return rt;
+}
