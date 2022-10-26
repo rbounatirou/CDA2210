@@ -13,6 +13,7 @@ do
         int[] numbers = Regex.Matches(userInput, @"\d+").Select(m => int.Parse(m.Value)).ToArray();
         */
         MatchCollection mc = Regex.Matches(userInput, "[0-9]+[,]*[0-9]*");
+        String[] arr = mc.Cast<String>().ToArray();
         double[] numbers = mc.Select(m => double.Parse(m.Value)).ToArray();
         area = (Math.PI * Math.Pow(numbers[0], 2) * numbers[1]) / 360;
         wrongInput = true;
