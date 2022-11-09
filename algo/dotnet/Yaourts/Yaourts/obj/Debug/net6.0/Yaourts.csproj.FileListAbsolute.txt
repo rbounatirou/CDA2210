@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\bin\Debug\net6.0\Yaourts.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\bin\Debug\net6.0\Yaourts.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\bin\Debug\net6.0\Yaourts.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\bin\Debug\net6.0\Yaourts.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\bin\Debug\net6.0\ref\Yaourts.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\bin\Debug\net6.0\Yaourts.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\obj\Debug\net6.0\Yaourts.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\obj\Debug\net6.0\Yaourts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\obj\Debug\net6.0\Yaourts.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\obj\Debug\net6.0\Yaourts.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\obj\Debug\net6.0\Yaourts.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\obj\Debug\net6.0\Yaourts.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\obj\Debug\net6.0\ref\Yaourts.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\obj\Debug\net6.0\Yaourts.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\Yaourts\Yaourts\obj\Debug\net6.0\Yaourts.genruntimeconfig.cache

@@ -33,7 +33,13 @@ while (!finded && !ended)
         }
     }
     else
+    {
+       if (nom[delta].Equals(saisie)) {
+            median = delta;
+            finded = true;
+        }
         ended = true;
+    }
 } 
 Console.WriteLine(finded ? "trouvé à l'indice " + median : "element non trouvé");
 
@@ -46,3 +52,4 @@ String[] tabToUpper(String[] str)
     }
     return rt;
 }
+
