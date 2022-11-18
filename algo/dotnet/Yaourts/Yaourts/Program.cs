@@ -1,9 +1,22 @@
-﻿using System.Text.Json;
+﻿using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text.Json;
+using System;
+using System.Net;
+using System.Threading.Tasks;
 using Yaourts;
 
-Yogurts? yg = loadFromFile("example.json");
-Console.WriteLine(AppRun(yg.results.ToList()));
 
+/* CONFIGURATION DU CLIENT HTTP */
+HttpClient client = new HttpClient();
+
+client.DefaultRequestHeaders.Accept.Clear();
+client.DefaultRequestHeaders.Accept.Add(
+    new MediaTypeWithQualityHeaderValue("application/json"));
+var content = await client.GetStringAsync("https://api.devoldere.net/polls/yoghurts/");
+string flux = Convert.ToString(content);
+Yogurts loadFrom = JsonSerializer.Deserialize<Yogurts>(flux);
+Console.WriteLine(AppRun(loadFrom.results.ToList()));
 
 static string AppRun(List<string> results)
 {
@@ -63,46 +76,6 @@ static int[] getOrder(int[] datas)
 }
 
 
-/*static List<string> genererData(int nbData)
-{
-    List<string> rt = new List<string>();
-    string[] color = { "rouge", "jaune", "bleu" };
-    // ON GENERE LES COULEUR
-    for (int i = 0; i < nbData; i++)
-    {
-        rt.Add(color[genererAleatoire(0, color.Length - 1)]);
-    }
-    return rt;
-}*/
-
-/*static int genererAleatoire(int min, int max)
-{
-    Random rnd = new Random();
-    return rnd.Next(min, max+1);
-}*/
-
-/*static int[] countData(string[] possiblesData, List<string> datas)
-{
-    int[] rt = new int[possiblesData.Length];
-    bool finded;
-    for (int i = 0; i < datas.Count; i++)
-    {
-        finded = false;
-        int j = 0;
-        while (!finded)
-        {
-            if (datas[i].Equals(possiblesData[j]))
-            {
-                rt[j]++;
-                finded = true;
-            }
-            j++;
-        }
-        if (!finded)
-            throw new Exception("Non compris dans le jeu d'essai");
-    }
-    return rt;
-}*/
 
 Yogurts? loadFromFile(string filePath)
 {

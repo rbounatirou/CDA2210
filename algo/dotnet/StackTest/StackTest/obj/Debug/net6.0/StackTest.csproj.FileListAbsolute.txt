@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\obj\Debug\net6.0\StackTest.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\obj\Debug\net6.0\StackTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\obj\Debug\net6.0\StackTest.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\obj\Debug\net6.0\StackTest.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\obj\Debug\net6.0\StackTest.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\bin\Debug\net6.0\StackTest.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\bin\Debug\net6.0\StackTest.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\bin\Debug\net6.0\StackTest.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\bin\Debug\net6.0\StackTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\bin\Debug\net6.0\ref\StackTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\bin\Debug\net6.0\StackTest.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\obj\Debug\net6.0\StackTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\obj\Debug\net6.0\ref\StackTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\obj\Debug\net6.0\StackTest.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\algo\dotnet\StackTest\StackTest\obj\Debug\net6.0\StackTest.genruntimeconfig.cache
