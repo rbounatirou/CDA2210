@@ -2,22 +2,34 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace ExempleSerialisation
 {
     internal class Personne
     {
-        public string Nom { get; set; }
-        public string Prenom { get; set; }
-        public string? Birthday{get; set;}
+        [JsonInclude]
+        public string Nom { get;  private set; }
 
-        public Personne(string _nom, string _prenom, string? _birthday= null)
+        [JsonInclude]
+        public string Prenom { get;  private set; }
+
+        [JsonInclude]
+        public string? Birthday{get;  private set;}
+
+        [JsonConstructor]
+        public Personne(string Nom, string Prenom, string? Birthday)
         {
-            this.Nom = _nom;
-            this.Prenom = _prenom;
-            this.Birthday = _birthday;
+            this.Nom = Nom;
+            this.Prenom = Prenom;
+            this.Birthday = Birthday;
         }
+
+        public Personne(string _nom, string _prenom) : this(_nom, _prenom, null) { }
+
+        
+
 
     }
 }

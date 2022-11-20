@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj",
         "projectName": "ExempleSerialisation",
-        "projectPath": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj",
-        "packagesPath": "C:\\Users\\Stagiaire\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Stagiaire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
