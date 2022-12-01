@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\Palindrome\\Palindrome\\Palindrome.csproj": {}
+    "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\objet\\Compte\\Compte\\ExoObjet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\Palindrome\\Palindrome\\Palindrome.csproj": {
+    "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\objet\\Compte\\Compte\\ExoObjet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\Palindrome\\Palindrome\\Palindrome.csproj",
-        "projectName": "Palindrome",
-        "projectPath": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\Palindrome\\Palindrome\\Palindrome.csproj",
+        "projectUniqueName": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\objet\\Compte\\Compte\\ExoObjet.csproj",
+        "projectName": "ExoObjet",
+        "projectPath": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\objet\\Compte\\Compte\\ExoObjet.csproj",
         "packagesPath": "C:\\Users\\Stagiaire\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\Palindrome\\Palindrome\\obj\\",
+        "outputPath": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\objet\\Compte\\Compte\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

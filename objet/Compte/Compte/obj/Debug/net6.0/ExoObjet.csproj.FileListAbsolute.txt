@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\bin\Debug\net6.0\ExoObjet.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\bin\Debug\net6.0\ExoObjet.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\bin\Debug\net6.0\ExoObjet.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\bin\Debug\net6.0\ExoObjet.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\bin\Debug\net6.0\ExoObjet.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\ExoObjet.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\ExoObjet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\ExoObjet.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\ExoObjet.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\ExoObjet.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\ExoObjet.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\refint\ExoObjet.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\ExoObjet.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\ExoObjet.genruntimeconfig.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Compte\Compte\obj\Debug\net6.0\ref\ExoObjet.dll

@@ -14,12 +14,16 @@ else
 }
 
 
-bool verifierPalindrome(String saisie)
+bool verifierPalindrome(string saisie)
 {
+    bool estUnPalindrome = saisie.Length >= 2;
+    if (!estUnPalindrome)
+        return false;
     saisie = saisie.Replace(" ", "");
-    bool estUnPalindrome = true;
+    
     int i = 0;
-    while (estUnPalindrome && i <( saisie.Length/2))
+    int maxRange = saisie.Length / 2;
+    while (estUnPalindrome && i < maxRange)
     {
         estUnPalindrome = (saisie[i] == saisie[saisie.Length - (1 + i)]);
         i++;
