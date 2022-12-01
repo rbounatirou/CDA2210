@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\Compte\\Compte\\ExoCompte.csproj",
-      "projectName": "ExoCompte",
-      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\Compte\\Compte\\ExoCompte.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\Compte\\ExoBouteille\\ExoBouteille.csproj",
+      "projectName": "ExoBouteille",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\Compte\\ExoBouteille\\ExoBouteille.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\Compte\\Compte\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\Compte\\ExoBouteille\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
