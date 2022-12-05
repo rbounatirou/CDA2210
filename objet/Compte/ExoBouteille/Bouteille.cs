@@ -51,9 +51,9 @@ namespace ExoBouteille
         /// <returns></returns>
         public bool Remplir(float _litreAAjoute)
         {
-            if (bouchon != null || 
+            if (this.bouchon != null || 
                 _litreAAjoute < 0 ||
-               contenanceActuelleEnLitres + _litreAAjoute > capaciteEnLitre)
+               this.contenanceActuelleEnLitres + _litreAAjoute > capaciteEnLitre)
                 return false;
             this.contenanceActuelleEnLitres += _litreAAjoute;
             return true;
@@ -68,9 +68,9 @@ namespace ExoBouteille
         /// <returns>true si la bouteille à pût être vidé, false sinon</returns>
         public bool Vider(float _litreARetire)
         {
-            if (bouchon != null ||
+            if (this.bouchon != null ||
                 _litreARetire < 0 ||
-                contenanceActuelleEnLitres - _litreARetire < 0)
+                this.contenanceActuelleEnLitres - _litreARetire < 0)
                 return false;
             this.contenanceActuelleEnLitres-= _litreARetire;
             return true;
@@ -83,9 +83,9 @@ namespace ExoBouteille
         /// <returns>renvoie un booleen true si la bouteille réussit sa fermeture, false sinon</returns>
         public bool Fermer(Bouchon _avec)
         {
-            if (bouchon != null || _avec.diametreMm != diametreGoulotMm)
+            if (this.bouchon != null || _avec.diametreMm != this.diametreGoulotMm)
                 return false;
-            bouchon = _avec;
+            this.bouchon = _avec;
             return true;
         }
 
@@ -95,9 +95,9 @@ namespace ExoBouteille
         /// <returns>renvoie un booleen true si réussi, false sinon</returns>
         public bool Ouvrir()
         {
-            if (bouchon == null)
+            if (this.bouchon == null)
                 return false;
-            bouchon = null;
+            this.bouchon = null;
             return true;
         }
         /// <summary>
@@ -109,8 +109,7 @@ namespace ExoBouteille
         /// </remarks>
         public bool ViderTout()
         {
-            this.Vider(this.contenanceActuelleEnLitres);
-            return true;
+            return this.Vider(this.contenanceActuelleEnLitres);
         }
 
         /// <summary>
@@ -122,8 +121,7 @@ namespace ExoBouteille
         /// </remarks>
         public bool RemplirTout()
         {
-            this.Remplir(this.capaciteEnLitre - this.contenanceActuelleEnLitres);
-            return true;
+            return this.Remplir(this.capaciteEnLitre - this.contenanceActuelleEnLitres);
         }
     }
 }
