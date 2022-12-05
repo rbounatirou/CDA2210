@@ -36,12 +36,16 @@ namespace ExoBouteille
         public Bouteille(float diametreGoulotMm, Bouchon bouchon, float capaciteEnLitre, float contenanceActuelleEnLitres)
         {
             this.diametreGoulotMm = diametreGoulotMm;
-            this.bouchon = bouchon;
+            this.bouchon = new Bouchon(bouchon);
             this.capaciteEnLitre = capaciteEnLitre;
             this.contenanceActuelleEnLitres = contenanceActuelleEnLitres;
         }
 
-        public Bouteille() : this(15, new Bouchon(15), 1.0f, 1.0f) { }
+        /// <summary>
+        /// Constructeur par copie
+        /// </summary>
+        /// <param name="_from">Instance à copier</param>
+        public Bouteille(Bouteille _from) : this(_from.diametreGoulotMm, _from.bouchon, _from.capaciteEnLitre, _from.contenanceActuelleEnLitres) { }        public Bouteille() : this(15, new Bouchon(15), 1.0f, 1.0f) { }
 
         /// <summary>
         /// Rempli la bouteille avec le volume d'eau désiré, peut échouer si la contenance théorique après ajout et supérieur à la capacite de

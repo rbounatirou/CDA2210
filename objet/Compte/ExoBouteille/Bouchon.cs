@@ -21,6 +21,12 @@ namespace ExoBouteille
         public Bouchon() : this(20) { }
 
         /// <summary>
+        /// Constructeur par copie
+        /// </summary>
+        /// <param name="_from">designe l'instance à copier</param>
+        public Bouchon(Bouchon _from) : this(_from.diametreMm) { }
+
+        /// <summary>
         /// Instancie l'objet avec les paramètre souhaités
         /// </summary>
         /// <param name="diametreMm">Désigne le diametre en MM</param>
