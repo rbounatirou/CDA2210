@@ -52,7 +52,7 @@ namespace ExoBouteille
         /// la bouteille ou  si la bouteille est fermée, ou bien la quantite a Ajoute négative
         /// </summary>
         /// <param name="_litreAAjoute"></param>
-        /// <returns></returns>
+        /// <returns>retourne un booléen, true si réussi false sinon</returns>
         public bool Remplir(float _litreAAjoute)
         {
             if (this.bouchon != null || 
@@ -65,11 +65,14 @@ namespace ExoBouteille
         }
 
         /// <summary>
-        /// Vide la bouteille du volume d'eau souhaitée, peut échouer si le volume a vider est suppérieur à la capaciteActuelle
+        /// Vide la bouteille du volume d'eau souhaitée, peut échouer si le volume à vider est suppérieur à la capaciteActuelle
         /// ou si la bouteille est fermée ou encore si la quantite à retirer est négative
         /// </summary>
         /// <param name="_litreARetire">Nombres de litres à retirer</param>
         /// <returns>true si la bouteille à pût être vidé, false sinon</returns>
+        /// <example>
+        /// <code>Vider(20.0f);</code>
+        /// </example>
         public bool Vider(float _litreARetire)
         {
             if (this.bouchon != null ||
@@ -94,7 +97,7 @@ namespace ExoBouteille
         }
 
         /// <summary>
-        /// Ouvre la bouteille, peut échoué si elle est déja ouverte
+        /// Ouvre la bouteille, peut échouer si elle est déja ouverte
         /// </summary>
         /// <returns>renvoie un booleen true si réussi, false sinon</returns>
         public bool Ouvrir()
