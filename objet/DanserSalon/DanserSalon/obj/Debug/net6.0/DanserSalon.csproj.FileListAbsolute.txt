@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\bin\Debug\net6.0\DanserSalon.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\bin\Debug\net6.0\DanserSalon.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\bin\Debug\net6.0\DanserSalon.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\bin\Debug\net6.0\DanserSalon.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\bin\Debug\net6.0\DanserSalon.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\DanserSalon.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\DanserSalon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\DanserSalon.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\DanserSalon.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\DanserSalon.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\DanserSalon.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\refint\DanserSalon.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\DanserSalon.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\DanserSalon.genruntimeconfig.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\DanserSalon\DanserSalon\obj\Debug\net6.0\ref\DanserSalon.dll
