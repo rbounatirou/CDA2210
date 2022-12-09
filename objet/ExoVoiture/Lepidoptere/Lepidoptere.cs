@@ -10,31 +10,75 @@ namespace Lepidoptere
 {
     internal class Lepidoptere
     {
-        public Stade sonStade;
+        public Stade sonStade {  get; private set; }
+        private bool estUnMale;
+        private uint ageEnJours;
+        private bool estFeconde;
+        private uint tempsGestationActuel;
         public Lepidoptere()
         {
-            sonStade = new Oeuf(
-                new CriterePhysique(2,new List<string> { "Vert"}, 1,0,0,false);
+            sonStade = new Oeuf();
+            estUnMale = (new Random().Next(0, 2)) == 0;
+            ageEnJours = 0;
+            estFeconde = false;
+            tempsGestationActuel = 0;
         }
 
-        public void Evoluer()
+        public Lepidoptere(Stade _sonStade,
+            bool _estUnMale, uint _ageEnJours)
         {
-           
-            if (sonStade.GetType() == typeof(Papillon))
-            {
+            sonStade = _sonStade;
+            estUnMale= _estUnMale;
+            ageEnJours= _ageEnJours;
+        }
 
-            } else if (sonStade.GetType() == typeof(Chrysalide))
-            {
+        public void Vieillir(uint _tempsEnJours)
+        {
+            
+            ageEnJours += _tempsEnJours;
+            if (estFeconde)
+                tempsGestationActuel += _tempsEnJours;
+            sonStade.Vieillir(_tempsEnJours);
+            sonStade = sonStade.Evoluer();
+        }
 
-            } else if (sonStade.GetType() == typeof(Chenille))
+        public List<Lepidoptere> Pondre()
+        {
+
+            List<Lepidoptere> retour = new List<Lepidoptere>();
+            if (estFeconde && tempsGestationActuel > Papillon.TEMPS_GESTATION)
             {
-                //sonStade = new Chrysalide((Chenille)sonStade);
-            } else
+                int nb = new Random().Next(0, 300);
+                for (int i = 0; i < nb; i++)
+                {
+                    retour.Add(new Lepidoptere());
+                }
+                estFeconde = false;
+            }            
+            return retour;
+        }
+
+        public bool SeReproduire(Lepidoptere _avec)
+        {
+            if (this.sonStade is Papillon &&
+                _avec is Papillon)
             {
-                ((Oeuf)sonStade).Eclore();
-                sonStade = new Chenille((Oeuf)sonStade);
+                if (estUnMale)
+                    Feconder(_avec);
+                else
+                    EtreFecondee(_avec);
             }
+            return false;
+        }
 
+        private bool Feconder(Lepidoptere _partenaire)
+        {
+            return _partenaire.EtreFecondee(this);
+        }
+
+        private bool EtreFecondee(Lepidoptere _partenaire)
+        {
+             return (_partenaire.estUnMale && !this.estUnMale);
         }
 
     }

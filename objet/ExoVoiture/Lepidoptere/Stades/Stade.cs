@@ -9,16 +9,24 @@ namespace Lepidoptere.Stades
     internal abstract class Stade
     {
 
-        public CriterePhysique sonApparence { get; protected set; }
-        public Stade(CriterePhysique _apparence)
+        protected uint ageDansCycleEnJours;
+        public Stade(uint _ageDansCycleEnJours)
         {
-            sonApparence = new CriterePhysique(sonApparence);
+            ageDansCycleEnJours= _ageDansCycleEnJours;
         }
 
         public Stade()
         {
-            sonApparence = new CriterePhysique();
+            ageDansCycleEnJours = 0;
         }
+
+        public Stade(Stade _depuis) : this(_depuis.ageDansCycleEnJours) { }
+        public abstract Stade Evoluer();
+        public void Vieillir(uint _tempsEnJours)
+        {
+            ageDansCycleEnJours += _tempsEnJours;
+        }
+        public abstract bool SeDeplacer();
     }
 
 }

@@ -10,8 +10,16 @@ namespace Lepidoptere.Stades
     {
         public static readonly int tempsDuCycleEnJours = 35;
 
-        public Chrysalide(CriterePhysique _sesCriteres) : base(_sesCriteres) { }
+        public Chrysalide() : base() { }
 
+        public override Stade Evoluer()
+        {
+            return (ageDansCycleEnJours >= tempsDuCycleEnJours ? new Papillon() : this);
+        }
 
+        public override bool SeDeplacer()
+        {
+            return false;
+        }
     }
 }

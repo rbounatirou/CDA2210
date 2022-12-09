@@ -11,12 +11,25 @@ namespace Lepidoptere.Stades
 
         public static readonly int tempsDuCycleEnJours = 5;
 
-        public Oeuf(CriterePhysique _sesCriteres) : base(_sesCriteres) { }
-        public void Eclore()
+        public Oeuf() : base(0) { }
+
+        public Stade Eclore()
         {
-            Console.WriteLine("Pouf! l'oeuf à éclos");
+            if (ageDansCycleEnJours >= tempsDuCycleEnJours)
+                return new Chenille();
+            return null;
         }
 
-        
+        public override Stade Evoluer()
+        {
+            Stade result = Eclore();
+            return (result != null ? result : this);
+        }
+
+        public override bool SeDeplacer()
+        {
+            return false;
+        }
+
     }
 }

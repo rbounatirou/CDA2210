@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,18 +13,16 @@ namespace Lepidoptere.Stades
    
         public int nbDeMues {  get; private set; }
 
-        public Chenille(CriterePhysique _sesCriteres) : base(_sesCriteres) { }
-
-
-        public Chenille(Oeuf _depuis) 
+        public Chenille() : base()
         {
-            this.sonApparence = new CriterePhysique(10,
-                new List<string> { "Vert", "Blanc" },
-                5,
-                _depuis.sonApparence.ageEnJours,
-                0,
-                _depuis.sonApparence.estUnMale);
+            nbDeMues = 0;
         }
+
+        public override Stade Evoluer()
+        {
+            return (ageDansCycleEnJours >= tempsDuCycleEnJours ? new Chrysalide() : this);
+        }
+
         public void Ramper()
         {
             Console.WriteLine("Rampe");
@@ -40,7 +39,13 @@ namespace Lepidoptere.Stades
             nbDeMues++;
         }
 
-        
+        public override bool SeDeplacer()
+        {
+            Ramper();
+            return true;
+        }
+
+
 
 
     }
