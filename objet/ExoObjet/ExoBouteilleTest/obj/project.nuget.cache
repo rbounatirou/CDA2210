@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OBozn8ctEcUavGBXEaa1K2M+DfYKQDflmUXXo+I0zxTvi5KJpBdlxoeN9hZNjxi3/G3pAGlulhztcUUEsEhoRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\ExoObjet\\ExoBouteilleTest\\ExoBouteilleTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mstest.testframework\\3.0.0\\mstest.testframework.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
