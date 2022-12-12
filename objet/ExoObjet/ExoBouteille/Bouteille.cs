@@ -15,7 +15,7 @@ namespace ExoBouteille
         /// <summary>
         /// désigne le bouchon sur la bouteille
         /// </summary>
-        public Bouchon bouchon { get; private set; }
+        public Bouchon bouchon { get; private set; } 
         /// <summary>
         /// désigne la capacité en litres de la bouteille
         /// </summary>

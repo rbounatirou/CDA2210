@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,19 +12,19 @@ namespace Lepidoptere.Stades
 
         public static readonly int tempsDuCycleEnJours = 5;
 
-        public Oeuf() : base(0) { }
+        public Oeuf() : base() { }
 
         public Stade Eclore()
         {
             if (ageDansCycleEnJours >= tempsDuCycleEnJours)
                 return new Chenille();
-            return null;
+            return this;
         }
 
         public override Stade Evoluer()
         {
-            Stade result = Eclore();
-            return (result != null ? result : this);
+            return (this.ageDansCycleEnJours >= tempsDuCycleEnJours ?
+                new Chenille() : this);
         }
 
         public override bool SeDeplacer()
@@ -31,5 +32,9 @@ namespace Lepidoptere.Stades
             return false;
         }
 
+        public override bool SeReproduire(Papillon _avec)
+        {
+            return false;
+        }
     }
 }

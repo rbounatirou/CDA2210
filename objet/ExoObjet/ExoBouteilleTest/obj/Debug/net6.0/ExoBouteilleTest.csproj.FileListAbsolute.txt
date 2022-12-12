@@ -35,3 +35,11 @@ C:\Users\user\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug
 C:\Users\user\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ExoBouteilleTest.pdb
 C:\Users\user\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ExoBouteilleTest.genruntimeconfig.cache
 C:\Users\user\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ref\ExoBouteilleTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ExoBouteilleTest.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ExoBouteilleTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ExoBouteilleTest.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ExoBouteilleTest.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ExoBouteilleTest.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ExoBouteilleTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\refint\ExoBouteilleTest.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoObjet\ExoBouteilleTest\obj\Debug\net6.0\ExoBouteilleTest.pdb

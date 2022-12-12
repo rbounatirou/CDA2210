@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\ExoVoiture.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\ExoVoiture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\ExoVoiture.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\ExoVoiture.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\ExoVoiture.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\bin\Debug\net6.0\ExoVoiture.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\bin\Debug\net6.0\ExoVoiture.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\bin\Debug\net6.0\ExoVoiture.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\bin\Debug\net6.0\ExoVoiture.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\bin\Debug\net6.0\ExoVoiture.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\ExoVoiture.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\refint\ExoVoiture.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\ExoVoiture.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\ExoVoiture.genruntimeconfig.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoVoiture\ExoVoiture\obj\Debug\net6.0\ref\ExoVoiture.dll

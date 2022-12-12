@@ -10,23 +10,29 @@ namespace Lepidoptere.Stades
     {
 
         protected uint ageDansCycleEnJours;
-        public Stade(uint _ageDansCycleEnJours)
+        protected bool estUnMale;
+        public Stade(uint _ageDansCycleEnJours, bool estUnMale)
         {
-            ageDansCycleEnJours= _ageDansCycleEnJours;
+            ageDansCycleEnJours = _ageDansCycleEnJours;
+            this.estUnMale = estUnMale;
         }
 
         public Stade()
         {
             ageDansCycleEnJours = 0;
+            estUnMale = new Random().Next(0, 2) == 0;
         }
 
-        public Stade(Stade _depuis) : this(_depuis.ageDansCycleEnJours) { }
+        public Stade(Stade _depuis) : this(_depuis.ageDansCycleEnJours, _depuis.estUnMale) { }
         public abstract Stade Evoluer();
-        public void Vieillir(uint _tempsEnJours)
+        public virtual void Vieillir(uint _tempsEnJours)
         {
             ageDansCycleEnJours += _tempsEnJours;
         }
         public abstract bool SeDeplacer();
+
+
+        public abstract bool SeReproduire(Papillon _avec);
     }
 
 }

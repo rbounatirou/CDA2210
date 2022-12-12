@@ -8,24 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Stagiaire\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\ExoLepidoptere\\Lepidoptere\\Lepidoptere.csproj",
+      "projectUniqueName": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\objet\\ExoLepidoptere\\Lepidoptere\\Lepidoptere.csproj",
       "projectName": "Lepidoptere",
-      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\ExoLepidoptere\\Lepidoptere\\Lepidoptere.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\objet\\ExoLepidoptere\\Lepidoptere\\obj\\",
+      "projectPath": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\objet\\ExoLepidoptere\\Lepidoptere\\Lepidoptere.csproj",
+      "packagesPath": "C:\\Users\\Stagiaire\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stagiaire\\Documents\\GitHub\\CDA2210\\objet\\ExoLepidoptere\\Lepidoptere\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Stagiaire\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +32,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

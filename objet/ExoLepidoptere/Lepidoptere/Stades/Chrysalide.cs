@@ -21,5 +21,10 @@ namespace Lepidoptere.Stades
         {
             return false;
         }
+
+        public override bool SeReproduire(Papillon _avec)
+        {
+            return false;
+        }
     }
 }

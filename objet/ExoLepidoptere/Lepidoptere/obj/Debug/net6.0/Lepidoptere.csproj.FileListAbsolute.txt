@@ -1,0 +1,5 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoLepidoptere\Lepidoptere\obj\Debug\net6.0\Lepidoptere.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoLepidoptere\Lepidoptere\obj\Debug\net6.0\Lepidoptere.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoLepidoptere\Lepidoptere\obj\Debug\net6.0\Lepidoptere.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoLepidoptere\Lepidoptere\obj\Debug\net6.0\Lepidoptere.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\ExoLepidoptere\Lepidoptere\obj\Debug\net6.0\Lepidoptere.csproj.CoreCompileInputs.cache
