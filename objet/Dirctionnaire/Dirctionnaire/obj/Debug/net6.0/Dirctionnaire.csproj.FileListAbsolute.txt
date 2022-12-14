@@ -1,0 +1,15 @@
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\bin\Debug\net6.0\Dirctionnaire.exe
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\bin\Debug\net6.0\Dirctionnaire.deps.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\bin\Debug\net6.0\Dirctionnaire.runtimeconfig.json
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\bin\Debug\net6.0\Dirctionnaire.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\bin\Debug\net6.0\Dirctionnaire.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\Dirctionnaire.csproj.AssemblyReference.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\Dirctionnaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\Dirctionnaire.AssemblyInfoInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\Dirctionnaire.AssemblyInfo.cs
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\Dirctionnaire.csproj.CoreCompileInputs.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\Dirctionnaire.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\refint\Dirctionnaire.dll
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\Dirctionnaire.pdb
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\Dirctionnaire.genruntimeconfig.cache
+C:\Users\Stagiaire\Documents\GitHub\CDA2210\objet\Dirctionnaire\Dirctionnaire\obj\Debug\net6.0\ref\Dirctionnaire.dll
