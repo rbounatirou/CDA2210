@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\hw\\Huffman\\Huffman\\huffman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\hw\\Huffman\\Huffman\\huffman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj",
-        "projectName": "ExempleSerialisation",
-        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\ExempleSerialisation.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\hw\\Huffman\\Huffman\\huffman.csproj",
+        "projectName": "huffman",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\hw\\Huffman\\Huffman\\huffman.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\algo\\dotnet\\ExempleSerialisation\\ExempleSerialisation\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\CDA2210\\hw\\Huffman\\Huffman\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
