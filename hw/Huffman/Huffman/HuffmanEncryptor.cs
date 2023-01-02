@@ -114,10 +114,7 @@ namespace huffman
             return tree[0];
         }
 
-        private static FindPathForLetter()
-        {
 
-        }
 
         
     }
