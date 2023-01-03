@@ -1,13 +1,30 @@
-﻿namespace huffman
+﻿using System.Text.Json;
+using System.Text.Json.Nodes;
+
+namespace huffman
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int test = "1000110100110101111100110011110110101110011001100".Length;
-            int test2 = "Ceci est un test".Length * 8;
-            HuffmanMessage msg =  HuffmanEncyptor.Encrypt("Ceci est un test");
-            Console.WriteLine(msg.generateHTML("huffman.html") ? "Ok" : "Nok");
+            Console.WriteLine("Veuillez entrer le texte à compresser");
+            string str = Console.ReadLine();
+
+            HuffmanMessage msg = HuffmanEncyptor.Encrypt(str);
+            Console.WriteLine("En format actuel " + str + " est constituée de " + str.Length + " chars, ce qui represente " + str.Length * 8 + " bits.");
+            Console.WriteLine("En format huffman le message pèse " + msg.Message.Length + " bits.\n");
+
+            Console.WriteLine("Format compressé: ");
+            Console.WriteLine(msg);
+            Console.WriteLine("Decompresse");
+            Console.WriteLine(msg.Decompress());
+
+
+            //string strz = JsonSerializer.Serialize<HuffmanMessage>(msg);
+
+            /*Dictionary<bool[], string> dict = new Dictionary<bool[], string>();
+            dict.Add(new bool[] { false, true, false }, "str");
+            Console.WriteLine(dict[new bool[] {false, true, false}]);*/
         }
     }
 }

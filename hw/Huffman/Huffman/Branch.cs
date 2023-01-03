@@ -17,13 +17,15 @@ namespace huffman
         {
 
             content = new List<Content>(){ a };
+            a.setParent(this);
             
         }
 
         public Branch(Content a, Content b) { 
 
             content = new List<Content>(){ a, b };
-            
+            a.setParent(this);
+            b.setParent(this);
         }
 
         public Content[] GetChildren()
@@ -41,7 +43,7 @@ namespace huffman
             return false;
         }
 
-        public uint GetWeight()
+        public override uint GetWeight()
         {
             uint sommeWeight = 0;
             for (int i = 0; i < content.Count(); i++)
@@ -58,7 +60,7 @@ namespace huffman
             return str;
         }
 
-        public string ToHTML()
+        public override string ToHTML()
         {
             string str = "<li>\n\t<font color=\"#ff0000\">total(" + GetWeight() + ")</font>" +
                 "\n";
@@ -71,6 +73,37 @@ namespace huffman
             str += "\n</li>";
 
             return str;
+        }
+
+        public T[] GetElementByType<T>() where T: Content
+        {
+            List<T> type = new();
+            foreach (Branch b in content.OfType<Branch>())
+                type.AddRange(b.GetElementByType<T>());
+            foreach (T t in content.OfType<T>())
+                type.Add(t);
+            return type.ToArray();
+        }
+
+        public override bool Equals(object o)
+        {
+            if (o is Branch)
+            {
+                Branch b = o as Branch;
+                if (b.content.Count() == this.content.Count())
+                {
+                    bool areEquals = true;
+                    int i = 0;
+                    while (i<b.content.Count() && areEquals)
+                    {
+                        areEquals = this.content[i].Equals(b.content[i]);
+                        i++;
+                    }
+                    return areEquals;
+                }
+                return false;
+            }
+            return false;
         }
     }
 }

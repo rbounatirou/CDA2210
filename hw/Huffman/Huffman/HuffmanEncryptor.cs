@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,8 +28,20 @@ namespace huffman
                 }
             }
             //Branch firstBranch = new Branch(new Letter(occurences[order[0]))
-            Content tree = MakeHuffmanTree(letter, occurences);
-            return new HuffmanMessage("",tree);
+            Branch tree = MakeHuffmanTree(letter, occurences);
+            Letter[] letters = tree.GetElementByType<Letter>();
+            //string[] strPath = GetPathFromLetter(letters);
+            List<bool[]> strPath = GetPathFromLetter(letters);
+
+
+            Dictionary<char, bool[]> tableForHuffman = MakeCompressDictionnary(letters, strPath);
+            List<bool> strMessage = new();
+            foreach(char c in str)
+            {
+                strMessage.AddRange(tableForHuffman[c]);
+            }
+            // test
+            return new HuffmanMessage(strMessage.ToArray(),MakeUncompressDictionnary(letters, strPath));
         }
 
         private static int SearchLetterInList(char letterToSearch, List<char> listToSearch)
@@ -88,7 +102,7 @@ namespace huffman
             return new int[]{ min1, min2};
         }
 
-        private static Content MakeHuffmanTree(List<char> letter, List<uint> weight)
+        private static Branch MakeHuffmanTree(List<char> letter, List<uint> weight)
         {
             if (letter.Count() != weight.Count())
                 return null;
@@ -111,11 +125,67 @@ namespace huffman
                 tree.Add(tempBranch);
             }
             
-            return tree[0];
+            return tree[0] as Branch;
+        }
+
+        private static bool[] SearchContentPathInParent(Content son)
+        {
+            Content[] parent = son.getParents();
+            List<bool> rt = new();
+            Content searchFor;
+            for (int i = 0; i < parent.Length; i++)
+            {
+                searchFor = (i+1 < parent.Length ? parent[i+1] : son);
+                Content[] sons = ((Branch)parent[i]).GetChildren(); // SI ERREUR DE CAST PROBLEME
+                bool found = false;
+                int j = 0;
+                while(!found && j< sons.Length)
+                {
+                    found = sons[j].Equals(searchFor);
+                    j++;
+                }
+                if (!found)
+                    throw new Exception("not found");
+                rt.Add(j == 1);
+            }
+            return rt.ToArray();
+        }
+
+        private static List<bool[]> GetPathFromLetter(Letter[] letters)
+        {
+            List<bool[]> strPath = new();
+            foreach (Letter l in letters)
+            {
+                strPath.Add(SearchContentPathInParent(l));
+            }
+            return strPath;
+        }
+
+        private static Dictionary<char, bool[]> MakeCompressDictionnary(Letter[] letters, List<bool[]> path)
+        {
+            if (letters.Length != path.Count())
+                return null;
+            Dictionary<char, bool[]> tableForHuffman = new Dictionary<char, bool[]>();
+            for (int i = 0; i < letters.Length; i++)
+            {
+                tableForHuffman.Add(letters[i].HisChar, path[i]);
+            }
+            return tableForHuffman;
+        }
+
+        private static Dictionary<bool[], char> MakeUncompressDictionnary(Letter[] letters, List<bool[]> path)
+        {
+            if (letters.Length != path.Count())
+                return null;
+            Dictionary<bool[], char> tableForHuffman = new Dictionary<bool[], char>();
+            for (int i = 0; i < letters.Length; i++)
+            {
+                tableForHuffman.Add(path[i], letters[i].HisChar);
+            }
+            return tableForHuffman;
         }
 
 
 
-        
     }
 }

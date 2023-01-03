@@ -19,7 +19,7 @@ namespace huffman
             this.hisWeight = hisWeight;
         }
 
-        public uint GetWeight()
+        public override uint GetWeight()
         {
             return hisWeight;
         }
@@ -30,11 +30,20 @@ namespace huffman
             return String.Format("{0}({1})", hisChar, hisWeight);
         }
 
-        public string ToHTML()
+        public override string ToHTML()
         {
             return String.Format("<li>{0}</li>", ToString());
         }
 
+        public override bool Equals(object o)
+        {
+            if (o is Letter)
+            {
+                Letter l = o as Letter;
+                return (l.hisChar == this.hisChar && l.hisWeight == this.hisWeight);
+            }
+            return false;
 
+        }
     }
 }

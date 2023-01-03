@@ -6,9 +6,33 @@ using System.Threading.Tasks;
 
 namespace huffman
 {
-    internal interface Content
+    internal abstract class Content
     {
+        protected Content hisParent;
         public abstract uint GetWeight();
         public abstract string ToHTML();
+
+        public bool setParent(Content parent)
+        {
+            if (hisParent == null)
+            {
+                hisParent = parent;
+                return true;
+            }
+            return false;
+                
+        }
+
+        public abstract bool Equals(object o);
+        public Content[] getParents()
+        {
+            List<Content> parents = new();
+            if (hisParent != null)
+            {
+                parents.AddRange(hisParent.getParents());
+                parents.Add(hisParent);
+            }            
+            return parents.ToArray();
+        }
     }
 }
