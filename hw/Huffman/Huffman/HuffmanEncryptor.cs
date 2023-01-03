@@ -29,19 +29,21 @@ namespace huffman
             }
             //Branch firstBranch = new Branch(new Letter(occurences[order[0]))
             Branch tree = MakeHuffmanTree(letter, occurences);
-            Letter[] letters = tree.GetElementByType<Letter>();
+            //Letter[] letters = tree.GetElementByType<Letter>();
             //string[] strPath = GetPathFromLetter(letters);
-            List<bool[]> strPath = GetPathFromLetter(letters);
+            /*List<bool[]> strPath = GetPathFromLetter(letters);
+            List<bool[]> lettersPath = tree.GetAllPath();*/
 
-
-            Dictionary<char, bool[]> tableForHuffman = MakeCompressDictionnary(letters, strPath);
+            Dictionary<char, bool[]> tableForHuffman = tree.MakeCompressDictionary();
             List<bool> strMessage = new();
             foreach(char c in str)
             {
                 strMessage.AddRange(tableForHuffman[c]);
             }
+
             // test
-            return new HuffmanMessage(strMessage.ToArray(),MakeUncompressDictionnary(letters, strPath));
+            return new HuffmanMessage(strMessage.ToArray(), tree.MakeUncompressDictionary());
+
         }
 
         private static int SearchLetterInList(char letterToSearch, List<char> listToSearch)
@@ -161,7 +163,7 @@ namespace huffman
             return strPath;
         }
 
-        private static Dictionary<char, bool[]> MakeCompressDictionnary(Letter[] letters, List<bool[]> path)
+       /* private static Dictionary<char, bool[]> MakeCompressDictionnary(Letter[] letters, List<bool[]> path)
         {
             if (letters.Length != path.Count())
                 return null;
@@ -169,6 +171,22 @@ namespace huffman
             for (int i = 0; i < letters.Length; i++)
             {
                 tableForHuffman.Add(letters[i].HisChar, path[i]);
+            }
+            return tableForHuffman;
+        }
+
+        private static Dictionary<char, bool[]> MakeCompressDictionnary(Content c)
+        {
+
+            List<char> charAssociate = new();
+            List<bool[]> path = c.GetAllPath(out charAssociate);
+            if (path.Count() != charAssociate.Count())
+                return null;
+            Dictionary<char, bool[]> tableForHuffman = new Dictionary<char, bool[]>();
+            for (int i = 0; i < path.Count(); i++)
+            {
+
+                tableForHuffman.Add(charAssociate[i], path[i]);
             }
             return tableForHuffman;
         }
@@ -185,6 +203,21 @@ namespace huffman
             return tableForHuffman;
         }
 
+        private static Dictionary<char, bool[]> MakeUncompressDictionnary(Content c)
+        {
+
+            List<char> charAssociate = new();
+            List<bool[]> path = c.GetAllPath(out charAssociate);
+            if (path.Count() != charAssociate.Count())
+                return null;
+            Dictionary<char, bool[]> tableForHuffman = new Dictionary<char, bool[]>();
+            for (int i = 0; i < path.Count(); i++)
+            {
+
+                tableForHuffman.Add(charAssociate[i], path[i]);
+            }
+            return tableForHuffman;
+        }*/
 
 
     }

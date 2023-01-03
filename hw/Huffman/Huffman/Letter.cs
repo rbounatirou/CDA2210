@@ -45,5 +45,18 @@ namespace huffman
             return false;
 
         }
+
+        public override List<bool[]> GetAllPath()
+        {
+            return null;
+        }
+
+        public override List<bool[]> GetAllPath(out List<char> letters)
+        {
+            letters = new();
+            letters.Add(hisChar);
+            return null;
+
+        }
     }
 }

@@ -34,5 +34,20 @@ namespace huffman
             }            
             return parents.ToArray();
         }
+
+        public virtual Content left()
+        {
+            return null;
+        }
+
+        public virtual Content right()
+        {
+            return null;
+        }
+
+
+
+        public abstract List<bool[]> GetAllPath(out List<char> letters);
+        public abstract List<bool[]> GetAllPath();
     }
 }
