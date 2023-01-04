@@ -13,13 +13,29 @@ namespace huffman
 
         private Dictionary<bool[], char> table;
 
-        [JsonPropertyName("message")]
-        public bool[] Message { get => message; }
+        private int size;
 
+        [JsonPropertyName("message")]
+        public string Message { get => MessageToString(); }
+
+        [JsonPropertyName("table")]
+        public Dictionary<string, char> Table { get => MakeDifferentTree(); }
+
+        [JsonPropertyName("size")]
+        public int Size { get => size; }
         public HuffmanMessage(bool[] message, Dictionary<bool[], char> table)
         {
             this.message = message;
             this.table = table;
+            this.size = message.Length;
+        }
+
+        [JsonConstructor]
+        public HuffmanMessage(bool[] message, Dictionary<string, char> table)
+        {
+            this.message = message;
+            this.table = MakeDifferentTree(table);
+            this.size = message.Length;
         }
 
         public override string ToString()
@@ -82,5 +98,83 @@ namespace huffman
             return str;
         }
 
+        private Dictionary<string, char> MakeDifferentTree()
+        {
+
+            Dictionary<string, char> rt = new Dictionary<string, char>();
+            for (int i = 0; i < table.Count(); i++)
+            {
+                rt.Add(ConvertBoolTableToString(table.Keys.ElementAt(i)), table.Values.ElementAt(i));
+            }
+
+            return rt;
+        }
+
+        private string ConvertBoolTableToString(bool[] tab)
+        {
+            string str = "";
+            foreach (bool b in tab)
+                str += (b ? "1" : "0");
+            return str;
+        }
+
+        private bool[] ConvertStringToBoolTable(string s)
+        {
+            List<bool> rt = new();
+            foreach (char c in s)
+            {
+                if (c == '0')
+                {
+                    rt.Add(false);
+                } else if (c == '1')
+                {
+                    rt.Add(true);
+                } else
+                {
+                    throw new Exception("Erreur");
+                }
+            }
+            return rt.ToArray();
+        }
+
+        private Dictionary<bool[], char> MakeDifferentTree(Dictionary<string, char> d)
+        {
+            Dictionary<bool[], char> rt = new Dictionary<bool[], char>();
+            for(int i = 0; i < d.Count(); i++)
+            {
+                rt.Add(ConvertStringToBoolTable(d.Keys.ElementAt(i)), d.Values.ElementAt(i));
+            }
+            return rt;
+        }
+
+        private string MessageToString()
+        {
+            int BitsToAdd = (8 - message.Length%8)%8;
+            List<bool> rt = new();
+            List<byte> bt = new();
+            string str = "";
+            rt.AddRange(message);
+            for (int i = 0; i < BitsToAdd; i++)
+                rt.Add(false);
+            for (int i = 0; i < rt.Count(); i+= 8)
+            {
+                bool[] currentBits = rt.GetRange(i, 8).ToArray();
+                bt.Add(BoolTableToByte(currentBits));
+            }
+            return System.Text.Encoding.UTF8.GetString(bt.ToArray());
+        }
+
+        private byte BoolTableToByte(bool[] b)
+        {
+            if (b.Length != 8)
+                throw new Exception("err");
+            byte val = 0;
+            for (int i = b.Length-1; i >= 0; i--)
+            {
+                if (b[i])
+                    val += (byte)Math.Pow(2, i);
+            }
+            return val;
+        }
     }
 }
