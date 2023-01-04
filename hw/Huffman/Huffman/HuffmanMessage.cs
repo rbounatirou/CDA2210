@@ -13,6 +13,7 @@ namespace huffman
 
         private Dictionary<bool[], char> table;
 
+        [JsonInclude]
         private int size;
 
         [JsonPropertyName("message")]
@@ -21,7 +22,7 @@ namespace huffman
         [JsonPropertyName("table")]
         public Dictionary<string, char> Table { get => MakeDifferentTree(); }
 
-        [JsonPropertyName("size")]
+        //[JsonPropertyName("size")]
         public int Size { get => size; }
         public HuffmanMessage(bool[] message, Dictionary<bool[], char> table)
         {
@@ -149,7 +150,7 @@ namespace huffman
 
         private string MessageToString()
         {
-            int BitsToAdd = (8 - message.Length%8)%8;
+            int BitsToAdd = (8 - message.Length%8) % 8;
             List<bool> rt = new();
             List<byte> bt = new();
             string str = "";
@@ -161,20 +162,36 @@ namespace huffman
                 bool[] currentBits = rt.GetRange(i, 8).ToArray();
                 bt.Add(BoolTableToByte(currentBits));
             }
-            return System.Text.Encoding.UTF8.GetString(bt.ToArray());
+
+            return Convert.ToBase64String(bt.ToArray());
         }
+
 
         private byte BoolTableToByte(bool[] b)
         {
+
             if (b.Length != 8)
                 throw new Exception("err");
             byte val = 0;
-            for (int i = b.Length-1; i >= 0; i--)
+            for (int i = 0; i < b.Length; i++)
             {
                 if (b[i])
-                    val += (byte)Math.Pow(2, i);
+                    val += (byte)Math.Pow(2, 7-i);
             }
             return val;
+        }
+
+        private char BoolTableToChar(bool[] b)
+        {
+            if (b.Length != 16)
+                throw new Exception("err");
+            int val = 0;
+            for (int i = 0; i < b.Length; i++)
+            {
+                if (b[i])
+                    val += (int)Math.Pow(2, 16 - i);
+            }
+            return (char)val;
         }
     }
 }
