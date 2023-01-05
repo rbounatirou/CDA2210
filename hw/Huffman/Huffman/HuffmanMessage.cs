@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
@@ -13,16 +14,14 @@ namespace huffman
 
         private Dictionary<bool[], char> table;
 
-        [JsonInclude]
         private int size;
 
-        [JsonPropertyName("message")]
         public string Message { get => MessageToString(); }
 
         [JsonPropertyName("table")]
         public Dictionary<string, char> Table { get => MakeDifferentTree(); }
 
-        //[JsonPropertyName("size")]
+        [JsonPropertyName("size")]
         public int Size { get => size; }
         public HuffmanMessage(bool[] message, Dictionary<bool[], char> table)
         {
@@ -32,11 +31,12 @@ namespace huffman
         }
 
         [JsonConstructor]
-        public HuffmanMessage(bool[] message, Dictionary<string, char> table)
+        public HuffmanMessage(int size ,string message, Dictionary<string, char> table)
         {
-            this.message = message;
+ 
+            this.size = size;
             this.table = MakeDifferentTree(table);
-            this.size = message.Length;
+            this.message = MessageToBoolTable(message);
         }
 
         public override string ToString()
@@ -151,21 +151,48 @@ namespace huffman
         private string MessageToString()
         {
             int BitsToAdd = (8 - message.Length%8) % 8;
-            List<bool> rt = new();
-            List<byte> bt = new();
+            List<bool> messageBool = new();
+            List<byte> byteActuel = new();
             string str = "";
-            rt.AddRange(message);
+            messageBool.AddRange(message);
             for (int i = 0; i < BitsToAdd; i++)
-                rt.Add(false);
-            for (int i = 0; i < rt.Count(); i+= 8)
+                messageBool.Add(false);
+
+            for (int i = 0; i < messageBool.Count(); i+= 8)
             {
-                bool[] currentBits = rt.GetRange(i, 8).ToArray();
-                bt.Add(BoolTableToByte(currentBits));
+                bool[] currentBits = messageBool.GetRange(i, 8).ToArray();
+                byteActuel.Add(BoolTableToByte(currentBits));
             }
 
-            return Convert.ToBase64String(bt.ToArray());
+            //byte[] byts =  Convert.FromHexString(Convert.ToHexString(bt.ToArray()));
+
+            return Convert.ToBase64String(byteActuel.ToArray());
         }
 
+        private bool[] MessageToBoolTable(string message)
+        {
+            byte[] byteMessage = Convert.FromBase64String(message);
+            List<bool> bools = new();
+            for (int i = 0; i < byteMessage.Length; i++)
+            {
+                bools.AddRange(ByteToBoolArray(byteMessage[i]));
+            }
+            return bools.GetRange(0, size).ToArray();
+        }
+
+        private bool[] ByteToBoolArray(byte b)
+        {
+            bool[] rt = new bool[8];
+            for (int i = 0; i < 8; i++)
+            {
+                if (b - (byte)Math.Pow(2, 7 - i) >= 0)
+                {
+                    rt[i] = true;
+                    b -= (byte)Math.Pow(2, 7 - i);
+                }
+            }
+            return rt;
+        }
 
         private byte BoolTableToByte(bool[] b)
         {
@@ -181,7 +208,7 @@ namespace huffman
             return val;
         }
 
-        private char BoolTableToChar(bool[] b)
+        private char BoolTableToChar16Bits(bool[] b)
         {
             if (b.Length != 16)
                 throw new Exception("err");
@@ -189,9 +216,23 @@ namespace huffman
             for (int i = 0; i < b.Length; i++)
             {
                 if (b[i])
-                    val += (int)Math.Pow(2, 16 - i);
+                    val += (int)Math.Pow(2, 15 - i);
             }
             return (char)val;
         }
+
+        private char BoolTableToChar8Bits(bool[] b)
+        {
+            if (b.Length != 8)
+                throw new Exception("err");
+            int val = 0;
+            for (int i = 0; i < b.Length; i++)
+            {
+                if (b[i])
+                    val += (int)Math.Pow(2, 7 - i);
+            }
+            return (char)val;
+        }
+
     }
 }
