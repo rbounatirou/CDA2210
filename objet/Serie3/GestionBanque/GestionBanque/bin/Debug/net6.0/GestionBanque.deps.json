@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GestionBanque/1.0.0": {
+        "dependencies": {
+          "BanqueClass": "1.0.0"
+        },
+        "runtime": {
+          "GestionBanque.dll": {}
+        }
+      },
+      "BanqueClass/1.0.0": {
+        "dependencies": {
+          "CompteBancaireClass": "1.0.0"
+        },
+        "runtime": {
+          "BanqueClass.dll": {}
+        }
+      },
+      "CompteBancaireClass/1.0.0": {
+        "runtime": {
+          "CompteBancaireClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GestionBanque/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BanqueClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CompteBancaireClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\bin\Debug\net6.0\CompteBancaireClass.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\bin\Debug\net6.0\CompteBancaireClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\bin\Debug\net6.0\CompteBancaireClass.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\obj\Debug\net6.0\CompteBancaireClass.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\obj\Debug\net6.0\CompteBancaireClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\obj\Debug\net6.0\CompteBancaireClass.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\obj\Debug\net6.0\CompteBancaireClass.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\obj\Debug\net6.0\CompteBancaireClass.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\obj\Debug\net6.0\CompteBancaireClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\obj\Debug\net6.0\refint\CompteBancaireClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\obj\Debug\net6.0\CompteBancaireClass.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\CompteBancaireClass\obj\Debug\net6.0\ref\CompteBancaireClass.dll

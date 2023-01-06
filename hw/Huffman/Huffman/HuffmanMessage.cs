@@ -16,10 +16,26 @@ namespace huffman
 
         private int size;
 
+        [JsonPropertyName("message")]
+
         public string Message { get => MessageToString(); }
 
+
+
+        //public Dictionary<List<bool>, char> Table { get => MakeTreeWithList(); }
         [JsonPropertyName("table")]
         public Dictionary<string, char> Table { get => MakeDifferentTree(); }
+
+        private Dictionary<List<bool>, char> MakeTreeWithList()
+        {
+            Dictionary<List<bool>, char>  rt= new Dictionary<List<bool>, char>();
+
+            for (int i = 0; i < table.Count(); i++)
+            {
+                rt.Add(table.Keys.ElementAt(i).ToList(), table.Values.ElementAt(i));
+            }
+            return rt;
+        }
 
         [JsonPropertyName("size")]
         public int Size { get => size; }
@@ -124,12 +140,9 @@ namespace huffman
             List<bool> rt = new();
             foreach (char c in s)
             {
-                if (c == '0')
+                if (c == '0' || c=='1')
                 {
-                    rt.Add(false);
-                } else if (c == '1')
-                {
-                    rt.Add(true);
+                    rt.Add(c == '1');
                 } else
                 {
                     throw new Exception("Erreur");
@@ -164,8 +177,6 @@ namespace huffman
                 byteActuel.Add(BoolTableToByte(currentBits));
             }
 
-            //byte[] byts =  Convert.FromHexString(Convert.ToHexString(bt.ToArray()));
-
             return Convert.ToBase64String(byteActuel.ToArray());
         }
 
@@ -185,11 +196,7 @@ namespace huffman
             bool[] rt = new bool[8];
             for (int i = 0; i < 8; i++)
             {
-                if (b - (byte)Math.Pow(2, 7 - i) >= 0)
-                {
-                    rt[i] = true;
-                    b -= (byte)Math.Pow(2, 7 - i);
-                }
+                rt[i] = (b & (1 << (7-i))) != 0;
             }
             return rt;
         }
@@ -203,36 +210,11 @@ namespace huffman
             for (int i = 0; i < b.Length; i++)
             {
                 if (b[i])
-                    val += (byte)Math.Pow(2, 7-i);
+                    val += (byte)(1 << (7 - i));//(byte)Math.Pow(2, 7-i);
             }
             return val;
         }
 
-        private char BoolTableToChar16Bits(bool[] b)
-        {
-            if (b.Length != 16)
-                throw new Exception("err");
-            int val = 0;
-            for (int i = 0; i < b.Length; i++)
-            {
-                if (b[i])
-                    val += (int)Math.Pow(2, 15 - i);
-            }
-            return (char)val;
-        }
-
-        private char BoolTableToChar8Bits(bool[] b)
-        {
-            if (b.Length != 8)
-                throw new Exception("err");
-            int val = 0;
-            for (int i = 0; i < b.Length; i++)
-            {
-                if (b[i])
-                    val += (int)Math.Pow(2, 7 - i);
-            }
-            return (char)val;
-        }
 
     }
 }

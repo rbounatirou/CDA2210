@@ -1,0 +1,15 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\bin\Debug\net6.0\BanqueClass.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\bin\Debug\net6.0\BanqueClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\bin\Debug\net6.0\BanqueClass.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\bin\Debug\net6.0\CompteBancaireClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\bin\Debug\net6.0\CompteBancaireClass.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\BanqueClass.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\BanqueClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\BanqueClass.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\BanqueClass.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\BanqueClass.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\BanqueClass.csproj.CopyComplete
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\BanqueClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\refint\BanqueClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\BanqueClass.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\GestionBanque\BanqueClasse\obj\Debug\net6.0\ref\BanqueClass.dll

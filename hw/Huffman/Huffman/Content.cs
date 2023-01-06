@@ -10,7 +10,6 @@ namespace huffman
     {
         protected Content hisParent;
         public abstract uint GetWeight();
-        public abstract string ToHTML();
 
         public bool setParent(Content parent)
         {
@@ -22,8 +21,6 @@ namespace huffman
             return false;
                 
         }
-
-        public abstract bool Equals(object o);
         public Content[] getParents()
         {
             List<Content> parents = new();
@@ -31,21 +28,9 @@ namespace huffman
             {
                 parents.AddRange(hisParent.getParents());
                 parents.Add(hisParent);
-            }            
+            }
             return parents.ToArray();
         }
-
-        public virtual Content left()
-        {
-            return null;
-        }
-
-        public virtual Content right()
-        {
-            return null;
-        }
-
-
 
         public abstract List<bool[]> GetAllPath(out List<char> letters);
         public abstract List<bool[]> GetAllPath();

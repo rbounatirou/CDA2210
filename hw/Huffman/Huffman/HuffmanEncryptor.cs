@@ -27,13 +27,7 @@ namespace huffman
                     occurences[idFound]++;
                 }
             }
-            //Branch firstBranch = new Branch(new Letter(occurences[order[0]))
             Branch tree = MakeHuffmanTree(letter, occurences);
-            //Letter[] letters = tree.GetElementByType<Letter>();
-            //string[] strPath = GetPathFromLetter(letters);
-            /*List<bool[]> strPath = GetPathFromLetter(letters);
-            List<bool[]> lettersPath = tree.GetAllPath();*/
-
             Dictionary<char, bool[]> tableForHuffman = tree.MakeCompressDictionary();
             List<bool> strMessage = new();
             foreach(char c in str)
@@ -55,28 +49,7 @@ namespace huffman
             return (i < listToSearch.Count() ? i : -1);
         }
 
-        /*private static List<uint> BubbleSort(List<Content> compare)
-        {
-            List<uint> rt = new();
-            compare = new List<Content>(compare);
-            for (uint i = 0; i < compare.Count(); i++)
-                rt.Add(i);
-            for (int i = 0; i < compare.Count() - 1; i++)
-            {
-                for (int j = i; j < compare.Count(); j++)
-                {
-                    if (compare[j].GetWeight() < compare[i].GetWeight()) {
-                        Content tmpVal = compare[j];
-                        uint tmpIt = rt[j];
-                        compare[j] = compare[i];
-                        compare[i] = tmpVal;
-                        rt[j] = rt[i];
-                        rt[i] = tmpIt;
-                    }
-                }
-            }
-            return rt;
-        }*/
+
 
         private static int[] findTwoMins(List<Content> content)
         {
@@ -152,73 +125,5 @@ namespace huffman
             }
             return rt.ToArray();
         }
-
-        private static List<bool[]> GetPathFromLetter(Letter[] letters)
-        {
-            List<bool[]> strPath = new();
-            foreach (Letter l in letters)
-            {
-                strPath.Add(SearchContentPathInParent(l));
-            }
-            return strPath;
-        }
-
-       /* private static Dictionary<char, bool[]> MakeCompressDictionnary(Letter[] letters, List<bool[]> path)
-        {
-            if (letters.Length != path.Count())
-                return null;
-            Dictionary<char, bool[]> tableForHuffman = new Dictionary<char, bool[]>();
-            for (int i = 0; i < letters.Length; i++)
-            {
-                tableForHuffman.Add(letters[i].HisChar, path[i]);
-            }
-            return tableForHuffman;
-        }
-
-        private static Dictionary<char, bool[]> MakeCompressDictionnary(Content c)
-        {
-
-            List<char> charAssociate = new();
-            List<bool[]> path = c.GetAllPath(out charAssociate);
-            if (path.Count() != charAssociate.Count())
-                return null;
-            Dictionary<char, bool[]> tableForHuffman = new Dictionary<char, bool[]>();
-            for (int i = 0; i < path.Count(); i++)
-            {
-
-                tableForHuffman.Add(charAssociate[i], path[i]);
-            }
-            return tableForHuffman;
-        }
-
-        private static Dictionary<bool[], char> MakeUncompressDictionnary(Letter[] letters, List<bool[]> path)
-        {
-            if (letters.Length != path.Count())
-                return null;
-            Dictionary<bool[], char> tableForHuffman = new Dictionary<bool[], char>();
-            for (int i = 0; i < letters.Length; i++)
-            {
-                tableForHuffman.Add(path[i], letters[i].HisChar);
-            }
-            return tableForHuffman;
-        }
-
-        private static Dictionary<char, bool[]> MakeUncompressDictionnary(Content c)
-        {
-
-            List<char> charAssociate = new();
-            List<bool[]> path = c.GetAllPath(out charAssociate);
-            if (path.Count() != charAssociate.Count())
-                return null;
-            Dictionary<char, bool[]> tableForHuffman = new Dictionary<char, bool[]>();
-            for (int i = 0; i < path.Count(); i++)
-            {
-
-                tableForHuffman.Add(charAssociate[i], path[i]);
-            }
-            return tableForHuffman;
-        }*/
-
-
     }
 }

@@ -9,9 +9,7 @@ namespace huffman
 {
     internal class Branch : Content, ICompressable
     {
-        private List<Content> content;
-       
-
+        private List<Content> content;     
 
         public Branch(Content a)
         {
@@ -60,51 +58,8 @@ namespace huffman
             return str;
         }
 
-        public override string ToHTML()
-        {
-            string str = "<li>\n\t<font color=\"#ff0000\">total(" + GetWeight() + ")</font>" +
-                "\n";
-            str += "\n\t<ul>";
-            for (int i = 0; i < content.Count(); i++)
-            {
-                str += "\n\t" + content[i].ToHTML();
-            }
-            str += "\n\t</ul>";
-            str += "\n</li>";
 
-            return str;
-        }
 
-        public T[] GetElementByType<T>() where T: Content
-        {
-            List<T> type = new();
-            foreach (Branch b in content.OfType<Branch>())
-                type.AddRange(b.GetElementByType<T>());
-            foreach (T t in content.OfType<T>())
-                type.Add(t);
-            return type.ToArray();
-        }
-
-        public override bool Equals(object o)
-        {
-            if (o is Branch)
-            {
-                Branch b = o as Branch;
-                if (b.content.Count() == this.content.Count())
-                {
-                    bool areEquals = true;
-                    int i = 0;
-                    while (i<b.content.Count() && areEquals)
-                    {
-                        areEquals = this.content[i].Equals(b.content[i]);
-                        i++;
-                    }
-                    return areEquals;
-                }
-                return false;
-            }
-            return false;
-        }
 
         public override List<bool[]> GetAllPath(out List<char> letters)
         {
@@ -165,18 +120,6 @@ namespace huffman
                 }
             }
             return path;
-        }
-
-
-        
-        public override Content left()
-        {
-            return (content.Count() >= 1 ? content[0] : null);
-        }
-
-        public override Content right()
-        {
-            return (content.Count() >= 2 ? content[1] : null);
         }
 
         public Dictionary<char, bool[]> MakeCompressDictionary()
