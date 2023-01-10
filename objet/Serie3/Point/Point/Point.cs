@@ -49,7 +49,7 @@ namespace point
 
         private Point SymetricOrigin()
         {
-            return new Point(-(0 - x), -(0 - y));
+            return this.SymetricX().SymetricY();
         }
 
         public override string ToString()

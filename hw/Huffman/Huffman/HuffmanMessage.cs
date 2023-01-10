@@ -177,12 +177,12 @@ namespace huffman
                 byteActuel.Add(BoolTableToByte(currentBits));
             }
 
-            return Convert.ToBase64String(byteActuel.ToArray());
+            return System.Text.Encoding.Unicode.GetString(byteActuel.ToArray());
         }
 
         private bool[] MessageToBoolTable(string message)
         {
-            byte[] byteMessage = Convert.FromBase64String(message);
+            byte[] byteMessage = Encoding.Unicode.GetBytes(message);
             List<bool> bools = new();
             for (int i = 0; i < byteMessage.Length; i++)
             {

@@ -1,13 +1,16 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace ExoCompte
 {
-    public class Compte
+    public class Compte: IComparable<Compte>
     {
         /// <summary>
         /// désigne le numéro du compte
@@ -25,6 +28,8 @@ namespace ExoCompte
         /// </summary>
         private double solde;
 
+
+        public double Solde { get => solde; }
         /// <summary>
         /// désigne le découvert autorisé du compte
         /// </summary>
@@ -57,11 +62,12 @@ namespace ExoCompte
         /// <param name="_decouvertAutorise">désigne le découvert autorisé à associer à l'instance</param>
         public Compte(int _numeroCompte, string _nomTitulaire, double _solde, double _decouvertAutorise)
         {
+            if (_decouvertAutorise > 0)
+                throw new CreateAccountException("Erreur instanciation");
             this.numeroCompte = _numeroCompte;
             this.nomTitulaire = _nomTitulaire;
             this.solde = _solde;
-            if (_decouvertAutorise < 0)
-               this.decouvertAutorise= _decouvertAutorise;
+            this.decouvertAutorise= _decouvertAutorise;
         }
 
         /// <summary>
@@ -78,9 +84,11 @@ namespace ExoCompte
         /// Crédite de l'argent sur le compte
         /// </summary>
         /// <param name="_montant">Désigne le montant à créditer</param>
-        public void Crediter(uint _montant)
+        public void Crediter(double _montant)
         {
-            this.solde += _montant;
+            if (_montant < 0)
+                throw new NegativeAmountException("Impossible de créditer un montant négatif");
+            this.solde += _montant;;
         }
 
         /// <summary>
@@ -88,8 +96,10 @@ namespace ExoCompte
         /// </summary>
         /// <param name="_montant">Désigne le montant à retirer</param>
         /// <returns>(true) si l'oppération à pu être effectuée, false sinon</returns>
-        public bool Debiter(uint _montant)
-        {            
+        public bool Debiter(double _montant)
+        {
+            if (_montant < 0)
+                throw new NegativeAmountException("Impossible de débiter un montant négatif");
             if (this.solde - _montant >= decouvertAutorise)
             {
                 this.solde -= _montant;
@@ -109,7 +119,7 @@ namespace ExoCompte
         /// <see cref="Debiter(uint)"/>
         /// <see cref="Crediter(uint)"/>
         /// </remarks>
-        public bool Transferer(uint _montant, Compte _destinataire)
+        public bool Transferer(double _montant, Compte _destinataire)
         {
             if (Debiter(_montant))
             {
@@ -124,9 +134,28 @@ namespace ExoCompte
         /// </summary>
         /// <param name="_compare">désigne le compte à comparer</param>
         /// <returns>Si le solde de ce compte est suppérieur (true) sinon (false)</returns>
-        public bool Supperieur(Compte _compare)
+        public bool Superieur(Compte _compare)
         {
-            return this.solde >= _compare.solde;
+            return this.CompareTo(_compare) == 1;
+        }
+
+        /// <summary>
+        /// Compare le solde avec un autre compte
+        /// </summary>
+        /// <param name="other"></param>
+        /// <returns>1 si solde superieur, 0 si soldes égaux, -1 si solde inférieur </returns>
+        public int CompareTo(Compte? other)
+        {
+            if (solde < other.solde)
+            {
+                return -1;
+            } else if (solde == other.solde)
+            {
+                return 0;
+            } else
+            {
+                return 1;
+            }
         }
     }
 }

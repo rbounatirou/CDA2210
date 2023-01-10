@@ -32,7 +32,7 @@ namespace ExoCompte
         {
             Compte c1 = new Compte(12345, "toto", 1000, -500);
             Compte c2 = new Compte(45657, "titi", 2000, -1000);
-            Console.WriteLine(c1.Supperieur(c2) ? "superieur" : "inferieur");
+            Console.WriteLine(c1.Superieur(c2) ? "superieur" : "inferieur");
         }
     }
 }

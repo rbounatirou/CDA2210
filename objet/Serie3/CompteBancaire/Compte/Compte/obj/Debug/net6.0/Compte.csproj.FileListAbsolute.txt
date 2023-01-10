@@ -1,0 +1,15 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\Compte.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\Compte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\Compte.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\Compte.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\Compte.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\bin\Debug\net6.0\Compte.exe
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\bin\Debug\net6.0\Compte.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\bin\Debug\net6.0\Compte.runtimeconfig.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\bin\Debug\net6.0\Compte.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\bin\Debug\net6.0\Compte.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\Compte.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\refint\Compte.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\Compte.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\Compte.genruntimeconfig.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\CompteBancaire\Compte\Compte\obj\Debug\net6.0\ref\Compte.dll
