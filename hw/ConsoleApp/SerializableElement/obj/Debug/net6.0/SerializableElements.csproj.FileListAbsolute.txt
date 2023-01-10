@@ -1,0 +1,12 @@
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\bin\Debug\net6.0\SerializableElements.deps.json
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\bin\Debug\net6.0\SerializableElements.dll
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\bin\Debug\net6.0\SerializableElements.pdb
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\obj\Debug\net6.0\SerializableElements.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\obj\Debug\net6.0\SerializableElements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\obj\Debug\net6.0\SerializableElements.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\obj\Debug\net6.0\SerializableElements.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\obj\Debug\net6.0\SerializableElements.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\obj\Debug\net6.0\SerializableElements.dll
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\obj\Debug\net6.0\refint\SerializableElements.dll
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\obj\Debug\net6.0\SerializableElements.pdb
+C:\Users\user\Documents\GitHub\CDA2210\hw\ConsoleApp\SerializableElement\obj\Debug\net6.0\ref\SerializableElements.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SerializationBinaire/1.0.0": {
+        "dependencies": {
+          "SerializableElements": "1.0.0"
+        },
+        "runtime": {
+          "SerializationBinaire.dll": {}
+        }
+      },
+      "SerializableElements/1.0.0": {
+        "runtime": {
+          "SerializableElements.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SerializationBinaire/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SerializableElements/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
