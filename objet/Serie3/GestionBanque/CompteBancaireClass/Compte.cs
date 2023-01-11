@@ -23,6 +23,7 @@ namespace ExoCompte
         /// </summary>
         private string nomTitulaire;
 
+        public string NomTitulaire { get => nomTitulaire;  }
         /// <summary>
         /// désigne le solde sur le compte
         /// </summary>
@@ -35,6 +36,7 @@ namespace ExoCompte
         /// </summary>
         private double decouvertAutorise;
 
+        public double DecouvertAutorise { get => decouvertAutorise; }
 
         /// <summary>
         /// Constructeur par défaut fait appel à la surcharge avec les paramètre (0,"Anonyme",0,0)

@@ -11,13 +11,20 @@ namespace TestUnitaireCompteBancaire
         public void Constructeur_DecouvertNegatif_InstanciationOK()
         {
             Compte monCompteDeTest = new Compte(1234, "Juju", 500, -1000);
-            Assert.IsNotNull(monCompteDeTest);
+            Assert.IsTrue(monCompteDeTest.Numero == 1234, "Erreur d'initialisation du parametre numéro");
+            Assert.IsTrue(monCompteDeTest.NomTitulaire == "Juju", "Erreur d'initialisation du parametre nomTitulaire");
+            Assert.IsTrue(monCompteDeTest.Solde == 500, "Erreur d'initialisation du parametre solde");
+            Assert.IsTrue(monCompteDeTest.DecouvertAutorise == -1000, "Erreur d'initialisation du parametre decouvertAutorise");
+
         }
         [TestMethod]
         public void Constructeur_DecouvertAZero_InstanciationOk()
         {
             Compte monCompteDeTest = new Compte(1234, "Juju", 500, 0);
-            Assert.IsNotNull(monCompteDeTest);
+            Assert.IsTrue(monCompteDeTest.Numero == 1234, "Erreur d'initialisation du parametre numéro");
+            Assert.IsTrue(monCompteDeTest.NomTitulaire == "Juju", "Erreur d'initialisation du parametre nomTitulaire");
+            Assert.IsTrue(monCompteDeTest.Solde == 500, "Erreur d'initialisation du parametre solde");
+            Assert.IsTrue(monCompteDeTest.DecouvertAutorise == 0, "Erreur d'initialisation du parametre decouvertAutorise");
         }
         [TestMethod]
         public void Constructeur_DecouvertPositif_ExceptionInstanciationNull()

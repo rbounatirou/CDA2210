@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,7 +14,7 @@ namespace BanqueClass
         List<Compte> mesComptes = new();
         private string nom;
         private string ville;
-
+        
         public string Nom { get => nom; }
         public string Ville {  get => ville; }
 
