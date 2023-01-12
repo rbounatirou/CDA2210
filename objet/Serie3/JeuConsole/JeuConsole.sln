@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "421Sophie", "421Sophie\421Sophie.csproj", "{C3B87547-8B4D-4DC2-9FCA-4C0C12E6E2F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "421Sophie", "421Sophie\421Sophie.csproj", "{C3B87547-8B4D-4DC2-9FCA-4C0C12E6E2F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeuClass", "JeuClass\JeuClass.csproj", "{E50DAEEF-3E39-448B-B789-BD9D6D0A5D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeuClass", "JeuClass\JeuClass.csproj", "{E50DAEEF-3E39-448B-B789-BD9D6D0A5D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitaires", "TestUnitaires\TestUnitaires.csproj", "{FA927125-2C52-414A-9827-2B1F559D6CB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E50DAEEF-3E39-448B-B789-BD9D6D0A5D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E50DAEEF-3E39-448B-B789-BD9D6D0A5D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E50DAEEF-3E39-448B-B789-BD9D6D0A5D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA927125-2C52-414A-9827-2B1F559D6CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA927125-2C52-414A-9827-2B1F559D6CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA927125-2C52-414A-9827-2B1F559D6CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA927125-2C52-414A-9827-2B1F559D6CB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace JeuClass
             nbLancerEffectue = 0;
             des = new De[3];
             for (int i = 0; i < des.Length; i++)
-                des[i] = new De();
+                des[i] = new De(1,6);
 
         }
 
@@ -80,6 +81,19 @@ namespace JeuClass
         public void Relancer(byte[] des)
         {
             Relancer(des.ToList());
+        }
+
+        public override string ToString()
+        {
+            string str = String.Format("nbLancerMax : {0}, nbLancerEffectue: {1}");
+            for (int i = 0; i < des.Length; i++)
+                str += String.Format(", de n°{0} : {1}", i, des[i]);
+            return str;
+        }
+
+        public void Passer()
+        {
+            this.nbLancerEffectue = nbLancerMax;
         }
     }
 }

@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace JeuClass
 {
+    
     public class De : IComparable<De>
     {
         private byte valeur;
-        public static readonly byte valeurMin;
-        public static readonly byte valeurMax;
+        public readonly byte valeurMin = 1;
+        public readonly byte valeurMax = 6;
         private Alea sonAlea;
 
         public byte GetValeur() => valeur;
 
+        public Alea SonAlea { get => sonAlea;  }
         public void Rouler()
         {
             valeur = sonAlea.DonneNombreAleatoire(valeurMin, valeurMax);
@@ -34,22 +36,10 @@ namespace JeuClass
             }
         }
 
-        static De()
-        {
-            valeurMax = 6;
-            valeurMin = 1;
-        }
-
-        public De() : this(1, 6) { }
-
         public De(byte valeurMin, byte valeurMax)
         {
-            sonAlea = Alea.GetInstance();
             this.valeurMin = valeurMin;
             this.valeurMax = valeurMax;
         }
-
-
-
     }
 }
