@@ -21,5 +21,6 @@ namespace TestUnitaires
             for (int i = 0; i < 100; i++)
                 Assert.IsTrue(de.GetValeur() >= 1 && de.GetValeur() <= 6, "Probleme valeure n'est pas dans la bonne plage");
         }*/
+
     }
 }

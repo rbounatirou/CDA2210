@@ -40,6 +40,7 @@ namespace JeuClass
         {
             this.valeurMin = valeurMin;
             this.valeurMax = valeurMax;
+            sonAlea = Alea.GetInstance();
         }
     }
 }

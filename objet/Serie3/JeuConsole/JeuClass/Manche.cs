@@ -17,13 +17,16 @@ namespace JeuClass
             nbLancerEffectue = 0;
             des = new De[3];
             for (int i = 0; i < des.Length; i++)
-                des[i] = new De(1,6);
-
+            {
+                des[i] = new De(1, 6);
+                des[i].Rouler();
+            }
         }
 
         public void Trier()
         {
             Array.Sort(des);
+            Array.Reverse(des);
 
         }
         

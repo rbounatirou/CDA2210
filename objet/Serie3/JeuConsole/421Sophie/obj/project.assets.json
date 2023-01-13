@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "JeuClass/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/JeuClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JeuClass.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "JeuClass/1.0.0": {
+      "type": "project",
+      "path": "../JeuClass/JeuClass.csproj",
+      "msbuildProject": "../JeuClass/JeuClass.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "JeuClass >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rbounatirou\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\objet\\Serie3\\JeuConsole\\JeuClass\\JeuClass.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\objet\\Serie3\\JeuConsole\\JeuClass\\JeuClass.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\bin\Debug\net6.0\JeuClass.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\bin\Debug\net6.0\JeuClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\bin\Debug\net6.0\JeuClass.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\obj\Debug\net6.0\JeuClass.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\obj\Debug\net6.0\JeuClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\obj\Debug\net6.0\JeuClass.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\obj\Debug\net6.0\JeuClass.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\obj\Debug\net6.0\JeuClass.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\obj\Debug\net6.0\JeuClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\obj\Debug\net6.0\refint\JeuClass.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\obj\Debug\net6.0\JeuClass.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\objet\Serie3\JeuConsole\JeuClass\obj\Debug\net6.0\ref\JeuClass.dll

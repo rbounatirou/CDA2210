@@ -6,7 +6,7 @@
 
         private Alea()
         {
-            aleaUnique = new Alea();
+            
         }
 
         public static Alea GetInstance()
