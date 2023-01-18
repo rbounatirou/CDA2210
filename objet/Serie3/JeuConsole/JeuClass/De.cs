@@ -12,18 +12,21 @@ namespace JeuClass
         private byte valeur;
         public readonly byte valeurMin = 1;
         public readonly byte valeurMax = 6;
-        private Alea sonAlea;
+
 
         public byte GetValeur() => valeur;
 
-        public Alea SonAlea { get => sonAlea;  }
         public void Rouler()
         {
-            valeur = sonAlea.DonneNombreAleatoire(valeurMin, valeurMax);
+     
+            valeur = Alea.GetInstance().DonneNombreAleatoire(valeurMin, valeurMax);
+            //valeur=  (byte)rnd.Next(valeurMin, valeurMax);
         }
 
         public int CompareTo(De? other)
         {
+            if (other == null)
+                throw new ArgumentNullException("Probleme argument null");
             if (other.valeur < this.valeur)
             {
                 return 1;
@@ -40,7 +43,27 @@ namespace JeuClass
         {
             this.valeurMin = valeurMin;
             this.valeurMax = valeurMax;
-            sonAlea = Alea.GetInstance();
+            Rouler();
+        }
+
+        public static bool operator <(De left, De right)
+        {
+            return left.CompareTo(right) < 0;
+        }
+
+        public static bool operator <=(De left, De right)
+        {
+            return left.CompareTo(right) <= 0;
+        }
+
+        public static bool operator >(De left, De right)
+        {
+            return left.CompareTo(right) > 0;
+        }
+
+        public static bool operator >=(De left, De right)
+        {
+            return left.CompareTo(right) >= 0;
         }
     }
 }

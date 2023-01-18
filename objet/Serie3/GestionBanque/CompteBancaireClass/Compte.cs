@@ -1,21 +1,28 @@
 ﻿
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 
+
+
 namespace ExoCompte
 {
-    public class Compte: IComparable<Compte>
+
+    public class Compte: IComparable<Compte>, IEnumerable<FieldInfo>
     {
         /// <summary>
         /// désigne le numéro du compte
         /// </summary>
         private int numeroCompte;
+
+        
 
         public int Numero { get => numeroCompte; }
         /// <summary>
@@ -158,6 +165,16 @@ namespace ExoCompte
             {
                 return 1;
             }
+        }
+
+        public IEnumerator<FieldInfo> GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            throw new NotImplementedException();
         }
     }
 }

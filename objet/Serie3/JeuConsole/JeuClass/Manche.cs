@@ -12,6 +12,9 @@ namespace JeuClass
         private const byte nbLancerMax = 3;
         private byte nbLancerEffectue;
         private De[] des;
+
+        public De[] Des { get => des; }
+
         public Manche()
         {
             nbLancerEffectue = 0;
@@ -21,20 +24,31 @@ namespace JeuClass
                 des[i] = new De(1, 6);
                 des[i].Rouler();
             }
+            Trier();
         }
 
+        public void SetDes(De de1, De de2, De de3)
+        {
+            des[0] = de1;
+            des[1] = de2;
+            des[2] = de3;
+        }
+
+        public virtual byte GetValeur(int d)
+        {
+            return des[d].GetValeur();
+        }
         public void Trier()
         {
             Array.Sort(des);
             Array.Reverse(des);
-
         }
         
         public bool EstGagne()
         {
-            return (des[0].GetValeur() == 4 &&
-                des[1].GetValeur() == 2 &&
-                des[2].GetValeur() == 1);
+            return (GetValeur(0) == 4 &&
+                GetValeur(1) == 2 &&
+                GetValeur(2) == 1);
         }
 
 
@@ -61,18 +75,25 @@ namespace JeuClass
             {
                 if (_numDes[i] < des.Length)
                 {
-                    deARelancer.Add(des[i]);
+                    deARelancer.Add(des[_numDes[i]]);
                 } else
                 {
                     correct = false;
                 }
+                i++;
             }
             if (correct)
             {
                 for (i = 0; i < deARelancer.Count(); i++)
                 {
                     deARelancer[i].Rouler();
+                    
                 }
+                nbLancerEffectue++;
+                
+            } else
+            {
+                throw new Exception("Impossible de lancer un dé inexistant");
             }
         }
 

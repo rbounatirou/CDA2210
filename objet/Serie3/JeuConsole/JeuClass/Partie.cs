@@ -13,13 +13,21 @@ namespace JeuClass
         private byte nombreManchesEffectuees;
         private ushort score;
 
-        public Partie()
+
+        public ushort Score { get => score;  }
+        public Manche MancheCourrante { get => mancheCourrante;  }
+
+
+
+        public Partie(byte nombrMancheSouhaitees)
         {
-            nombreManchesSouhaitees = 1;
+            this.nombreManchesSouhaitees = nombrMancheSouhaitees;
             nombreManchesEffectuees = 0;
             mancheCourrante = new Manche();
+            score = (ushort)(nombreManchesSouhaitees * 10);
         }
 
+        public Partie() : this(1) { }
         public void CreerUneNouvelleManche()
         {
             if (!EstCeQueLaMancheCourranteAEncoreUnLancer() &&
@@ -27,21 +35,29 @@ namespace JeuClass
                 mancheCourrante = new Manche();
         }
 
-        private bool EstCeQueLaMancheCourranteAEncoreUnLancer()
+        public bool EstCeQueLaMancheCourranteAEncoreUnLancer()
         {
             return mancheCourrante.AEncoreUnLancer();
         }
 
-        private bool EstCeQueLaMancheCourranteEstGagne()
+        public bool EstCeQueLaMancheCourranteEstGagne()
         {
-           if (mancheCourrante.EstGagne())
-            {
-                score += 30;
-                return true;
-            }
-            score -= 10;
-            return false;
+
+
+            return mancheCourrante.EstGagne();
          
+        }
+
+        public void AjouterPoint()
+        {
+            if (mancheCourrante.EstGagne())
+                score += 30;
+        }
+
+        public void RetirePoint()
+        {
+            if (!mancheCourrante.EstGagne() && !mancheCourrante.AEncoreUnLancer())
+                score -= 10;
         }
 
         public ushort GetScore() => score;
@@ -63,10 +79,6 @@ namespace JeuClass
         }
 
 
-        public Partie(byte nombrMancheSouhaitees)
-        {
-            this.nombreManchesSouhaitees = nombrMancheSouhaitees;
-        }
 
         public bool AEncoreUneMancheAJouer()
         {

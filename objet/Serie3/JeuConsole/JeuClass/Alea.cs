@@ -20,7 +20,9 @@
 
         public byte DonneNombreAleatoire(byte valeurMinInclue, byte valeurMaxInclue)
         {
+            aleaUnique = new Alea();
             return (byte)this.Next(valeurMinInclue, valeurMaxInclue + 1);
+            
         }
     }
 }
