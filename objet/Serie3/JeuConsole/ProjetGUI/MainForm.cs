@@ -24,16 +24,19 @@ namespace ProjetGUI
             des.Add(new De(1, 6));
             des.Add(new De(1, 6));*/
 
-            partie = new Partie();
+            partie = new Partie(8);
+            
+            lblNbRound.Text = partie.NombreMancheEffectuees + "";
+            labelScore.Text = String.Format("Score:{0}", partie.Score);
             selectedDice = new bool[] { false, false, false};
             dicerollButton.Enabled = false;
-            
+            newRoundButton.Enabled = false;
             CheckIfWin();
         }
 
         private void dicePanel_Paint(object sender, PaintEventArgs e)
         {
-            De[] des = partie.MancheCourrante.Des;
+            int[] des = partie.MancheCourrante.GetValeurDes();
             Rectangle rc = new Rectangle(0, 0, 100, 100);
             Rectangle rc2 = new Rectangle(110, 0, 100, 100);
             Rectangle rc3 = new Rectangle(220, 0, 100, 100);
@@ -46,16 +49,17 @@ namespace ProjetGUI
             e.Graphics.DrawRectangle((selectedDice[0] ? p2 : p), rc);
             e.Graphics.DrawRectangle((selectedDice[1] ? p2 : p), rc2);
             e.Graphics.DrawRectangle((selectedDice[2] ? p2 : p), rc3);
+
             
-            DrawDiceCircle(des[0].GetValeur(), e, rc);
-            DrawDiceCircle(des[1].GetValeur(), e, rc2);
-            DrawDiceCircle(des[2].GetValeur(), e, rc3);
+            DrawDiceCircle(des[0], e, rc, (selectedDice[0] ? Color.Red : Color.Black));
+            DrawDiceCircle(des[1], e, rc2, (selectedDice[1] ? Color.Red : Color.Black));
+            DrawDiceCircle(des[2], e, rc3, (selectedDice[2] ? Color.Red : Color.Black));
         }
 
-        private void DrawDiceCircle(int val, PaintEventArgs e, Rectangle diceBox)
+        private void DrawDiceCircle(int val, PaintEventArgs e, Rectangle diceBox, Color c)
         {
             
-            SolidBrush b = new SolidBrush(Color.Black);
+            SolidBrush b = new SolidBrush(c);
             if (val %2 == 1)
             {
                 // X = diceBox.X + (diceBox.Width/2) - (20 / 2)
@@ -68,45 +72,49 @@ namespace ProjetGUI
             if (val != 1)
             {
                 Rectangle el = new Rectangle(diceBox.X + diceBox.Width - 30, diceBox.Y + 15 , 20, 20);
-                Rectangle el2 = new Rectangle(diceBox.X + 15, diceBox.Y + diceBox.Height - 30 , 20, 20);
+                Rectangle el2 = new Rectangle(diceBox.X + 15, diceBox.Y + diceBox.Height - 35 , 20, 20);
                 e.Graphics.FillEllipse(b, el);
                 e.Graphics.FillEllipse(b, el2);
             }
             if (val > 3)
             {
                 Rectangle el = new Rectangle(diceBox.X + 15, diceBox.Y + 15, 20, 20);
-                Rectangle el2 = new Rectangle(diceBox.X + diceBox.Width - 30, diceBox.Y + diceBox.Height - 30, 20, 20);
+                Rectangle el2 = new Rectangle(diceBox.X + diceBox.Width - 30, diceBox.Y + diceBox.Height - 35, 20, 20);
                 e.Graphics.FillEllipse(b, el);
                 e.Graphics.FillEllipse(b, el2);
             }
             if (val == 6)
             {
-                Rectangle el = new Rectangle(diceBox.X + 15, diceBox.Y + (diceBox.Height / 2) - (20 / 2), 20, 20);
+                Rectangle el = new Rectangle(diceBox.X + 15, diceBox.Y + (diceBox.Height / 2) - (20/2), 20, 20);
                 Rectangle el2 = new Rectangle(diceBox.X + diceBox.Width - 30, diceBox.Y + (diceBox.Height / 2) - (20 / 2), 20, 20);
                 e.Graphics.FillEllipse(b, el);
                 e.Graphics.FillEllipse(b, el2);
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void DiceRollButton_Click(object sender, EventArgs e)
         {
-            De[] des = partie.MancheCourrante.Des;
-
+            //De[] des = partie.MancheCourrante.Des;
+            
             List<byte> diceToReroll = new();
             for (int i = 0; i < selectedDice.Length; i++)
             {
                 if (selectedDice[i])
-                {
-                    
-                    
+                {                
                     selectedDice[i] = false;
                     diceToReroll.Add((byte)i);
                 }
             }
             //dicePanel_Paint(sender, (PaintEventArgs)e);
-            partie.RelancerDes(diceToReroll.ToArray());
+            
+
             if (diceToReroll.Count() > 0)
             {
+                partie.RelancerDes(diceToReroll.ToArray());
+                if (partie.PeutCreerUneNouvelleManche())
+                {
+                    newRoundButton.Enabled = true;
+                }
                 partie.MancheCourrante.Trier();
                 dicePanel.Refresh();
                 CheckIfWin();
@@ -164,6 +172,14 @@ namespace ProjetGUI
                 partie.RetirePoint();
                 labelScore.Text = String.Format("Score:{0}", partie.Score);
             }
+        }
+
+        private void NewRoundButton_Click(object sender, EventArgs e)
+        {
+            partie.CreerUneNouvelleManche();
+            lblNbRound.Text = partie.NombreMancheEffectuees + "";
+            newRoundButton.Enabled = false;
+            dicePanel.Refresh();
         }
     }
 }

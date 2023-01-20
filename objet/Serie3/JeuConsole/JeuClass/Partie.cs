@@ -17,22 +17,31 @@ namespace JeuClass
         public ushort Score { get => score;  }
         public Manche MancheCourrante { get => mancheCourrante;  }
 
-
+        public byte NombreMancheEffectuees { get => nombreManchesEffectuees; }
 
         public Partie(byte nombrMancheSouhaitees)
         {
             this.nombreManchesSouhaitees = nombrMancheSouhaitees;
-            nombreManchesEffectuees = 0;
+            nombreManchesEffectuees = 1;
             mancheCourrante = new Manche();
             score = (ushort)(nombreManchesSouhaitees * 10);
         }
 
         public Partie() : this(1) { }
+
+        public bool PeutCreerUneNouvelleManche()
+        {
+            return ((EstCeQueLaMancheCourranteEstGagne() ||
+                !EstCeQueLaMancheCourranteAEncoreUnLancer()) &&
+                nombreManchesEffectuees < nombreManchesSouhaitees);
+        }
         public void CreerUneNouvelleManche()
         {
-            if (!EstCeQueLaMancheCourranteAEncoreUnLancer() &&
-                nombreManchesEffectuees < nombreManchesSouhaitees)
+            if (PeutCreerUneNouvelleManche())
+            {
                 mancheCourrante = new Manche();
+                nombreManchesEffectuees++;
+            }
         }
 
         public bool EstCeQueLaMancheCourranteAEncoreUnLancer()
@@ -75,8 +84,11 @@ namespace JeuClass
 
         public void RelancerDes(byte[] des)
         {
+            
             mancheCourrante.Relancer(des);
         }
+
+
 
 
 

@@ -27,16 +27,7 @@ namespace JeuClass
         {
             if (other == null)
                 throw new ArgumentNullException("Probleme argument null");
-            if (other.valeur < this.valeur)
-            {
-                return 1;
-            } else if (other.valeur == this.valeur)
-            {
-                return 0;
-            } else
-            {
-                return -1;
-            }
+            return (this.valeur.CompareTo(other.valeur));
         }
 
         public De(byte valeurMin, byte valeurMax)
