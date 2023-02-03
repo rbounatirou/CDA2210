@@ -1,27 +1,54 @@
-﻿namespace Dirctionnaire
+﻿using System.Text.Json;
+
+namespace Dirctionnaire
 {
-    internal class Program
+    class Program
     {
-
-        enum PneuPosition
-        {
-            Avant_gauche,
-            Avant_droit,
-            Arriere_gauche,
-            Arriere_droit
-        };
-
         static void Main(string[] args)
         {
+            string[] split = "3 2 1 2 1 1".Split(' ');
+            string line;
+            List<int> entier = new();
+
             
+            List<int> nombres = new();
+            List<int> occurences = new();
+            int maxOccurence = 0;
+            int minOccurence = 0;
 
-            Dictionary<PneuPosition,string> myDic= new Dictionary<PneuPosition, string>();
-            myDic.Add(PneuPosition.Avant_gauche, "testAG");
-            myDic.Add(PneuPosition.Avant_droit, "testAD");
-            myDic.Add(PneuPosition.Arriere_gauche, "testRG");
-            myDic.Add(PneuPosition.Arriere_droit, "testRD");
-            Console.WriteLine(myDic[PneuPosition.Arriere_droit]);
+            Dictionary<int, int> map = new Dictionary<int, int>();
+            for (int i = 0; i < split.Length; i++)
+            {
+                int cnv = Convert.ToInt32(split[i]);
+                /*int ind = nombres.FindIndex(x => x == cnv);
+                if (ind >= 0)
+                {
+                    occurences[ind]++;
+                }
+                else
+                {
+                    nombres.Add(cnv);
+                    occurences.Add(1);
+                    
+                }*/
+                try
+                {
+                    map[cnv]++;
+                } catch
+                {
+                    map.Add(cnv, 1);
+                }
+            }
+            
+            // CHERCHE MIN ET MAX OCCURENCE
+         
 
+
+            Console.WriteLine(nombres[maxOccurence] - nombres[minOccurence]);
+
+
+            // Vous pouvez aussi effectuer votre traitement ici après avoir lu toutes les données 
         }
+
     }
 }
