@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\bin\Debug\net6.0\TestGeneric.exe
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\bin\Debug\net6.0\TestGeneric.deps.json
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\bin\Debug\net6.0\TestGeneric.runtimeconfig.json
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\bin\Debug\net6.0\TestGeneric.dll
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\bin\Debug\net6.0\TestGeneric.pdb
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\TestGeneric.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\TestGeneric.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\TestGeneric.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\TestGeneric.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\TestGeneric.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\TestGeneric.dll
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\refint\TestGeneric.dll
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\TestGeneric.pdb
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\TestGeneric.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\TestGeneric\TestGeneric\obj\Debug\net6.0\ref\TestGeneric.dll

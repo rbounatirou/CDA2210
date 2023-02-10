@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\bin\Debug\net6.0\CodingGameNintendo.exe
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\bin\Debug\net6.0\CodingGameNintendo.deps.json
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\bin\Debug\net6.0\CodingGameNintendo.runtimeconfig.json
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\bin\Debug\net6.0\CodingGameNintendo.dll
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\bin\Debug\net6.0\CodingGameNintendo.pdb
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\CodingGameNintendo.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\CodingGameNintendo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\CodingGameNintendo.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\CodingGameNintendo.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\CodingGameNintendo.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\CodingGameNintendo.dll
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\refint\CodingGameNintendo.dll
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\CodingGameNintendo.pdb
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\CodingGameNintendo.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\CDA2210\hw\CodingGameNintendo\CodingGameNintendo\obj\Debug\net6.0\ref\CodingGameNintendo.dll
