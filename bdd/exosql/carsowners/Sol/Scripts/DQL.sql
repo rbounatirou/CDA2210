@@ -32,8 +32,8 @@ GROUP BY brands.brand_name
 -- 4 --
 SELECT  brands.brand_name, COUNT(DISTINCT CO.car_owner_id)
 FROM brands 
-INNER JOIN cars C ON C.brand_id = brands.brand_id
-INNER JOIN cars_owners CO ON C.car_id = CO.car_id
+LEFT JOIN cars C ON C.brand_id = brands.brand_id
+LEFT JOIN cars_owners CO ON C.car_id = CO.car_id
 GROUP BY brand_name
 ORDER BY brand_name ASC;
 
