@@ -1,41 +1,41 @@
 <?xml version="1.0"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server Scripts1">
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Scripts">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="CRM-UC-3932\SQLEXPRESS:employe">
-          <Created>2023-02-16T09:20:41.4653743+01:00</Created>
+        <ConnectionNode Name="CRM-UC-3932\SQLEXPRESS:carowner">
+          <Created>2023-02-17T08:07:31.7586477+01:00</Created>
           <Type>SQL</Type>
           <Server>CRM-UC-3932\SQLEXPRESS</Server>
-          <UserName>employe</UserName>
+          <UserName>carowner</UserName>
           <Authentication>SQL</Authentication>
           <InitialDB />
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+          <ApplicationName />
         </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="DDL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3932\SQLEXPRESS:False:employe</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3932\SQLEXPRESS:False:carowner</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>CRM-UC-3932\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName>employe</AssociatedConnUserName>
+          <AssociatedConnUserName>carowner</AssociatedConnUserName>
           <FullPath>DDL.sql</FullPath>
         </FileNode>
         <FileNode Name="DML.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3932\SQLEXPRESS:False:employe</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3932\SQLEXPRESS:False:carowner</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>CRM-UC-3932\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName>employe</AssociatedConnUserName>
+          <AssociatedConnUserName>carowner</AssociatedConnUserName>
           <FullPath>DML.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3932\SQLEXPRESS:False:employe</AssociatedConnectionMoniker>
+        <FileNode Name="DQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CRM-UC-3932\SQLEXPRESS:False:carowner</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>CRM-UC-3932\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName>employe</AssociatedConnUserName>
-          <FullPath>SQLQuery1.sql</FullPath>
+          <AssociatedConnUserName>carowner</AssociatedConnUserName>
+          <FullPath>DQL.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

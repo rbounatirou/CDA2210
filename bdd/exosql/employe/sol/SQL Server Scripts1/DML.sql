@@ -17,4 +17,9 @@ VALUES
 ( 15, 'Fournier', 'Sabrina', 42000, '2017-10-27'),
 ( 5, 'Bower', 'Sarah', 49500, '2018-05-22'),
 ( 8, 'Dimario', 'Jordan' ,32500, '2019-06-30'),
-( 9, 'Macdowel', 'Cindy', 32500, '2019-11-04')
+( 9, 'Macdowel', 'Cindy', 32500, '2019-11-04');
+
+INSERT INTO employees
+(emp_manager_id,emp_lastname,emp_firstname,emp_salary,emp_hiredate)
+VALUES
+(NULL, 'BOSS','Nathan',100000,'2019-01-09');

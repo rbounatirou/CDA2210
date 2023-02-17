@@ -45,12 +45,12 @@ boss.emp_firstname,
 boss.emp_lastname, 
 boss.emp_salary,
 boss.emp_hiredate,
-COUNT(employees.emp_id) as 'Nomber of employees',
+COUNT(employees.emp_id) as 'Number of employees',
 SUM(employees.emp_salary) as 'Total salary',
 AVG(employees.emp_salary) as 'Average salary'
 FROM employees AS boss
-INNER JOIN employees ON employees.emp_id <> boss.emp_id
-WHERE boss.emp_id = 1
+INNER JOIN employees ON employees.emp_id <> boss.emp_id AND employees.emp_manager_id IS NOT NULL
+WHERE boss.emp_manager_id IS NULL 
 GROUP BY
 boss.emp_id, 
 boss.emp_firstname, 
