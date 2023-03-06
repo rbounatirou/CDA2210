@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ValidationSaisieIHM/1.0.0": {
+        "dependencies": {
+          "ValidationSaisieBibli": "1.0.0"
+        },
+        "runtime": {
+          "ValidationSaisieIHM.dll": {}
+        }
+      },
+      "ValidationSaisieBibli/1.0.0": {
+        "runtime": {
+          "ValidationSaisieBibli.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ValidationSaisieIHM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidationSaisieBibli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

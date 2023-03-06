@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\bin\Debug\net6.0\AdditionneurBibli.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\bin\Debug\net6.0\AdditionneurBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\bin\Debug\net6.0\AdditionneurBibli.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\obj\Debug\net6.0\AdditionneurBibli.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\obj\Debug\net6.0\AdditionneurBibli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\obj\Debug\net6.0\AdditionneurBibli.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\obj\Debug\net6.0\AdditionneurBibli.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\obj\Debug\net6.0\AdditionneurBibli.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\obj\Debug\net6.0\AdditionneurBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\obj\Debug\net6.0\refint\AdditionneurBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\obj\Debug\net6.0\AdditionneurBibli.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Additionneur\AdditionneurBibli\obj\Debug\net6.0\ref\AdditionneurBibli.dll

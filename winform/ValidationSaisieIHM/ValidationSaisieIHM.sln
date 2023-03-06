@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationSaisieIHM", "ValidationSaisieIHM\ValidationSaisieIHM.csproj", "{7CE15564-2087-41C8-86D6-22AB62B34A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationSaisieBibli", "ValidationSaisieBibli\ValidationSaisieBibli.csproj", "{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CE15564-2087-41C8-86D6-22AB62B34A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE15564-2087-41C8-86D6-22AB62B34A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE15564-2087-41C8-86D6-22AB62B34A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE15564-2087-41C8-86D6-22AB62B34A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {762D88EA-560C-47B6-82FA-5337760E2443}
+	EndGlobalSection
+EndGlobal

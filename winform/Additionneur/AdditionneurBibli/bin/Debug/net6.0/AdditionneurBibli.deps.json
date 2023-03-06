@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AdditionneurBibli/1.0.0": {
+        "runtime": {
+          "AdditionneurBibli.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdditionneurBibli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

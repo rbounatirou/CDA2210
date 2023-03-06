@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AdditionneurConsole/1.0.0": {
+        "dependencies": {
+          "AdditionneurBibli": "1.0.0"
+        },
+        "runtime": {
+          "AdditionneurConsole.dll": {}
+        }
+      },
+      "AdditionneurBibli/1.0.0": {
+        "runtime": {
+          "AdditionneurBibli.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdditionneurConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdditionneurBibli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
