@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,6 +39,14 @@
             this.btValider = new System.Windows.Forms.Button();
             this.btEffacer = new System.Windows.Forms.Button();
             this.textDate = new System.Windows.Forms.TextBox();
+            this.errorProviderNom = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderDate = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderMontant = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProviderCodePostal = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderNom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderDate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderMontant)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderCodePostal)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -82,7 +91,8 @@
             this.textName.Name = "textName";
             this.textName.Size = new System.Drawing.Size(243, 23);
             this.textName.TabIndex = 4;
-            this.textName.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            this.textName.Tag = "Nom";
+            this.textName.TextChanged += new System.EventHandler(this.textBoxName_TextChanged);
             // 
             // textMontant
             // 
@@ -90,7 +100,8 @@
             this.textMontant.Name = "textMontant";
             this.textMontant.Size = new System.Drawing.Size(243, 23);
             this.textMontant.TabIndex = 6;
-            this.textMontant.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            this.textMontant.Tag = "Montant";
+            this.textMontant.TextChanged += new System.EventHandler(this.textMontant_TextChanged);
             // 
             // textCodePostal
             // 
@@ -98,7 +109,8 @@
             this.textCodePostal.Name = "textCodePostal";
             this.textCodePostal.Size = new System.Drawing.Size(243, 23);
             this.textCodePostal.TabIndex = 7;
-            this.textCodePostal.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            this.textCodePostal.Tag = "CodePostal";
+            this.textCodePostal.TextChanged += new System.EventHandler(this.textCodePostal_TextChanged);
             // 
             // btValider
             // 
@@ -127,7 +139,24 @@
             this.textDate.Name = "textDate";
             this.textDate.Size = new System.Drawing.Size(243, 23);
             this.textDate.TabIndex = 5;
-            this.textDate.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            this.textDate.Tag = "Date";
+            this.textDate.TextChanged += new System.EventHandler(this.textDate_TextChanged);
+            // 
+            // errorProviderNom
+            // 
+            this.errorProviderNom.ContainerControl = this;
+            // 
+            // errorProviderDate
+            // 
+            this.errorProviderDate.ContainerControl = this;
+            // 
+            // errorProviderMontant
+            // 
+            this.errorProviderMontant.ContainerControl = this;
+            // 
+            // errorProviderCodePostal
+            // 
+            this.errorProviderCodePostal.ContainerControl = this;
             // 
             // Form1
             // 
@@ -146,6 +175,11 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderNom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderDate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderMontant)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderCodePostal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,5 +197,9 @@
         private Button btValider;
         private Button btEffacer;
         private TextBox textDate;
+        private ErrorProvider errorProviderNom;
+        private ErrorProvider errorProviderDate;
+        private ErrorProvider errorProviderMontant;
+        private ErrorProvider errorProviderCodePostal;
     }
 }

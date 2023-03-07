@@ -18,3 +18,5 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\Validat
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\bin\Debug\net6.0-windows\ValidationSaisieBibli.dll
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\bin\Debug\net6.0-windows\ValidationSaisieBibli.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\obj\Debug\net6.0-windows\ValidationSaisieIHM.csproj.CopyComplete
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\bin\Debug\net6.0-windows\TransactionBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\bin\Debug\net6.0-windows\TransactionBibli.pdb

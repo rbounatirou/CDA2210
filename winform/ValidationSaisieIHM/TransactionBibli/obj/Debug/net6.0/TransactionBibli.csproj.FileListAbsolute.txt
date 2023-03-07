@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\bin\Debug\net6.0\TransactionBibli.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\bin\Debug\net6.0\TransactionBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\bin\Debug\net6.0\TransactionBibli.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\obj\Debug\net6.0\TransactionBibli.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\obj\Debug\net6.0\TransactionBibli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\obj\Debug\net6.0\TransactionBibli.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\obj\Debug\net6.0\TransactionBibli.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\obj\Debug\net6.0\TransactionBibli.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\obj\Debug\net6.0\TransactionBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\obj\Debug\net6.0\refint\TransactionBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\obj\Debug\net6.0\TransactionBibli.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\TransactionBibli\obj\Debug\net6.0\ref\TransactionBibli.dll

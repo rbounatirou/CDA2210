@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TransactionBibli\TransactionBibli.csproj" />
     <ProjectReference Include="..\ValidationSaisieBibli\ValidationSaisieBibli.csproj" />
   </ItemGroup>
 

@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "TransactionBibli/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TransactionBibli.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransactionBibli.dll": {}
+        }
+      },
       "ValidationSaisieBibli/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "TransactionBibli/1.0.0": {
+      "type": "project",
+      "path": "../TransactionBibli/TransactionBibli.csproj",
+      "msbuildProject": "../TransactionBibli/TransactionBibli.csproj"
+    },
     "ValidationSaisieBibli/1.0.0": {
       "type": "project",
       "path": "../ValidationSaisieBibli/ValidationSaisieBibli.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "TransactionBibli >= 1.0.0",
       "ValidationSaisieBibli >= 1.0.0"
     ]
   },
@@ -60,6 +76,9 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ValidationSaisieIHM\\TransactionBibli\\TransactionBibli.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ValidationSaisieIHM\\TransactionBibli\\TransactionBibli.csproj"
+            },
             "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj": {
               "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj"
             }

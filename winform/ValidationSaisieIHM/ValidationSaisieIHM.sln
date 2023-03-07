@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationSaisieIHM", "ValidationSaisieIHM\ValidationSaisieIHM.csproj", "{7CE15564-2087-41C8-86D6-22AB62B34A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationSaisieIHM", "ValidationSaisieIHM\ValidationSaisieIHM.csproj", "{7CE15564-2087-41C8-86D6-22AB62B34A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationSaisieBibli", "ValidationSaisieBibli\ValidationSaisieBibli.csproj", "{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationSaisieBibli", "ValidationSaisieBibli\ValidationSaisieBibli.csproj", "{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionBibli", "TransactionBibli\TransactionBibli.csproj", "{EEAD37E2-1FFF-421B-BF29-D3FBB02E9B43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAD37E2-1FFF-421B-BF29-D3FBB02E9B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAD37E2-1FFF-421B-BF29-D3FBB02E9B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAD37E2-1FFF-421B-BF29-D3FBB02E9B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAD37E2-1FFF-421B-BF29-D3FBB02E9B43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

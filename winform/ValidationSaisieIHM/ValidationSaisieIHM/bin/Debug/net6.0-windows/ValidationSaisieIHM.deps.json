@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "ValidationSaisieIHM/1.0.0": {
         "dependencies": {
+          "TransactionBibli": "1.0.0",
           "ValidationSaisieBibli": "1.0.0"
         },
         "runtime": {
           "ValidationSaisieIHM.dll": {}
+        }
+      },
+      "TransactionBibli/1.0.0": {
+        "runtime": {
+          "TransactionBibli.dll": {}
         }
       },
       "ValidationSaisieBibli/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "ValidationSaisieIHM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TransactionBibli/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
