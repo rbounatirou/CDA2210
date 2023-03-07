@@ -10,12 +10,17 @@ namespace ValidationSaisieIHM
         public Form1()
         {
             InitializeComponent();
+            InitializeError();
+            this.errorProviderNom.SetError(this.textName, "Format de nom invalide: " + Environment.NewLine + " ne doit contenir que des champ");
+            transac = null;
+        }
+
+        private void InitializeError()
+        {
             setMessageToProvider(errorProviderNom, textName, "Longueur invalide");
             setMessageToProvider(errorProviderDate, textDate, "Date incorrecte");
             setMessageToProvider(errorProviderMontant, textMontant, "Montant invalide");
             setMessageToProvider(errorProviderCodePostal, textCodePostal, "Code postal invalide");
-            this.errorProviderNom.SetError(this.textName, "Format de nom invalide: " + Environment.NewLine + " ne doit contenir que des champ");
-            transac = null;
         }
 
         private void textBoxName_TextChanged(object sender, EventArgs e)
@@ -28,7 +33,7 @@ namespace ValidationSaisieIHM
                 setMessageToProvider(errorProviderNom, textName, "Caractéres non autorisés");
                 valid = false;
             }
-            if (!VerificationSaisie.MatchForcharactersLength(textName.Text, 1, 30))
+            if (!VerificationSaisie.MatchForcharactersLength(textName.Text, 2, 30))
             {
                 setMessageToProvider(errorProviderNom, textName, "Longueur invalide");
                 valid = false;
@@ -54,7 +59,7 @@ namespace ValidationSaisieIHM
         private bool CanClick()
         {
             return (VerificationSaisie.MatchForAlphabetics(textName.Text) &&
-               VerificationSaisie.MatchForcharactersLength(textName.Text, 1, 30) &&
+               VerificationSaisie.MatchForcharactersLength(textName.Text, 2, 30) &&
                VerificationSaisie.MatchForDate(textDate.Text) &&
                VerificationSaisie.MatchForPrice(textMontant.Text) &&
                VerificationSaisie.MatchForPostalCode(textCodePostal.Text));
@@ -82,6 +87,7 @@ namespace ValidationSaisieIHM
             textMontant.Text = "";
             textCodePostal.Text = "";
             btValider.Enabled = false;
+            InitializeError();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)

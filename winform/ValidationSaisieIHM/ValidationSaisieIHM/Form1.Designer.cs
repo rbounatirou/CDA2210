@@ -144,18 +144,22 @@
             // 
             // errorProviderNom
             // 
+            this.errorProviderNom.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
             this.errorProviderNom.ContainerControl = this;
             // 
             // errorProviderDate
             // 
+            this.errorProviderDate.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
             this.errorProviderDate.ContainerControl = this;
             // 
             // errorProviderMontant
             // 
+            this.errorProviderMontant.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
             this.errorProviderMontant.ContainerControl = this;
             // 
             // errorProviderCodePostal
             // 
+            this.errorProviderCodePostal.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
             this.errorProviderCodePostal.ContainerControl = this;
             // 
             // Form1
@@ -174,7 +178,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Validation Saisie";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderNom)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderDate)).EndInit();
