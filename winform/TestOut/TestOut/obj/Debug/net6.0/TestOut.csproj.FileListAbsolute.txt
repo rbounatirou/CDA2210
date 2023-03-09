@@ -1,0 +1,15 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\bin\Debug\net6.0\TestOut.exe
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\bin\Debug\net6.0\TestOut.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\bin\Debug\net6.0\TestOut.runtimeconfig.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\bin\Debug\net6.0\TestOut.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\bin\Debug\net6.0\TestOut.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\TestOut.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\TestOut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\TestOut.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\TestOut.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\TestOut.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\TestOut.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\refint\TestOut.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\TestOut.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\TestOut.genruntimeconfig.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\TestOut\TestOut\obj\Debug\net6.0\ref\TestOut.dll

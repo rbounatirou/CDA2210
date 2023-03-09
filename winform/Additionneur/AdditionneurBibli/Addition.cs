@@ -10,11 +10,13 @@ namespace AdditionneurBibli
     {
         private List<int> numbers;
 
-        public int[] Numbers { get => numbers.ToArray(); }
-
+        public int Length { get => numbers.Count();  }
         public Addition(){
             numbers = new();
         }
+
+
+        public Addition(Addition add) :  this(add.numbers) { }
 
 
         public Addition(int _number)
@@ -26,7 +28,10 @@ namespace AdditionneurBibli
         public Addition(int[] _numbers)
         {
             numbers = new();
-            numbers.AddRange(_numbers);
+            for (int i = 0; i < _numbers.Length; i++)
+            {
+                numbers.Add(_numbers[i]);
+            }
         }
         
         public Addition(List<int> _numbers) : this(_numbers.ToArray())
@@ -39,7 +44,7 @@ namespace AdditionneurBibli
             numbers.Add(n);
         }
 
-        public string Show()
+        public string PartieGaucheAddition()
         {
             string str = "";
             for (int i = 0; i < numbers.Count; i++)
@@ -49,6 +54,8 @@ namespace AdditionneurBibli
             }
             return str;
         }
+
+ 
 
 
         public int GetResult()
@@ -61,9 +68,9 @@ namespace AdditionneurBibli
             return result;
         }
 
-        public string GetStringResult()
+        public override string ToString()
         {
-            return Show() + "=" + GetResult();
+            return PartieGaucheAddition() + "=" + GetResult();
         }
 
         public static Addition Parse(string _str)

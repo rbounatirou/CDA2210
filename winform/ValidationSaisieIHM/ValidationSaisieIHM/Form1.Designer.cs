@@ -79,11 +79,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(25, 170);
+            this.label4.Location = new System.Drawing.Point(22, 170);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 15);
+            this.label4.Size = new System.Drawing.Size(70, 15);
             this.label4.TabIndex = 3;
-            this.label4.Text = "CodePostal";
+            this.label4.Text = "Code postal";
             // 
             // textName
             // 
@@ -109,7 +109,7 @@
             this.textCodePostal.Name = "textCodePostal";
             this.textCodePostal.Size = new System.Drawing.Size(243, 23);
             this.textCodePostal.TabIndex = 7;
-            this.textCodePostal.Tag = "CodePostal";
+            this.textCodePostal.Tag = "Code postal";
             this.textCodePostal.TextChanged += new System.EventHandler(this.textCodePostal_TextChanged);
             // 
             // btValider
@@ -125,7 +125,7 @@
             // 
             // btEffacer
             // 
-            this.btEffacer.Location = new System.Drawing.Point(294, 256);
+            this.btEffacer.Location = new System.Drawing.Point(294, 245);
             this.btEffacer.Name = "btEffacer";
             this.btEffacer.Size = new System.Drawing.Size(75, 23);
             this.btEffacer.TabIndex = 9;
@@ -166,7 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(424, 291);
+            this.ClientSize = new System.Drawing.Size(395, 285);
             this.Controls.Add(this.textDate);
             this.Controls.Add(this.btEffacer);
             this.Controls.Add(this.btValider);
@@ -177,6 +177,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Validation Saisie";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);

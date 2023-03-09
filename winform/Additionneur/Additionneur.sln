@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Additionneur", "Additionneur\Additionneur.csproj", "{E04DF2E6-FF32-4A5F-961A-DDFBE27B8D8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Additionneur", "Additionneur\Additionneur.csproj", "{E04DF2E6-FF32-4A5F-961A-DDFBE27B8D8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionneurBibli", "AdditionneurBibli\AdditionneurBibli.csproj", "{FA892473-F099-4100-941F-6D754105DA3C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionneurConsole", "AdditionneurConsole\AdditionneurConsole.csproj", "{0F412803-3781-4991-91A5-406AF6C5D3EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdditionneurBibli", "AdditionneurBibli\AdditionneurBibli.csproj", "{FA892473-F099-4100-941F-6D754105DA3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{FA892473-F099-4100-941F-6D754105DA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA892473-F099-4100-941F-6D754105DA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA892473-F099-4100-941F-6D754105DA3C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F412803-3781-4991-91A5-406AF6C5D3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F412803-3781-4991-91A5-406AF6C5D3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F412803-3781-4991-91A5-406AF6C5D3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F412803-3781-4991-91A5-406AF6C5D3EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

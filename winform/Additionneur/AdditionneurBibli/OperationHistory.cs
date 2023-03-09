@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace AdditionneurBibli
@@ -10,7 +11,6 @@ namespace AdditionneurBibli
     {
         List<Addition> addition = new();
         
-        public Addition[] Additions { get => addition.ToArray(); }
         public OperationHistory()
         {
             addition.Add(new Addition());
@@ -38,24 +38,13 @@ namespace AdditionneurBibli
             addition[addition.Count() - 1].AjouterNombre(nombre);
         }
 
-        public string GetResults()
-        {
-            string str = "";
-            for (int i = 0; i < addition.Count(); i++)
-            {
-                str += (i > 0 ? Environment.NewLine : "") + (i < addition.Count() - 1 ? addition[i].GetStringResult() : addition[i].Show());
-            }
-            return str;
-
-        }
-
         public void AddNewAddition()
         {            
             if (addition.Count() > 0)
             {
                 int lastNumber;
                 Addition add = addition[addition.Count() - 1];
-                if (add.Numbers.Length >= 1)
+                if (add.Length >= 1)
                 {
                     addition.Add(new Addition(add.GetResult()));
                 } else
@@ -66,6 +55,16 @@ namespace AdditionneurBibli
             {
                 addition.Add(new Addition());
             }            
+        }
+
+        public override string ToString()
+        {
+            string str = "";
+            for (int i = 0; i < addition.Count(); i++)
+            {
+                str+= (i > 0? Environment.NewLine : "") + (i < addition.Count() -1 ? addition[i].ToString() : addition[i].PartieGaucheAddition());
+            }
+            return str;
         }
     }
 }

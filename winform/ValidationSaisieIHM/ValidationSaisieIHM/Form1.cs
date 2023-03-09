@@ -1,6 +1,7 @@
 using System.Runtime.CompilerServices;
 using ValidationSaisieBibli;
 using TransactionBibli;
+using System.Globalization;
 
 namespace ValidationSaisieIHM
 {
@@ -71,8 +72,8 @@ namespace ValidationSaisieIHM
             {
                 transac = new MaTransaction(
                         textName.Text,
-                        Convert.ToDouble(textMontant.Text),
-                        DateTime.Parse(textDate.Text), 
+                        Convert.ToDouble(textMontant.Text.Replace('.',',')),
+                        DateTime.ParseExact(textDate.Text, "dd/MM/yyyy", new CultureInfo("fr-FR"), DateTimeStyles.None),
                         textCodePostal.Text);
 
                 MessageBox.Show(transac.ToString()
@@ -106,7 +107,7 @@ namespace ValidationSaisieIHM
             bool valid = true;
             this.errorProviderDate.SetError(this.textDate, "");
             DateTime dt;
-            if (!DateTime.TryParse(textDate.Text, out dt))
+            if (!DateTime.TryParseExact(textDate.Text, "dd/MM/yyyy", new CultureInfo("fr-FR"), DateTimeStyles.None, out dt))
             {
                 setMessageToProvider(errorProviderDate, textDate, "Date incorrecte");
                 valid = false;

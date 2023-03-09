@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationSaisieIHM", "Vali
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationSaisieBibli", "ValidationSaisieBibli\ValidationSaisieBibli.csproj", "{FE5B622F-FA54-4E1E-8A6B-39B45206CA27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionBibli", "TransactionBibli\TransactionBibli.csproj", "{EEAD37E2-1FFF-421B-BF29-D3FBB02E9B43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionBibli", "TransactionBibli\TransactionBibli.csproj", "{EEAD37E2-1FFF-421B-BF29-D3FBB02E9B43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

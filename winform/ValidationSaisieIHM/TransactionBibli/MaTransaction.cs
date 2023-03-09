@@ -8,6 +8,10 @@
         private DateTime date;
         private string codePostal;
 
+
+        public string Nom { get => nom;  }
+
+        public DateTime Date { get => date; }
         public MaTransaction(string nom, double montant, DateTime date, string codePostal)
         {
             this.nom = nom;
@@ -19,7 +23,7 @@
         public override string ToString()
         {
             return String.Format("Nom: {0}{4}Date: {1}{4}Montant: {2}{4}Code Postal: {3}",
-                this.nom, this.date, this.montant, this.codePostal, Environment.NewLine);
+                this.nom, this.date.ToShortDateString(), this.montant, this.codePostal, Environment.NewLine);
         }
     }
 }

@@ -48,26 +48,40 @@ namespace Additionneur
                     button.BackColor = Color.Blue;
                     break;
             }*/
-            UpdateResultTextbox();
+            Afficher();
+        }
+
+        /*private void Afficher()
+        {
+            Addition[] addition = resultat.Additions;
+            //addition[0].AjouterNombre(2);
+            textResult.Text = "";
+            for (int i = 0; i< addition.Length; i++)
+            {
+                textResult.Text += (i > 0 ? Environment.NewLine : "") +
+                    AdditionToString(addition[i]) +
+                    (i < (addition.Length - 1) ? ("=" + addition[i].GetResult()) : "");
+            }
+        }*/
+
+        private void Afficher()
+        {
+            textResult.Text = resultat.ToString();
         }
 
         private void btVider_Click(object sender, EventArgs e)
         {
             resultat.Clear();
-            UpdateResultTextbox();
+            Afficher();
         }
 
         private void btCalculer_Click(object sender, EventArgs e)
         {
             resultat.AddNewAddition();
-            UpdateResultTextbox();
+            Afficher();
           
         }
 
-        private void UpdateResultTextbox()
-        {
-            textResult.Text = resultat.GetResults();
-        }
 
     }
 }
