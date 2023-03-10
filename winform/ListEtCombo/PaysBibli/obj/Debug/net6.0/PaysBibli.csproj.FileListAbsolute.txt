@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\obj\Debug\net6.0\PaysBibli.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\obj\Debug\net6.0\PaysBibli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\obj\Debug\net6.0\PaysBibli.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\obj\Debug\net6.0\PaysBibli.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\obj\Debug\net6.0\PaysBibli.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\bin\Debug\net6.0\PaysBibli.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\bin\Debug\net6.0\PaysBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\bin\Debug\net6.0\PaysBibli.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\obj\Debug\net6.0\PaysBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\obj\Debug\net6.0\refint\PaysBibli.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\obj\Debug\net6.0\PaysBibli.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ListEtCombo\PaysBibli\obj\Debug\net6.0\ref\PaysBibli.dll

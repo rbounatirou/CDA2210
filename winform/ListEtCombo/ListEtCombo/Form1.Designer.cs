@@ -38,20 +38,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btUp = new System.Windows.Forms.Button();
             this.btDown = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // comboSource
             // 
             this.comboSource.FormattingEnabled = true;
-            this.comboSource.Items.AddRange(new object[] {
-            "France",
-            "Belgique",
-            "Bulgarie",
-            "Allemagne",
-            "Espagne",
-            "Japon",
-            "Portugal",
-            "Grece"});
             this.comboSource.Location = new System.Drawing.Point(19, 41);
             this.comboSource.Name = "comboSource";
             this.comboSource.Size = new System.Drawing.Size(153, 23);
@@ -131,6 +123,7 @@
             // 
             // btUp
             // 
+            this.btUp.Enabled = false;
             this.btUp.Font = new System.Drawing.Font("Showcard Gothic", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btUp.Location = new System.Drawing.Point(329, 227);
             this.btUp.Name = "btUp";
@@ -142,6 +135,7 @@
             // 
             // btDown
             // 
+            this.btDown.Enabled = false;
             this.btDown.Font = new System.Drawing.Font("Showcard Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btDown.Location = new System.Drawing.Point(370, 227);
             this.btDown.Name = "btDown";
@@ -151,11 +145,22 @@
             this.btDown.UseVisualStyleBackColor = true;
             this.btDown.Click += new System.EventHandler(this.BtDown_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 209);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(63, 56);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 279);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btDown);
             this.Controls.Add(this.btUp);
             this.Controls.Add(this.label2);
@@ -185,5 +190,6 @@
         private Label label2;
         private Button btUp;
         private Button btDown;
+        private Button button1;
     }
 }

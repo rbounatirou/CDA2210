@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "PaysBibli/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PaysBibli.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaysBibli.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PaysBibli/1.0.0": {
+      "type": "project",
+      "path": "../PaysBibli/PaysBibli.csproj",
+      "msbuildProject": "../PaysBibli/PaysBibli.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "PaysBibli >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rbounatirou\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListEtCombo\\PaysBibli\\PaysBibli.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListEtCombo\\PaysBibli\\PaysBibli.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
