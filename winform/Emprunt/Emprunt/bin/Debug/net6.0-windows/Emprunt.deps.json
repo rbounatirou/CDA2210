@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Emprunt/1.0.0": {
+        "dependencies": {
+          "BibliEmprunt": "1.0.0",
+          "ValidationSaisieBibli": "1.0.0"
+        },
+        "runtime": {
+          "Emprunt.dll": {}
+        }
+      },
+      "BibliEmprunt/1.0.0": {
+        "runtime": {
+          "BibliEmprunt.dll": {}
+        }
+      },
+      "ValidationSaisieBibli/1.0.0": {
+        "runtime": {
+          "ValidationSaisieBibli.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Emprunt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliEmprunt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidationSaisieBibli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

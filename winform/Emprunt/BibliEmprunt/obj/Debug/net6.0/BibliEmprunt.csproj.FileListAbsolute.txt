@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\bin\Debug\net6.0\BibliEmprunt.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\bin\Debug\net6.0\BibliEmprunt.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\bin\Debug\net6.0\BibliEmprunt.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\obj\Debug\net6.0\BibliEmprunt.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\obj\Debug\net6.0\BibliEmprunt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\obj\Debug\net6.0\BibliEmprunt.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\obj\Debug\net6.0\BibliEmprunt.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\obj\Debug\net6.0\BibliEmprunt.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\obj\Debug\net6.0\BibliEmprunt.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\obj\Debug\net6.0\refint\BibliEmprunt.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\obj\Debug\net6.0\BibliEmprunt.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\BibliEmprunt\obj\Debug\net6.0\ref\BibliEmprunt.dll

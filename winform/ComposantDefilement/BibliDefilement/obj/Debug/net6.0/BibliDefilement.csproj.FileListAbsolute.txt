@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\bin\Debug\net6.0\BibliDefilement.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\bin\Debug\net6.0\BibliDefilement.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\bin\Debug\net6.0\BibliDefilement.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\obj\Debug\net6.0\BibliDefilement.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\obj\Debug\net6.0\BibliDefilement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\obj\Debug\net6.0\BibliDefilement.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\obj\Debug\net6.0\BibliDefilement.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\obj\Debug\net6.0\BibliDefilement.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\obj\Debug\net6.0\BibliDefilement.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\obj\Debug\net6.0\refint\BibliDefilement.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\obj\Debug\net6.0\BibliDefilement.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\BibliDefilement\obj\Debug\net6.0\ref\BibliDefilement.dll
