@@ -130,7 +130,7 @@
             this.radioButtonNeufPourcent.Name = "radioButtonNeufPourcent";
             this.radioButtonNeufPourcent.Size = new System.Drawing.Size(41, 19);
             this.radioButtonNeufPourcent.TabIndex = 2;
-            this.radioButtonNeufPourcent.Tag = "0.09";
+            this.radioButtonNeufPourcent.Tag = "0,09";
             this.radioButtonNeufPourcent.Text = "9%";
             this.radioButtonNeufPourcent.UseVisualStyleBackColor = true;
             this.radioButtonNeufPourcent.CheckedChanged += new System.EventHandler(this.RadioRate_CheckedChanged);
@@ -142,7 +142,7 @@
             this.radioButtonHuitPourcent.Name = "radioButtonHuitPourcent";
             this.radioButtonHuitPourcent.Size = new System.Drawing.Size(41, 19);
             this.radioButtonHuitPourcent.TabIndex = 1;
-            this.radioButtonHuitPourcent.Tag = "0.08";
+            this.radioButtonHuitPourcent.Tag = "0,08";
             this.radioButtonHuitPourcent.Text = "8%";
             this.radioButtonHuitPourcent.UseVisualStyleBackColor = true;
             this.radioButtonHuitPourcent.CheckedChanged += new System.EventHandler(this.RadioRate_CheckedChanged);
@@ -156,7 +156,7 @@
             this.radioButtonSeptPourcent.Size = new System.Drawing.Size(41, 19);
             this.radioButtonSeptPourcent.TabIndex = 0;
             this.radioButtonSeptPourcent.TabStop = true;
-            this.radioButtonSeptPourcent.Tag = "0.07";
+            this.radioButtonSeptPourcent.Tag = "0,07";
             this.radioButtonSeptPourcent.Text = "7%";
             this.radioButtonSeptPourcent.UseVisualStyleBackColor = true;
             this.radioButtonSeptPourcent.CheckedChanged += new System.EventHandler(this.RadioRate_CheckedChanged);
@@ -169,6 +169,7 @@
             this.hsNombreMois.Size = new System.Drawing.Size(183, 29);
             this.hsNombreMois.TabIndex = 8;
             this.hsNombreMois.Value = 1;
+            
             this.hsNombreMois.ValueChanged += new System.EventHandler(this.HS_ValueChanged);
             // 
             // labelNombreMois
@@ -185,6 +186,7 @@
             this.textBoxNom.Name = "textBoxNom";
             this.textBoxNom.Size = new System.Drawing.Size(156, 23);
             this.textBoxNom.TabIndex = 10;
+            this.textBoxNom.TextChanged += new System.EventHandler(this.textBoxNom_TextChanged);
             // 
             // textBoxCapital
             // 
@@ -193,6 +195,7 @@
             this.textBoxCapital.Size = new System.Drawing.Size(156, 23);
             this.textBoxCapital.TabIndex = 11;
             this.textBoxCapital.Text = "0";
+            this.textBoxCapital.TextChanged += new System.EventHandler(this.textBoxCapital_TextChanged);
             // 
             // listBoxTypeMensualite
             // 

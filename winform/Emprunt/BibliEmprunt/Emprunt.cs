@@ -6,10 +6,7 @@
         private double capitalEmprunte;
         private double tauxInteretAnnuel;
         private int dureeRemboursementEnMois;
-        private EnumTypeRemboursement typeRemboursement;       
-
-
-
+        private EnumTypeRemboursement typeRemboursement;
 
         public Emprunt(double _capitalEmprunte, double _tauxAnnuel, int _dureeRemboursementMois,
             EnumTypeRemboursement _typeRemboursement) :
@@ -27,7 +24,7 @@
             SetMensualite(_dureeRemboursementMois, _typeRemboursement);
         }
 
-        public string Nom { get => nom; }
+        public string Nom { get => nom; set => nom = value; }
         public double CapitalEmprunte { get => capitalEmprunte; set => SetCapitalEmprunte(value); }
 
 
@@ -38,9 +35,16 @@
 
         public double CalculerMontantTotalRemboursement()
         {
-            return capitalEmprunte *
+            double K = capitalEmprunte;
+            double t = tauxInteretAnnuel*((int)typeRemboursement/12.0d);
+            double n = CalculerNombreRemboursement();
+            return K * (t/ (1 - Math.Pow((1 + t), -n)));
+            /*return capitalEmprunte *
                 (tauxInteretAnnuel /
-                (1 - Math.Pow((1 + tauxInteretAnnuel), -CalculerNombreRemboursement())));
+                (1 - 
+                Math.Pow((1 + tauxInteretAnnuel), -(CalculerNombreRemboursement()))
+                )
+                );*/
         }
 
         public int CalculerNombreRemboursement()
@@ -72,7 +76,7 @@
                 throw new Exception("Impossible d'instancier un emprunt dont le type de mensualité et le nombre de mois de remboursement sont incompatibles.");
             }
             dureeRemboursementEnMois = _dureeRemboursementEnMois;
-            typeRemboursement = _type;
+            typeRemboursement = _type;           
         }
 
         private void SetDureeRembousementMois(int _dureeRemboursementEnMois) => SetMensualite(_dureeRemboursementEnMois, this.typeRemboursement);

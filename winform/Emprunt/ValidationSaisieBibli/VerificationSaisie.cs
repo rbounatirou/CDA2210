@@ -52,7 +52,7 @@ namespace ValidationSaisieBibli
         {
             if (nb < 1)
                 throw new Exception("The nb parameter must be >= 1");
-            return matchFor(str, String.Format("^[0-9]{1,{0}}$", nb));
+            return matchFor(str, "^[0-9]{1,"+nb+"}$");
 
         } 
         /// <summary>

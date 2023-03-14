@@ -32,22 +32,25 @@ namespace EmpruntForm
             
             hsNombreMois.Maximum = DUREE_MAXALE_EMPRUNT_MOIS_IHM;
 
-            emprunt = null;
-
-
         }
 
         private void ListMensualite_SelectIndexChanged(object sender, EventArgs e)
         {
             if (listBoxTypeMensualite.SelectedIndex >= 0) { 
                 int val = (int)listBoxTypeMensualite.SelectedItem;
-
-                
+                if (hsNombreMois.Value < val)
+                {
+                    hsNombreMois.Value = val;
+                }
+                hsNombreMois.Minimum = val;
+                hsNombreMois.SmallChange = val;
                 hsNombreMois.LargeChange = val;
-                //emprunt.TypeRemboursement = (EnumTypeRemboursement)Enum.ToObject(typeof(EnumTypeRemboursement), val);
-                RedefinirNombreDeMoisTotalDeLEmprunt();
-                emprunt.SetMensualite(hsNombreMois.Value,
+
+                int nouvelleValeur = RedefinirNombreDeMoisTotalDeLEmprunt(val);
+               
+                emprunt.SetMensualite(nouvelleValeur,
                     (EnumTypeRemboursement)Enum.ToObject(typeof(EnumTypeRemboursement), val));
+                hsNombreMois.Value = nouvelleValeur;
                 UpdateInfo();
                 
             }
@@ -55,39 +58,28 @@ namespace EmpruntForm
             
         }
 
-        private void RedefinirNombreDeMoisTotalDeLEmprunt()
+        private int RedefinirNombreDeMoisTotalDeLEmprunt(int val)
         {
-            if (hsNombreMois.Value % hsNombreMois.LargeChange != 0)
+            if (hsNombreMois.Value % val != 0)
             {
-                int div = Math.Max(hsNombreMois.Value / hsNombreMois.LargeChange, 1);
-                if ((div + 1) * hsNombreMois.LargeChange < hsNombreMois.Maximum)
+                int div = hsNombreMois.Value / val;
+                if ((div + 1) * val < hsNombreMois.Maximum)
                 {
-                    hsNombreMois.Value = (div + 1) * hsNombreMois.LargeChange;
+                    return ((div + 1) * val);
                 }
                 else
                 {
-                    hsNombreMois.Value = div * hsNombreMois.LargeChange;
+                    return div * val;
                 }
             }
+            return hsNombreMois.Value;
         }
 
         private void UpdateInfo()
         {
-            /*if (hsNombreMois.Value % hsNombreMois.LargeChange != 0)
-            {
-                int div = Math.Max(hsNombreMois.Value / hsNombreMois.LargeChange,1);
-                if ((div + 1) * hsNombreMois.LargeChange < hsNombreMois.Maximum) {
-                    hsNombreMois.Value = (div + 1) * hsNombreMois.LargeChange;
-                } else
-                {
-                    hsNombreMois.Value = div * hsNombreMois.LargeChange;
-                }
-            }*/
-      
-            /*emprunt = new Emprunt()
             labelNombreMois.Text = Convert.ToString(hsNombreMois.Value);
             labelNombreRemboursement.Text = emprunt.CalculerNombreRemboursement().ToString();
-            labelPrixRemboursement.Text = emprunt.CalculerMontantTotalRemboursement().ToString();*/
+            labelPrixRemboursement.Text = Math.Round(emprunt.CalculerMontantTotalRemboursement(),2).ToString();
         }
 
 
@@ -95,14 +87,42 @@ namespace EmpruntForm
         private void HS_ValueChanged(object sender, EventArgs e)
         {
             //emprunt.DureeRemboursementEnMois = hsNombreMois.Value;
+            if (hsNombreMois.Value % (int)emprunt.TypeRemboursement != 0)
+            {
+                hsNombreMois.Value = Math.Max(hsNombreMois.Value / (int)emprunt.TypeRemboursement, 1) * (int)emprunt.TypeRemboursement;
+            }
+            emprunt.DureeRemboursementEnMois = hsNombreMois.Value;
             UpdateInfo();
         }
 
         private void RadioRate_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton rb = sender as RadioButton;
-            double taux = (double)rb.Tag;
+            double taux = Convert.ToDouble((string)rb.Tag);
             emprunt.TauxInteretAnnuel = taux;
+            UpdateInfo();
         }
+
+        private void textBoxNom_TextChanged(object sender, EventArgs e)
+        {
+            TextBox tb = sender as TextBox;            
+            emprunt.Nom = tb.Text;
+        }
+
+        private void textBoxCapital_TextChanged(object sender, EventArgs e)
+        {
+            TextBox tb = sender as TextBox;
+            if (VerificationSaisie.MatchForIntegerPrice(tb.Text, 10))
+            {
+                emprunt.CapitalEmprunte = Convert.ToDouble(tb.Text);
+                UpdateInfo();
+            }
+            tb.BackColor = (VerificationSaisie.MatchForIntegerPrice(tb.Text, 10) ? Color.White :  Color.Red);
+
+
+
+        }
+
+
     }
 }
