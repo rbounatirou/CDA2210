@@ -1,6 +1,6 @@
-﻿namespace Additionneur
+﻿namespace CreerFormulaires
 {
-    partial class Additionneur
+    partial class FormAdditionneur
     {
         /// <summary>
         /// Required designer variable.
@@ -176,7 +176,7 @@
             this.textResult.Size = new System.Drawing.Size(340, 175);
             this.textResult.TabIndex = 12;
             // 
-            // Additionneur
+            // FormAdditionneur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -197,7 +197,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Additionneur";
+            this.Name = "FormAdditionneur";
             this.Text = "Additionneur";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -1,4 +1,4 @@
-namespace Additionneur
+namespace CreerFormulaires
 {
     internal static class Program
     {
@@ -11,7 +11,7 @@ namespace Additionneur
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Additionneur());
+            Application.Run(new FormAdditionneur());
         }
     }
 }

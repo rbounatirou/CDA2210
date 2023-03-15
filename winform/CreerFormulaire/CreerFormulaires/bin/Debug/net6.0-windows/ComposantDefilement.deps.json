@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ComposantDefilement/1.0.0": {
+        "dependencies": {
+          "BibliDefilement": "1.0.0"
+        },
+        "runtime": {
+          "ComposantDefilement.dll": {}
+        }
+      },
+      "BibliDefilement/1.0.0": {
+        "runtime": {
+          "BibliDefilement.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ComposantDefilement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliDefilement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

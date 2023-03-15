@@ -10,12 +10,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Additionneur
+namespace CreerFormulaires
 {
-    public partial class Additionneur : Form
+    public partial class FormAdditionneur : Form
     {
         OperationHistory resultat;
-        public Additionneur()
+        public FormAdditionneur()
         {
             InitializeComponent();
             resultat = new OperationHistory();

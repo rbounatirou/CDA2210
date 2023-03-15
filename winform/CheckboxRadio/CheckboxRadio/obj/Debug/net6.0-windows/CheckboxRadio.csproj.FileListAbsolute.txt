@@ -4,7 +4,6 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\bin\Debug\net6.0-windows\CheckboxRadio.dll
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\bin\Debug\net6.0-windows\CheckboxRadio.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\obj\Debug\net6.0-windows\CheckboxRadio.csproj.AssemblyReference.cache
-C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\obj\Debug\net6.0-windows\CheckboxRadio.Form1.resources
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\obj\Debug\net6.0-windows\CheckboxRadio.csproj.GenerateResource.cache
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\obj\Debug\net6.0-windows\CheckboxRadio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\obj\Debug\net6.0-windows\CheckboxRadio.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\obj\Debug\net6.0-windows\CheckboxRadio.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\obj\Debug\net6.0-windows\CheckboxRadio.genruntimeconfig.cache
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\obj\Debug\net6.0-windows\ref\CheckboxRadio.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CheckboxRadio\CheckboxRadio\obj\Debug\net6.0-windows\CreerFormulaires.FormCheckBoxRadio.resources

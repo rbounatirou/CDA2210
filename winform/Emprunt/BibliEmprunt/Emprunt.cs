@@ -39,12 +39,6 @@
             double t = tauxInteretAnnuel*((int)typeRemboursement/12.0d);
             double n = CalculerNombreRemboursement();
             return K * (t/ (1 - Math.Pow((1 + t), -n)));
-            /*return capitalEmprunte *
-                (tauxInteretAnnuel /
-                (1 - 
-                Math.Pow((1 + tauxInteretAnnuel), -(CalculerNombreRemboursement()))
-                )
-                );*/
         }
 
         public int CalculerNombreRemboursement()

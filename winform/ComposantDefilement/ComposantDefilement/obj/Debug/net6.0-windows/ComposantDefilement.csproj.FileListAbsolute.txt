@@ -6,7 +6,6 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\Composa
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\bin\Debug\net6.0-windows\BibliDefilement.dll
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\bin\Debug\net6.0-windows\BibliDefilement.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.csproj.AssemblyReference.cache
-C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.Form1.resources
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.csproj.GenerateResource.cache
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.AssemblyInfoInputs.cache
@@ -18,3 +17,4 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\Composa
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.genruntimeconfig.cache
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ref\ComposantDefilement.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\CreerFormulaires.FormCoposantDefilement.resources

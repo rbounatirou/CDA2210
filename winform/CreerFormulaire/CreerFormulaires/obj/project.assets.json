@@ -1,0 +1,362 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Additionneur/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AdditionneurBibli": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Additionneur.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Additionneur.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "AdditionneurBibli/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AdditionneurBibli.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdditionneurBibli.dll": {}
+        }
+      },
+      "BibliDefilement/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BibliDefilement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliDefilement.dll": {}
+        }
+      },
+      "BibliEmprunt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BibliEmprunt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliEmprunt.dll": {}
+        }
+      },
+      "CheckboxRadio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CheckboxRadio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CheckboxRadio.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ComposantDefilement/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BibliDefilement": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ComposantDefilement.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ComposantDefilement.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Emprunt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BibliEmprunt": "1.0.0",
+          "ValidationSaisieBibli": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Emprunt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emprunt.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ListeProp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ListeProp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListeProp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "ListEtCombo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PaysBibli": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ListEtCombo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ListEtCombo.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "LoginBibli/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LoginBibli.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoginBibli.dll": {}
+        }
+      },
+      "PaysBibli/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PaysBibli.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaysBibli.dll": {}
+        }
+      },
+      "TransactionBibli/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TransactionBibli.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransactionBibli.dll": {}
+        }
+      },
+      "ValidationSaisieBibli/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ValidationSaisieBibli.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ValidationSaisieBibli.dll": {}
+        }
+      },
+      "ValidationSaisieIHM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TransactionBibli": "1.0.0",
+          "ValidationSaisieBibli": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ValidationSaisieIHM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ValidationSaisieIHM.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Additionneur/1.0.0": {
+      "type": "project",
+      "path": "../../Additionneur/Additionneur/Additionneur.csproj",
+      "msbuildProject": "../../Additionneur/Additionneur/Additionneur.csproj"
+    },
+    "AdditionneurBibli/1.0.0": {
+      "type": "project",
+      "path": "../../Additionneur/AdditionneurBibli/AdditionneurBibli.csproj",
+      "msbuildProject": "../../Additionneur/AdditionneurBibli/AdditionneurBibli.csproj"
+    },
+    "BibliDefilement/1.0.0": {
+      "type": "project",
+      "path": "../../ComposantDefilement/BibliDefilement/BibliDefilement.csproj",
+      "msbuildProject": "../../ComposantDefilement/BibliDefilement/BibliDefilement.csproj"
+    },
+    "BibliEmprunt/1.0.0": {
+      "type": "project",
+      "path": "../../Emprunt/BibliEmprunt/BibliEmprunt.csproj",
+      "msbuildProject": "../../Emprunt/BibliEmprunt/BibliEmprunt.csproj"
+    },
+    "CheckboxRadio/1.0.0": {
+      "type": "project",
+      "path": "../../CheckboxRadio/CheckboxRadio/CheckboxRadio.csproj",
+      "msbuildProject": "../../CheckboxRadio/CheckboxRadio/CheckboxRadio.csproj"
+    },
+    "ComposantDefilement/1.0.0": {
+      "type": "project",
+      "path": "../../ComposantDefilement/ComposantDefilement/ComposantDefilement.csproj",
+      "msbuildProject": "../../ComposantDefilement/ComposantDefilement/ComposantDefilement.csproj"
+    },
+    "Emprunt/1.0.0": {
+      "type": "project",
+      "path": "../../Emprunt/Emprunt/Emprunt.csproj",
+      "msbuildProject": "../../Emprunt/Emprunt/Emprunt.csproj"
+    },
+    "ListeProp/1.0.0": {
+      "type": "project",
+      "path": "../../ListeProp/ListeProp/ListeProp.csproj",
+      "msbuildProject": "../../ListeProp/ListeProp/ListeProp.csproj"
+    },
+    "ListEtCombo/1.0.0": {
+      "type": "project",
+      "path": "../../ListEtCombo/ListEtCombo/ListEtCombo.csproj",
+      "msbuildProject": "../../ListEtCombo/ListEtCombo/ListEtCombo.csproj"
+    },
+    "LoginBibli/1.0.0": {
+      "type": "project",
+      "path": "../LoginBibli/LoginBibli.csproj",
+      "msbuildProject": "../LoginBibli/LoginBibli.csproj"
+    },
+    "PaysBibli/1.0.0": {
+      "type": "project",
+      "path": "../../ListEtCombo/PaysBibli/PaysBibli.csproj",
+      "msbuildProject": "../../ListEtCombo/PaysBibli/PaysBibli.csproj"
+    },
+    "TransactionBibli/1.0.0": {
+      "type": "project",
+      "path": "../../ValidationSaisieIHM/TransactionBibli/TransactionBibli.csproj",
+      "msbuildProject": "../../ValidationSaisieIHM/TransactionBibli/TransactionBibli.csproj"
+    },
+    "ValidationSaisieBibli/1.0.0": {
+      "type": "project",
+      "path": "../../ValidationSaisieIHM/ValidationSaisieBibli/ValidationSaisieBibli.csproj",
+      "msbuildProject": "../../ValidationSaisieIHM/ValidationSaisieBibli/ValidationSaisieBibli.csproj"
+    },
+    "ValidationSaisieIHM/1.0.0": {
+      "type": "project",
+      "path": "../../ValidationSaisieIHM/ValidationSaisieIHM/ValidationSaisieIHM.csproj",
+      "msbuildProject": "../../ValidationSaisieIHM/ValidationSaisieIHM/ValidationSaisieIHM.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Additionneur >= 1.0.0",
+      "CheckboxRadio >= 1.0.0",
+      "ComposantDefilement >= 1.0.0",
+      "Emprunt >= 1.0.0",
+      "ListEtCombo >= 1.0.0",
+      "ListeProp >= 1.0.0",
+      "LoginBibli >= 1.0.0",
+      "ValidationSaisieIHM >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rbounatirou\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\CreerFormulaires\\CreerFormulaires.csproj",
+      "projectName": "CreerFormulaires",
+      "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\CreerFormulaires\\CreerFormulaires.csproj",
+      "packagesPath": "C:\\Users\\rbounatirou\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\CreerFormulaires\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\rbounatirou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\Additionneur\\Additionneur\\Additionneur.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\Additionneur\\Additionneur\\Additionneur.csproj"
+            },
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CheckboxRadio\\CheckboxRadio\\CheckboxRadio.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CheckboxRadio\\CheckboxRadio\\CheckboxRadio.csproj"
+            },
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ComposantDefilement\\ComposantDefilement\\ComposantDefilement.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ComposantDefilement\\ComposantDefilement\\ComposantDefilement.csproj"
+            },
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\LoginBibli\\LoginBibli.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\LoginBibli\\LoginBibli.csproj"
+            },
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\Emprunt\\Emprunt\\Emprunt.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\Emprunt\\Emprunt\\Emprunt.csproj"
+            },
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj"
+            },
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListEtCombo\\ListEtCombo\\ListEtCombo.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListEtCombo\\ListEtCombo\\ListEtCombo.csproj"
+            },
+            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieIHM\\ValidationSaisieIHM.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieIHM\\ValidationSaisieIHM.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

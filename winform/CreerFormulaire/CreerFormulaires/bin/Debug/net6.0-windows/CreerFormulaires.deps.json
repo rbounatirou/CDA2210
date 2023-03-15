@@ -1,0 +1,190 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CreerFormulaires/1.0.0": {
+        "dependencies": {
+          "Additionneur": "1.0.0",
+          "CheckboxRadio": "1.0.0",
+          "ComposantDefilement": "1.0.0",
+          "Emprunt": "1.0.0",
+          "ListEtCombo": "1.0.0",
+          "ListeProp": "1.0.0",
+          "LoginBibli": "1.0.0",
+          "ValidationSaisieIHM": "1.0.0"
+        },
+        "runtime": {
+          "CreerFormulaires.dll": {}
+        }
+      },
+      "Additionneur/1.0.0": {
+        "dependencies": {
+          "AdditionneurBibli": "1.0.0"
+        },
+        "runtime": {
+          "Additionneur.dll": {}
+        }
+      },
+      "AdditionneurBibli/1.0.0": {
+        "runtime": {
+          "AdditionneurBibli.dll": {}
+        }
+      },
+      "BibliDefilement/1.0.0": {
+        "runtime": {
+          "BibliDefilement.dll": {}
+        }
+      },
+      "BibliEmprunt/1.0.0": {
+        "runtime": {
+          "BibliEmprunt.dll": {}
+        }
+      },
+      "CheckboxRadio/1.0.0": {
+        "runtime": {
+          "CheckboxRadio.dll": {}
+        }
+      },
+      "ComposantDefilement/1.0.0": {
+        "dependencies": {
+          "BibliDefilement": "1.0.0"
+        },
+        "runtime": {
+          "ComposantDefilement.dll": {}
+        }
+      },
+      "Emprunt/1.0.0": {
+        "dependencies": {
+          "BibliEmprunt": "1.0.0",
+          "ValidationSaisieBibli": "1.0.0"
+        },
+        "runtime": {
+          "Emprunt.dll": {}
+        }
+      },
+      "ListeProp/1.0.0": {
+        "runtime": {
+          "ListeProp.dll": {}
+        }
+      },
+      "ListEtCombo/1.0.0": {
+        "dependencies": {
+          "PaysBibli": "1.0.0"
+        },
+        "runtime": {
+          "ListEtCombo.dll": {}
+        }
+      },
+      "LoginBibli/1.0.0": {
+        "runtime": {
+          "LoginBibli.dll": {}
+        }
+      },
+      "PaysBibli/1.0.0": {
+        "runtime": {
+          "PaysBibli.dll": {}
+        }
+      },
+      "TransactionBibli/1.0.0": {
+        "runtime": {
+          "TransactionBibli.dll": {}
+        }
+      },
+      "ValidationSaisieBibli/1.0.0": {
+        "runtime": {
+          "ValidationSaisieBibli.dll": {}
+        }
+      },
+      "ValidationSaisieIHM/1.0.0": {
+        "dependencies": {
+          "TransactionBibli": "1.0.0",
+          "ValidationSaisieBibli": "1.0.0"
+        },
+        "runtime": {
+          "ValidationSaisieIHM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CreerFormulaires/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Additionneur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdditionneurBibli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliDefilement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliEmprunt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CheckboxRadio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ComposantDefilement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emprunt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ListeProp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ListEtCombo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoginBibli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaysBibli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TransactionBibli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidationSaisieBibli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidationSaisieIHM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
