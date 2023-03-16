@@ -53,8 +53,12 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonAuthentification = new System.Windows.Forms.ToolStripButton();
             this.toolStripSplitButtonPhase3 = new System.Windows.Forms.ToolStripSplitButton();
+            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabelBottomDate = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripLabelBottomAuthentification = new System.Windows.Forms.ToolStripLabel();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
+            this.toolStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -66,8 +70,9 @@
             this.phase3ToolStripMenuItem,
             this.fenêtresToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.MdiWindowListItem = this.fenêtresToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(379, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(875, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -84,20 +89,21 @@
             // sidentifierToolStripMenuItem
             // 
             this.sidentifierToolStripMenuItem.Name = "sidentifierToolStripMenuItem";
-            this.sidentifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sidentifierToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.sidentifierToolStripMenuItem.Text = "S\'identifier";
             this.sidentifierToolStripMenuItem.Click += new System.EventHandler(this.OpenAuthentificationForm);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(127, 6);
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.quitterToolStripMenuItem.Text = "Quitter";
+            this.quitterToolStripMenuItem.Click += new System.EventHandler(this.Exit);
             // 
             // phase1ToolStripMenuItem
             // 
@@ -111,8 +117,9 @@
             // additionneurToolStripMenuItem
             // 
             this.additionneurToolStripMenuItem.Name = "additionneurToolStripMenuItem";
-            this.additionneurToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.additionneurToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.additionneurToolStripMenuItem.Text = "Additionneur";
+            this.additionneurToolStripMenuItem.Click += new System.EventHandler(this.additionneurToolStripMenuItem_Click);
             // 
             // phase2ToolStripMenuItem
             // 
@@ -126,8 +133,9 @@
             // verificationSaisieToolStripMenuItem
             // 
             this.verificationSaisieToolStripMenuItem.Name = "verificationSaisieToolStripMenuItem";
-            this.verificationSaisieToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.verificationSaisieToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.verificationSaisieToolStripMenuItem.Text = "Verification saisie";
+            this.verificationSaisieToolStripMenuItem.Click += new System.EventHandler(this.verificationSaisieToolStripMenuItem_Click);
             // 
             // phase3ToolStripMenuItem
             // 
@@ -148,24 +156,28 @@
             this.comboEtCheckboxToolStripMenuItem.Name = "comboEtCheckboxToolStripMenuItem";
             this.comboEtCheckboxToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.comboEtCheckboxToolStripMenuItem.Text = "Checkbox et radiobt";
+            this.comboEtCheckboxToolStripMenuItem.Click += new System.EventHandler(this.comboEtCheckboxToolStripMenuItem_Click);
             // 
             // listeEtPropToolStripMenuItem
             // 
             this.listeEtPropToolStripMenuItem.Name = "listeEtPropToolStripMenuItem";
             this.listeEtPropToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.listeEtPropToolStripMenuItem.Text = "Liste et prop";
+            this.listeEtPropToolStripMenuItem.Click += new System.EventHandler(this.listeEtPropToolStripMenuItem_Click);
             // 
             // listeEtComboToolStripMenuItem
             // 
             this.listeEtComboToolStripMenuItem.Name = "listeEtComboToolStripMenuItem";
             this.listeEtComboToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.listeEtComboToolStripMenuItem.Text = "Liste et combo";
+            this.listeEtComboToolStripMenuItem.Click += new System.EventHandler(this.listeEtComboToolStripMenuItem_Click);
             // 
             // defilementToolStripMenuItem
             // 
             this.defilementToolStripMenuItem.Name = "defilementToolStripMenuItem";
             this.defilementToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.defilementToolStripMenuItem.Text = "Defilement";
+            this.defilementToolStripMenuItem.Click += new System.EventHandler(this.defilementToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
@@ -177,6 +189,7 @@
             this.empruntToolStripMenuItem.Name = "empruntToolStripMenuItem";
             this.empruntToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.empruntToolStripMenuItem.Text = "Emprunt";
+            this.empruntToolStripMenuItem.Click += new System.EventHandler(this.empruntToolStripMenuItem_Click);
             // 
             // fenêtresToolStripMenuItem
             // 
@@ -195,18 +208,21 @@
             this.cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
             this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cascadeToolStripMenuItem.Text = "Cascade";
+            this.cascadeToolStripMenuItem.Click += new System.EventHandler(this.DisplaySelect_Click);
             // 
             // horizontalToolStripMenuItem
             // 
             this.horizontalToolStripMenuItem.Name = "horizontalToolStripMenuItem";
             this.horizontalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.horizontalToolStripMenuItem.Text = "Horizontal";
+            this.horizontalToolStripMenuItem.Click += new System.EventHandler(this.DisplaySelect_Click);
             // 
             // verticalToolStripMenuItem
             // 
             this.verticalToolStripMenuItem.Name = "verticalToolStripMenuItem";
             this.verticalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.verticalToolStripMenuItem.Text = "Vertical";
+            this.verticalToolStripMenuItem.Click += new System.EventHandler(this.DisplaySelect_Click);
             // 
             // toolStripSeparator2
             // 
@@ -220,7 +236,7 @@
             this.toolStripSplitButtonPhase3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(379, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(875, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -244,21 +260,47 @@
             this.toolStripSplitButtonPhase3.Size = new System.Drawing.Size(63, 22);
             this.toolStripSplitButtonPhase3.Text = "Phase 3";
             // 
+            // toolStrip2
+            // 
+            this.toolStrip2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripLabelBottomDate,
+            this.toolStripLabelBottomAuthentification});
+            this.toolStrip2.Location = new System.Drawing.Point(0, 502);
+            this.toolStrip2.Name = "toolStrip2";
+            this.toolStrip2.Size = new System.Drawing.Size(875, 25);
+            this.toolStrip2.TabIndex = 3;
+            this.toolStrip2.Text = "toolStrip2";
+            // 
+            // toolStripLabelBottomDate
+            // 
+            this.toolStripLabelBottomDate.Name = "toolStripLabelBottomDate";
+            this.toolStripLabelBottomDate.Size = new System.Drawing.Size(0, 22);
+            // 
+            // toolStripLabelBottomAuthentification
+            // 
+            this.toolStripLabelBottomAuthentification.Name = "toolStripLabelBottomAuthentification";
+            this.toolStripLabelBottomAuthentification.Size = new System.Drawing.Size(0, 22);
+            // 
             // FormFormulaires
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 233);
+            this.ClientSize = new System.Drawing.Size(875, 527);
+            this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormFormulaires";
             this.Text = "Créer des formulaires";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormFormulaires_FormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            this.toolStrip2.ResumeLayout(false);
+            this.toolStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -290,5 +332,8 @@
         private ToolStripMenuItem verticalToolStripMenuItem;
         private ToolStripSeparator toolStripSeparator2;
         private ToolStripSeparator toolStripSeparator3;
+        private ToolStrip toolStrip2;
+        private ToolStripLabel toolStripLabelBottomDate;
+        private ToolStripLabel toolStripLabelBottomAuthentification;
     }
 }

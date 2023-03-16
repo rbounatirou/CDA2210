@@ -4,9 +4,17 @@ namespace CreerFormulaires
 {
     public partial class FormCheckBoxRadio : Form
     {
+
+        
         public FormCheckBoxRadio()
         {
             InitializeComponent();
+        }
+
+        public FormCheckBoxRadio(string initLabel)
+        {
+            InitializeComponent();
+            textbox_input.Text = initLabel;
         }
 
         private void textbox_input_Changed(object sender, EventArgs e)

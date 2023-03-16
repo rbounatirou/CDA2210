@@ -66,3 +66,4 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\CreerFormul
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\CreerFormulaires\bin\Debug\net6.0-windows\TransactionBibli.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\CreerFormulaires\bin\Debug\net6.0-windows\ValidationSaisieBibli.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\CreerFormulaires\obj\Debug\net6.0-windows\CreerFormulaires.csproj.CopyComplete
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\CreerFormulaires\obj\Debug\net6.0-windows\CreerFormulaires.FormSaisie.resources

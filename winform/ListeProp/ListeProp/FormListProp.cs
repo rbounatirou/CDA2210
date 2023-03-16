@@ -23,10 +23,27 @@ namespace CreerFormulaires
 
         private void btAjout_Click(object sender, EventArgs e)
         {
-
-            list_personnes.Items.Add(textNouvelElement.Text);
+            string els = textNouvelElement.Text.Trim();
+            if (!ExistOnListBox(els, list_personnes))
+            {
+                list_personnes.Items.Add(els);
+            }
+                       
             textNouvelElement.Focus();
 
+        }
+
+        private bool ExistOnListBox(string text, ListBox list)
+        {
+            bool found = false;
+            int i = 0;
+            while (!found && i < list.Items.Count)
+            {
+                found = (list.Items[i].ToString() == text);
+                i++;
+                    
+            }
+            return found;
         }
 
         private void buttonVider_Click(object sender, EventArgs e)

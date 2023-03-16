@@ -1,6 +1,6 @@
 ﻿namespace CreerFormulaires
 {
-    partial class ValidationSaisie
+    partial class FormValidationSaisie
     {
         /// <summary>
         ///  Required designer variable.
@@ -162,7 +162,7 @@
             this.errorProviderCodePostal.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
             this.errorProviderCodePostal.ContainerControl = this;
             // 
-            // ValidationSaisie
+            // FormValidationSaisie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -179,7 +179,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "ValidationSaisie";
+            this.Name = "FormValidationSaisie";
             this.Text = "Validation Saisie";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderNom)).EndInit();

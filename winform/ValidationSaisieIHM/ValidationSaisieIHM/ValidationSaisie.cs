@@ -5,16 +5,17 @@ using System.Globalization;
 
 namespace CreerFormulaires
 {
-    public partial class ValidationSaisie : Form
+    public partial class FormValidationSaisie : Form
     {
         MaTransaction? transac;
-        public ValidationSaisie()
+        public FormValidationSaisie()
         {
             InitializeComponent();
             InitializeError();
             this.errorProviderNom.SetError(this.textName, "Format de nom invalide: " + Environment.NewLine + " ne doit contenir que des champ");
             transac = null;
         }
+
 
         private void InitializeError()
         {
@@ -93,7 +94,8 @@ namespace CreerFormulaires
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            if (this.MdiParent != null)
+                return;
             DialogResult diag = MessageBox.Show("Fin de l'application"
                 , "FIN", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (diag != DialogResult.Yes)
