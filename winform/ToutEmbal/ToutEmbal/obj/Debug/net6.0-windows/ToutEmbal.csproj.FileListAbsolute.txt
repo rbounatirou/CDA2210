@@ -1,0 +1,17 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\bin\Debug\net6.0-windows\ToutEmbal.exe
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\bin\Debug\net6.0-windows\ToutEmbal.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\bin\Debug\net6.0-windows\ToutEmbal.runtimeconfig.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\bin\Debug\net6.0-windows\ToutEmbal.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\bin\Debug\net6.0-windows\ToutEmbal.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.FormToutEmbal.resources
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.csproj.GenerateResource.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\refint\ToutEmbal.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ToutEmbal.genruntimeconfig.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ToutEmbal\obj\Debug\net6.0-windows\ref\ToutEmbal.dll
