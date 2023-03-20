@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\bin\Debug\net6.0\Production.deps.json
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\bin\Debug\net6.0\Production.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\bin\Debug\net6.0\Production.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\obj\Debug\net6.0\Production.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\obj\Debug\net6.0\Production.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\obj\Debug\net6.0\Production.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\obj\Debug\net6.0\Production.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\obj\Debug\net6.0\Production.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\obj\Debug\net6.0\Production.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\obj\Debug\net6.0\refint\Production.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\obj\Debug\net6.0\Production.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ExempleDelegate\Production\obj\Debug\net6.0\ref\Production.dll
