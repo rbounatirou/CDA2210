@@ -12,7 +12,7 @@ namespace ProductionLibrary
         private int productionDemande;
         private EnumVitesseProduction saVitesseProduction;
         private EnumEtatProduction sonEtatProduction;
-        private int saProductionActuelle;
+        private List<bool> productionsActuelles; // Contient la liste des caisse -> true caisse viable false-> caisse defecturuse
         private Thread threadProduction;
 
         public delegate void Event_OnProductionChanged(Production prod );
@@ -28,11 +28,22 @@ namespace ProductionLibrary
         public event Event_OnProductionStarted ProductionStarted;
         public event Event_OnProductionReloaded ProductionReloaded;
         public event Event_OnProductionStateChanged ProductionStateChanged;
-        public int ProductionActuelle { get => productionActuelle; private set { productionActuelle = value;
-                if (ProductionActuelleChanged != null)
-                    this.ProductionActuelleChanged(this); 
-            }  }
 
+        public bool[] ProductionActuelle { get => productionsActuelles.ToArray(); }
+        public int NbProductionActuelleViable { get => productionsActuelles.FindAll(x=>true).Count(); }
+        public int NbProductionActuelleNonViable { get => productionsActuelles.FindAll(x=>false).Count(); }
+
+        public int NbProductionActuelleViableDerniereHeure { 
+            get => productionsActuelles.GetRange(
+                Math.Max(0, productionsActuelles.Count() - (int)VitesseProduction), 
+                (int)VitesseProduction).FindAll(x => true).Count();
+        }
+        public int NbProductionActuelleNonViableDerniereHeure
+        {
+            get => productionsActuelles.GetRange(
+                Math.Max(0, productionsActuelles.Count() - (int)VitesseProduction),
+                (int)VitesseProduction).FindAll(x => false).Count();
+        }
         public int ProductionDemande { get => productionDemande; }
 
         public EnumVitesseProduction VitesseProduction { get => saVitesseProduction; }
@@ -41,6 +52,7 @@ namespace ProductionLibrary
 
         public Production(EnumVitesseProduction vit)
         {
+            productionsActuelles = new();
             saVitesseProduction = vit;            
             switch (vit)
             {
@@ -50,8 +62,7 @@ namespace ProductionLibrary
                 case EnumVitesseProduction.CAISSE_B:
                     productionDemande = 25000;
                     break;
-                case EnumVitesseProduction.CAISSE_C:
-                    
+                case EnumVitesseProduction.CAISSE_C:                    
                     productionDemande = 120000;
                     break;
             }
@@ -108,8 +119,9 @@ namespace ProductionLibrary
             {
                 if (sonEtatProduction == EnumEtatProduction.EN_COURS)
                 {
-                    ProductionActuelle++;
-                    
+                    productionsActuelles.Add(Aleatoire.GetRandomNumber(1, 1000) <= 950);
+                    if (this.ProductionStateChanged != null)
+                        this.ProductionStateChanged(this);                    
                 }
                 if (productionActuelle >= productionDemande)
                 {

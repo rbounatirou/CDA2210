@@ -4,5 +4,8 @@
     <Compile Update="UserControlProductionButtons.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControlProductionInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
