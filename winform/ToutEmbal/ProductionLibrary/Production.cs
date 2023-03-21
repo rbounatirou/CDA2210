@@ -41,10 +41,8 @@ namespace ProductionLibrary
 
         public Production(EnumVitesseProduction vit)
         {
-            saVitesseProduction = vit;
-            productionDemande = 5;
-            
-            /*switch (vit)
+            saVitesseProduction = vit;            
+            switch (vit)
             {
                 case EnumVitesseProduction.CAISSE_A:
                     productionDemande = 10000;
@@ -56,7 +54,7 @@ namespace ProductionLibrary
                     
                     productionDemande = 120000;
                     break;
-            }*/
+            }
             sonEtatProduction = EnumEtatProduction.NON_DEMARRE;
         }
 

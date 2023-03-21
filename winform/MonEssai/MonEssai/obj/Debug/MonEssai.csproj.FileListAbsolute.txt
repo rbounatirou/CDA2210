@@ -1,0 +1,8 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\MonEssai\bin\Debug\MonEssai.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\MonEssai\bin\Debug\MonEssai.pdb
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\MonEssai\obj\Debug\MonEssai.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\MonEssai\obj\Debug\MonEssai.AUserControl.resources
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\MonEssai\obj\Debug\MonEssai.csproj.GenerateResource.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\MonEssai\obj\Debug\MonEssai.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\MonEssai\obj\Debug\MonEssai.dll
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\MonEssai\obj\Debug\MonEssai.pdb

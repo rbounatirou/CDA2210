@@ -1,0 +1,7 @@
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\Winform_main\obj\Debug\net5.0-windows\Winform_main.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\Winform_main\obj\Debug\net5.0-windows\Winform_main.Form1.resources
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\Winform_main\obj\Debug\net5.0-windows\Winform_main.csproj.GenerateResource.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\Winform_main\obj\Debug\net5.0-windows\Winform_main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\Winform_main\obj\Debug\net5.0-windows\Winform_main.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\Winform_main\obj\Debug\net5.0-windows\Winform_main.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\repos\CDA2210\winform\MonEssai\Winform_main\obj\Debug\net5.0-windows\Winform_main.csproj.CoreCompileInputs.cache

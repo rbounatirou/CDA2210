@@ -11,14 +11,18 @@ namespace ProductionLibrary
         private static Random rnd;
         private Aleatoire()
         {
-            rnd = new Random();
         }
 
-        private int GetAlea(int min, int max)
+        public static Random GetInstance()
         {
             if (rnd == null)
-                new Aleatoire();
-            return rnd.Next(min, max + 1);
+                rnd = new Random();
+            return rnd;
+        }
+
+        public static int GetRandomNumber(int min, int max)
+        {
+            return GetInstance().Next(min, max + 1);
         }
     }
 }
