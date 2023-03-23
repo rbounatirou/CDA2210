@@ -27,6 +27,7 @@ namespace UserControlProduction
                     linkedProduction.ProductionActuelleQuantityChanged += new Production.Event_OnProductionQuantityChanged(this.QuantityChanged);
             }
 
+
         }
 
         private void ChangeTextButtons()

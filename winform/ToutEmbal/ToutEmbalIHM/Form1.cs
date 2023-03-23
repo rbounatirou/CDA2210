@@ -8,48 +8,91 @@ namespace ToutEmbalIHM
     {
 
         private Production[] sesProduction;
+        Dictionary<EnumVitesseProduction, int> nbProduction;
         public Form1()
         {
-            sesProduction = new Production[3];
-            sesProduction[0] = new Production(EnumVitesseProduction.CAISSE_A);
-            sesProduction[1] = new Production(EnumVitesseProduction.CAISSE_B);
-            sesProduction[2] = new Production(EnumVitesseProduction.CAISSE_C);
+
+           
 
 
             InitializeComponent();
-
-            GenerateProductionElements(sesProduction[0]);
-            GenerateProductionElements(sesProduction[1]);
-            GenerateProductionElements(sesProduction[2]);
+            nbProduction = new Dictionary<EnumVitesseProduction, int>();
+            List<EnumVitesseProduction> vitessesPossibles = Enum.GetValues(typeof(EnumVitesseProduction)).Cast<EnumVitesseProduction>().ToList();
+            foreach (EnumVitesseProduction v in vitessesPossibles)
+            {
+                nbProduction.Add(v, 0);
+            }
+            GenerateProductionElements(new Production(EnumVitesseProduction.CAISSE_A));
+            GenerateProductionElements(new Production(EnumVitesseProduction.CAISSE_B));
+            GenerateProductionElements(new Production(EnumVitesseProduction.CAISSE_C));
             
         }
 
         private void GenerateProductionElements(Production p)
         {
+            nbProduction[p.VitesseProduction]++;
             GenererOngletProduction(p);
             GenererToolbarProduction(p);
             GenererInterractButton(p);
             AjouterItemDemarrer(p);
-            AjouterItemArret(p);
+            AjouterItemContinuer(p);
             AjouterItemStop(p);
-            p.ProductionStateChanged += new Production.Event_OnProductionStateChanged(this.StateChanged);
         }
 
         private void AjouterItemDemarrer(Production p)
         {
             ToolStripItem added = demarrer_menu.DropDownItems.Add(StringForProduction(p));
+            p.ProductionStateChanged += new Production.Event_OnProductionStateChanged(
+                new Action<Production>((p) =>
+                {
+                    if (!this.InvokeRequired)
+                        added.Enabled = p.EtatProduction == EnumEtatProduction.NON_DEMARRE;
+                    else
+                        this.Invoke(()=>added.Enabled = p.EtatProduction == EnumEtatProduction.NON_DEMARRE);
+                })            
+             );
+            added.Click += new System.EventHandler((sender, e) =>
+            {
+                p.Demarrer();
+            });
             added.Tag = p;
         }
 
         private void AjouterItemStop(Production p)
         {
             ToolStripItem added = arreter_menu.DropDownItems.Add(StringForProduction(p));
+            p.ProductionStateChanged += new Production.Event_OnProductionStateChanged(
+                new Action<Production>((p) =>
+                {
+                    if (!this.InvokeRequired)
+                        added.Enabled = p.EtatProduction == EnumEtatProduction.EN_COURS;
+                    else
+                        this.Invoke(() => added.Enabled = p.EtatProduction == EnumEtatProduction.EN_COURS);
+                })
+             );
+            added.Click += new System.EventHandler((sender, e) =>
+            {
+                p.Arreter();
+            });
             added.Tag = p;
         }
 
-        private void AjouterItemArret(Production p)
+        private void AjouterItemContinuer(Production p)
         {
             ToolStripItem added = continuer_menu.DropDownItems.Add(StringForProduction(p));
+            p.ProductionStateChanged += new Production.Event_OnProductionStateChanged(
+                new Action<Production>((p) =>
+                {
+                    if (!this.InvokeRequired)
+                        added.Enabled = p.EtatProduction == EnumEtatProduction.EN_PAUSE;
+                    else
+                        this.Invoke(() => added.Enabled = p.EtatProduction == EnumEtatProduction.EN_PAUSE);
+                })
+             );
+            added.Click += new System.EventHandler((sender, e) =>
+            {
+                p.Continuer();
+            });
             added.Tag = p;
         }
 
@@ -74,17 +117,13 @@ namespace ToutEmbalIHM
             }
             return text;
         }
-
-        private void GenererComposantMenu(Production p)
-        {
-
-        }
         private void GenererOngletProduction(Production p)
         {
             /*if(tabControlInformation.TabPages.Count> 0)
                 tabControlInformation.TabPages.Insert(tabControlInformation.TabPages.Count-1,"Production " + StringForProduction(p));
             else*/
-            tabControlInformation.TabPages.Add("Production " + StringForProduction(p));
+            int prodNb = nbProduction[p.VitesseProduction];
+            tabControlInformation.TabPages.Add("Production " + StringForProduction(p) + (prodNb > 1? "("+prodNb+")":""));
             UserControlProgressionInformation InfoProgression = new UserControlProgressionInformation();
             InfoProgression.LinkedProduction = p;
             InfoProgression.Scale(new SizeF(0.8f, 1.1f));
@@ -110,106 +149,6 @@ namespace ToutEmbalIHM
             panelInterraction.Controls.Add(interraction);
             interraction.Dock = DockStyle.Left;
             interraction.BringToFront();
-        }
-
-        private void StateChanged(Production p)
-        {
-            if (this.InvokeRequired)
-            {
-                //this.Invoke(() => ChangeState(p.VitesseProduction));
-            }
-            else
-            {
-                //ChangeState(p.VitesseProduction);
-            }
-        }
-        /*private void ChangeState(EnumVitesseProduction p)
-        {
-            if (p == EnumVitesseProduction.CAISSE_A)
-                ChangeStateA();
-            else if (p == EnumVitesseProduction.CAISSE_B)
-                ChangeStateB();
-            else if (p == EnumVitesseProduction.CAISSE_C)
-                ChangeStateC();
-        }
-        private void ChangeStateA()
-        {
-            EnumEtatProduction et = sesProduction[0].EtatProduction;
-            demarrer_ItemA.Enabled = et == EnumEtatProduction.NON_DEMARRE;
-            arreter_ItemA.Enabled = et == EnumEtatProduction.EN_COURS;
-            continuer_ItemA.Enabled = et == EnumEtatProduction.EN_PAUSE;
-
-        }
-
-        private void ChangeStateB()
-        {
-            EnumEtatProduction et = sesProduction[1].EtatProduction;
-            demarrer_ItemB.Enabled = et == EnumEtatProduction.NON_DEMARRE;
-            arreter_ItemB.Enabled = et == EnumEtatProduction.EN_COURS;
-            continuer_ItemB.Enabled = et == EnumEtatProduction.EN_PAUSE;
-        }
-
-        private void ChangeStateC()
-        {
-            EnumEtatProduction et = sesProduction[2].EtatProduction;
-            demarrer_ItemC.Enabled = et == EnumEtatProduction.NON_DEMARRE;
-            arreter_ItemC.Enabled = et == EnumEtatProduction.EN_COURS;
-            continuer_ItemC.Enabled = et == EnumEtatProduction.EN_PAUSE;
-        }*/
-
-        #region toolitem
-        private void demarrer_ItemA_Click(object sender, EventArgs e) => sesProduction[0].Demarrer();
-
-        private void demarrer_ItemB_Click(object sender, EventArgs e) => sesProduction[1].Demarrer();
-
-        private void demarrer_ItemC_Click(object sender, EventArgs e) => sesProduction[2].Demarrer();
-
-        private void arreter_ItemA_Click(object sender, EventArgs e) => sesProduction[0].Arreter();
-
-        private void arreter_ItemB_Click(object sender, EventArgs e) => sesProduction[1].Arreter();
-
-        private void arreter_ItemC_Click(object sender, EventArgs e) => sesProduction[2].Arreter();
-
-        private void continuer_ItemA_Click(object sender, EventArgs e) => sesProduction[0].Continuer();
-
-        private void continuer_ItemB_Click(object sender, EventArgs e) => sesProduction[1].Continuer();
-
-        private void continuer_ItemC_Click(object sender, EventArgs e) => sesProduction[2].Continuer();
-        #endregion
-
-        private void DemarrerProductionAssocieToolItem(object sender, EventArgs e)
-        {
-            ToolStripItem tsi = sender as ToolStripItem;
-            Production p = tsi.Tag as Production;
-            if (p != null)
-            {
-                p.Demarrer();
-            }
-        }
-
-        private void ContinuerProductionAssocieToolItem(object sender, EventArgs e)
-        {
-            ToolStripItem tsi = sender as ToolStripItem;
-            Production p = tsi.Tag as Production;
-            if (p != null)
-            {
-                p.Continuer();
-            }
-        }
-
-        private void ArreterProductionAssocieToolItem(object sender, EventArgs e)
-        {
-            ToolStripItem tsi = sender as ToolStripItem;
-            Production p = tsi.Tag as Production;
-            if (p != null)
-            {
-                p.Arreter();
-            }
-        }
-
-        private void cToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void ajouter_ItemAClick(object sender, EventArgs e) => GenerateProductionElements(new Production(EnumVitesseProduction.CAISSE_A));

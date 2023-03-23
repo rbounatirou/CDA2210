@@ -10,3 +10,15 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ProductionLibrary
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\refint\ProductionLibrary.dll
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ProductionLibrary.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ref\ProductionLibrary.dll
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\bin\Debug\net6.0\ProductionLibrary.deps.json
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\bin\Debug\net6.0\ProductionLibrary.dll
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\bin\Debug\net6.0\ProductionLibrary.pdb
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ProductionLibrary.csproj.AssemblyReference.cache
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ProductionLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ProductionLibrary.AssemblyInfoInputs.cache
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ProductionLibrary.AssemblyInfo.cs
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ProductionLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ProductionLibrary.dll
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\refint\ProductionLibrary.dll
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ProductionLibrary.pdb
+C:\Users\user\Documents\CDA2210\winform\ToutEmbal\ProductionLibrary\obj\Debug\net6.0\ref\ProductionLibrary.dll
