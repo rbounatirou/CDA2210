@@ -15,14 +15,14 @@ namespace ProductionLibrary
         private List<bool> productionsActuelles; // Contient la liste des caisse -> true caisse viable false-> caisse defecturuse
         private Thread threadProduction;
 
-        public delegate void Event_OnProductionChanged(Production prod );
+        public delegate void Event_OnProductionQuantityChanged(Production prod );
         public delegate void Event_OnProductionFinished(Production prod);
         public delegate void Event_OnProductionStopped(Production prod);
         public delegate void Event_OnProductionStarted(Production prod);
         public delegate void Event_OnProductionReloaded(Production prod);
         public delegate void Event_OnProductionStateChanged(Production prod);
 
-        public event Event_OnProductionChanged ProductionActuelleChanged;
+        public event Event_OnProductionQuantityChanged ProductionActuelleQuantityChanged;
         public event Event_OnProductionFinished ProductionFinished;
         public event Event_OnProductionStopped ProductionStopped;
         public event Event_OnProductionStarted ProductionStarted;
@@ -30,19 +30,22 @@ namespace ProductionLibrary
         public event Event_OnProductionStateChanged ProductionStateChanged;
 
         public bool[] ProductionActuelle { get => productionsActuelles.ToArray(); }
-        public int NbProductionActuelleViable { get => productionsActuelles.FindAll(x=>true).Count(); }
-        public int NbProductionActuelleNonViable { get => productionsActuelles.FindAll(x=>false).Count(); }
+        public int NbProductionActuelleViable { get => productionsActuelles.FindAll(x=>x).Count(); }
+        public int NbProductionActuelleNonViable { get => productionsActuelles.FindAll(x=>!x).Count(); }
 
         public int NbProductionActuelleViableDerniereHeure { 
-            get => productionsActuelles.GetRange(
-                Math.Max(0, productionsActuelles.Count() - (int)VitesseProduction), 
-                (int)VitesseProduction).FindAll(x => true).Count();
+            get => ProductionDerniereHeure().FindAll(x => x).Count();
         }
         public int NbProductionActuelleNonViableDerniereHeure
         {
-            get => productionsActuelles.GetRange(
-                Math.Max(0, productionsActuelles.Count() - (int)VitesseProduction),
-                (int)VitesseProduction).FindAll(x => false).Count();
+            get => ProductionDerniereHeure().FindAll(x => !x).Count();
+        }
+
+        private List<bool> ProductionDerniereHeure()
+        {
+            int idStart = Math.Max(0, productionsActuelles.Count() - (int)VitesseProduction);
+            int nbElement = productionsActuelles.Count() - idStart;
+            return productionsActuelles.GetRange(idStart, nbElement);
         }
         public int ProductionDemande { get => productionDemande; }
 
@@ -53,8 +56,8 @@ namespace ProductionLibrary
         public Production(EnumVitesseProduction vit)
         {
             productionsActuelles = new();
-            saVitesseProduction = vit;            
-            switch (vit)
+            saVitesseProduction = vit;
+            /*switch (vit)
             {
                 case EnumVitesseProduction.CAISSE_A:
                     productionDemande = 10000;
@@ -65,7 +68,8 @@ namespace ProductionLibrary
                 case EnumVitesseProduction.CAISSE_C:                    
                     productionDemande = 120000;
                     break;
-            }
+            }*/
+            productionDemande = 5;
             sonEtatProduction = EnumEtatProduction.NON_DEMARRE;
         }
 
@@ -120,10 +124,10 @@ namespace ProductionLibrary
                 if (sonEtatProduction == EnumEtatProduction.EN_COURS)
                 {
                     productionsActuelles.Add(Aleatoire.GetRandomNumber(1, 1000) <= 950);
-                    if (this.ProductionStateChanged != null)
-                        this.ProductionStateChanged(this);                    
+                    if (this.ProductionActuelleQuantityChanged != null)
+                        this.ProductionActuelleQuantityChanged(this);                    
                 }
-                if (productionActuelle >= productionDemande)
+                if (NbProductionActuelleViable >= productionDemande)
                 {
                     sonEtatProduction = EnumEtatProduction.FINIE;
                 }

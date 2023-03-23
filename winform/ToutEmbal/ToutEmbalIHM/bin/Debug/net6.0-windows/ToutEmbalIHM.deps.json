@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ToutEmbalIHM/1.0.0": {
+        "dependencies": {
+          "ProductionLibrary": "1.0.0",
+          "UserControlProduction": "1.0.0"
+        },
+        "runtime": {
+          "ToutEmbalIHM.dll": {}
+        }
+      },
+      "ProductionLibrary/1.0.0": {
+        "runtime": {
+          "ProductionLibrary.dll": {}
+        }
+      },
+      "UserControlProduction/1.0.0": {
+        "dependencies": {
+          "ProductionLibrary": "1.0.0"
+        },
+        "runtime": {
+          "UserControlProduction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToutEmbalIHM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductionLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserControlProduction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

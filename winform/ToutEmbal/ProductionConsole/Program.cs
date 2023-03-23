@@ -11,7 +11,7 @@ public class Program
         Console.WriteLine("Hello, World!");
         Production prod = new Production(EnumVitesseProduction.CAISSE_C);
         Production prod2 = new Production(EnumVitesseProduction.CAISSE_A);
-        prod.ProductionActuelleChanged += new Production.Event_OnProductionChanged(Program.MethodDelegate);
+       // prod.ProductionActuelleChanged += new Production.Event_OnProductionChanged(Program.MethodDelegate);
         //prod2.ProductionActuelleChanged += new Production.Event_OnProductionChanged(Program.MethodDelegate);
         prod.ProductionFinished += new Production.Event_OnProductionFinished(Program.MethodDelegateFinish);
         prod.ProductionStopped += new Production.Event_OnProductionStopped(Program.MethodDelegateStop);
