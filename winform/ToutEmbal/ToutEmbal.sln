@@ -5,11 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductionLibrary", "ProductionLibrary\ProductionLibrary.csproj", "{2D5430BD-6486-41C3-AE41-EA0E5ECB2A6A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductionConsole", "ProductionConsole\ProductionConsole.csproj", "{2AA0CF0E-0A3B-4D40-A158-AF3B504C65AD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToutEmbalIHM", "ToutEmbalIHM\ToutEmbalIHM.csproj", "{0C01ED50-8319-4BD2-9AA6-86487E50D087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlProduction", "UserControlProduction\UserControlProduction.csproj", "{CDF2AE59-A660-44D3-A4F1-D69DFF1455CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserControlProduction", "UserControlProduction\UserControlProduction.csproj", "{CDF2AE59-A660-44D3-A4F1-D69DFF1455CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		{2D5430BD-6486-41C3-AE41-EA0E5ECB2A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5430BD-6486-41C3-AE41-EA0E5ECB2A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5430BD-6486-41C3-AE41-EA0E5ECB2A6A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AA0CF0E-0A3B-4D40-A158-AF3B504C65AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AA0CF0E-0A3B-4D40-A158-AF3B504C65AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AA0CF0E-0A3B-4D40-A158-AF3B504C65AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AA0CF0E-0A3B-4D40-A158-AF3B504C65AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C01ED50-8319-4BD2-9AA6-86487E50D087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C01ED50-8319-4BD2-9AA6-86487E50D087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C01ED50-8319-4BD2-9AA6-86487E50D087}.Release|Any CPU.ActiveCfg = Release|Any CPU

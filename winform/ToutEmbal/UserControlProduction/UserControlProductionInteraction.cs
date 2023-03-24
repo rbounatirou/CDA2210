@@ -21,7 +21,7 @@ namespace UserControlProduction
             }
         }
 
-        private void ChangeTextButtons()
+        private void ChangeTextButtons(int n = 1)
         {
             string text = "";
             if (linkedProduction != null)
@@ -39,6 +39,10 @@ namespace UserControlProduction
                         break;
                 }
             }
+            if (n > 1)
+            {
+                text += "(" + n + ")";
+            }
             foreach (Control c in Controls)
             {
                 c.Text = text;
@@ -47,6 +51,13 @@ namespace UserControlProduction
         public UserControlProductionInteraction()
         {
             InitializeComponent();
+        }
+
+        public UserControlProductionInteraction(Production p, int nb)
+        {
+            InitializeComponent();
+            LinkedProduction = p;
+            ChangeTextButtons(nb);
         }
 
         private void OnResize(object sender, EventArgs e)

@@ -69,7 +69,7 @@ namespace ProductionLibrary
                     productionDemande = 120000;
                     break;
             }
-            //productionDemande = 5;
+            productionDemande /= 1000;
             sonEtatProduction = EnumEtatProduction.NON_DEMARRE;
         }
 
@@ -119,8 +119,21 @@ namespace ProductionLibrary
 
         private void Produire()
         {
+            string format = "HH:mm:ss:ffff";
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+      
+
+
             while (sonEtatProduction != EnumEtatProduction.FINIE)
             {
+                
+                if (sonEtatProduction == EnumEtatProduction.EN_COURS)
+                    Thread.Sleep((int)Math.Max(0,(((3600.0d / (int)saVitesseProduction) * 1000)-stopwatch.ElapsedMilliseconds)));
+                else
+                    Thread.Sleep(10);
+                stopwatch.Reset();
+                stopwatch.Start();
                 if (sonEtatProduction == EnumEtatProduction.EN_COURS)
                 {
                     productionsActuelles.Add(Aleatoire.GetRandomNumber(1, 1000) <= 950);
@@ -131,10 +144,7 @@ namespace ProductionLibrary
                 {
                     sonEtatProduction = EnumEtatProduction.FINIE;
                 }
-                else
-                {
-                    Thread.Sleep((int)((3600.0d / (int)saVitesseProduction) * 1000));
-                }
+                
             }
             
             if (this.ProductionFinished != null)

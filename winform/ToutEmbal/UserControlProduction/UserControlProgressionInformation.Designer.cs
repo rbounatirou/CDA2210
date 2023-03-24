@@ -28,132 +28,131 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.textBoxNbCaisse = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.textBoxTauxDefautDemarrage = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.textBoxTauxDefautHeure = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            textBoxNbCaisse = new TextBox();
+            label1 = new Label();
+            panel3 = new Panel();
+            textBoxTauxDefautDemarrage = new TextBox();
+            label3 = new Label();
+            panel4 = new Panel();
+            textBoxTauxDefautHeure = new TextBox();
+            label2 = new Label();
+            panel1.SuspendLayout();
+            panel3.SuspendLayout();
+            panel4.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.textBoxNbCaisse);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(5);
-            this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(15);
-            this.panel1.Size = new System.Drawing.Size(500, 50);
-            this.panel1.TabIndex = 0;
+            panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(textBoxNbCaisse);
+            panel1.Controls.Add(label1);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(5);
+            panel1.Name = "panel1";
+            panel1.Padding = new Padding(15);
+            panel1.Size = new Size(500, 50);
+            panel1.TabIndex = 0;
             // 
             // textBoxNbCaisse
             // 
-            this.textBoxNbCaisse.Dock = System.Windows.Forms.DockStyle.Right;
-            this.textBoxNbCaisse.Location = new System.Drawing.Point(326, 15);
-            this.textBoxNbCaisse.Name = "textBoxNbCaisse";
-            this.textBoxNbCaisse.Size = new System.Drawing.Size(159, 23);
-            this.textBoxNbCaisse.TabIndex = 1;
+            textBoxNbCaisse.Dock = DockStyle.Right;
+            textBoxNbCaisse.Location = new Point(326, 15);
+            textBoxNbCaisse.Name = "textBoxNbCaisse";
+            textBoxNbCaisse.Size = new Size(159, 23);
+            textBoxNbCaisse.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.Location = new System.Drawing.Point(15, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(5);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(211, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre de caisse depuis le démarrage";
+            label1.AutoSize = true;
+            label1.Dock = DockStyle.Left;
+            label1.Location = new Point(15, 15);
+            label1.Margin = new Padding(5);
+            label1.Name = "label1";
+            label1.Size = new Size(211, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Nombre de caisse depuis le démarrage";
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.textBoxTauxDefautDemarrage);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 100);
-            this.panel3.Margin = new System.Windows.Forms.Padding(5);
-            this.panel3.Name = "panel3";
-            this.panel3.Padding = new System.Windows.Forms.Padding(15);
-            this.panel3.Size = new System.Drawing.Size(500, 42);
-            this.panel3.TabIndex = 1;
+            panel3.BackColor = Color.Transparent;
+            panel3.Controls.Add(textBoxTauxDefautDemarrage);
+            panel3.Controls.Add(label3);
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(0, 100);
+            panel3.Margin = new Padding(5);
+            panel3.Name = "panel3";
+            panel3.Padding = new Padding(15);
+            panel3.Size = new Size(500, 42);
+            panel3.TabIndex = 1;
             // 
             // textBoxTauxDefautDemarrage
             // 
-            this.textBoxTauxDefautDemarrage.Dock = System.Windows.Forms.DockStyle.Right;
-            this.textBoxTauxDefautDemarrage.Location = new System.Drawing.Point(326, 15);
-            this.textBoxTauxDefautDemarrage.Name = "textBoxTauxDefautDemarrage";
-            this.textBoxTauxDefautDemarrage.Size = new System.Drawing.Size(159, 23);
-            this.textBoxTauxDefautDemarrage.TabIndex = 1;
+            textBoxTauxDefautDemarrage.Dock = DockStyle.Right;
+            textBoxTauxDefautDemarrage.Location = new Point(326, 15);
+            textBoxTauxDefautDemarrage.Name = "textBoxTauxDefautDemarrage";
+            textBoxTauxDefautDemarrage.Size = new Size(159, 23);
+            textBoxTauxDefautDemarrage.TabIndex = 1;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label3.Location = new System.Drawing.Point(15, 15);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 15);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Taux défaut depuis démarrage";
+            label3.AutoSize = true;
+            label3.Dock = DockStyle.Left;
+            label3.Location = new Point(15, 15);
+            label3.Name = "label3";
+            label3.Size = new Size(166, 15);
+            label3.TabIndex = 0;
+            label3.Text = "Taux défaut depuis démarrage";
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Controls.Add(this.textBoxTauxDefautHeure);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 50);
-            this.panel4.Margin = new System.Windows.Forms.Padding(5);
-            this.panel4.Name = "panel4";
-            this.panel4.Padding = new System.Windows.Forms.Padding(15);
-            this.panel4.Size = new System.Drawing.Size(500, 50);
-            this.panel4.TabIndex = 1;
+            panel4.BackColor = Color.Transparent;
+            panel4.Controls.Add(textBoxTauxDefautHeure);
+            panel4.Controls.Add(label2);
+            panel4.Dock = DockStyle.Top;
+            panel4.Location = new Point(0, 50);
+            panel4.Margin = new Padding(5);
+            panel4.Name = "panel4";
+            panel4.Padding = new Padding(15);
+            panel4.Size = new Size(500, 50);
+            panel4.TabIndex = 1;
             // 
             // textBoxTauxDefautHeure
             // 
-            this.textBoxTauxDefautHeure.Dock = System.Windows.Forms.DockStyle.Right;
-            this.textBoxTauxDefautHeure.Location = new System.Drawing.Point(326, 15);
-            this.textBoxTauxDefautHeure.Name = "textBoxTauxDefautHeure";
-            this.textBoxTauxDefautHeure.Size = new System.Drawing.Size(159, 23);
-            this.textBoxTauxDefautHeure.TabIndex = 1;
+            textBoxTauxDefautHeure.Dock = DockStyle.Right;
+            textBoxTauxDefautHeure.Location = new Point(326, 15);
+            textBoxTauxDefautHeure.Name = "textBoxTauxDefautHeure";
+            textBoxTauxDefautHeure.Size = new Size(159, 23);
+            textBoxTauxDefautHeure.TabIndex = 1;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label2.Location = new System.Drawing.Point(15, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 15);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Taux défaut heure";
+            label2.AutoSize = true;
+            label2.Dock = DockStyle.Left;
+            label2.Location = new Point(15, 15);
+            label2.Name = "label2";
+            label2.Size = new Size(101, 15);
+            label2.TabIndex = 0;
+            label2.Text = "Taux défaut heure";
             // 
             // UserControlProgressionInformation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Transparent;
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel1);
-            this.Name = "UserControlProgressionInformation";
-            this.Size = new System.Drawing.Size(500, 142);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Transparent;
+            Controls.Add(panel3);
+            Controls.Add(panel4);
+            Controls.Add(panel1);
+            Name = "UserControlProgressionInformation";
+            Size = new Size(500, 142);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion

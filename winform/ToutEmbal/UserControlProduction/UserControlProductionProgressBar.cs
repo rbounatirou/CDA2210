@@ -24,7 +24,11 @@ namespace UserControlProduction
                 linkedProduction = value;
                 ChangeTextButtons();
                 if (linkedProduction != null)
+                {
                     linkedProduction.ProductionActuelleQuantityChanged += new Production.Event_OnProductionQuantityChanged(this.QuantityChanged);
+                    linkedProduction.ProductionFinished += new Production.Event_OnProductionFinished(this.ProductionFinished);
+
+                }
             }
 
 
@@ -56,8 +60,26 @@ namespace UserControlProduction
             ReloadMargin();
         }
 
+        public UserControlProductionProgressBar(Production p, int n)
+        {
+            InitializeComponent();
+            ReloadMargin();
+            LinkedProduction = p;
+            if (n > 1)
+            {
+                labelText.Text += "(" + n + ")";
+            }
+        }
 
         private void OnResize(object sender, EventArgs e) => ReloadMargin();
+
+        private void ProductionFinished(Production p)
+        {
+            if (this.InvokeRequired)
+                this.Invoke(() => ReloadIHM());
+            else
+                ReloadIHM();
+        }
 
         private void ReloadMargin()
         {
@@ -82,6 +104,8 @@ namespace UserControlProduction
                 return;
             }
             progressBarProduction.Value = (int)((double)linkedProduction.NbProductionActuelleViable / linkedProduction.ProductionDemande * 100);
+            if (linkedProduction.EtatProduction == EnumEtatProduction.FINIE)
+                labelText.ForeColor = Color.Blue;
         }
     }
 }
