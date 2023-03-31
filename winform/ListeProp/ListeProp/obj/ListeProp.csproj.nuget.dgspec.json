@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj": {}
+    "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj": {
+    "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj",
+        "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj",
         "projectName": "ListeProp",
-        "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj",
+        "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj",
         "packagesPath": "C:\\Users\\rbounatirou\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListeProp\\ListeProp\\obj\\",
+        "outputPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListeProp\\ListeProp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

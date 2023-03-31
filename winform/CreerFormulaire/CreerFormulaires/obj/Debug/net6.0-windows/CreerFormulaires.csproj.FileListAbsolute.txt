@@ -67,3 +67,6 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\CreerFormul
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\CreerFormulaires\bin\Debug\net6.0-windows\ValidationSaisieBibli.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\CreerFormulaires\obj\Debug\net6.0-windows\CreerFormulaires.csproj.CopyComplete
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\CreerFormulaires\obj\Debug\net6.0-windows\CreerFormulaires.FormSaisie.resources
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\CreerFormulaires\obj\Debug\net6.0-windows\CreerFormulaires.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\CreerFormulaires\obj\Debug\net6.0-windows\refint\CreerFormulaires.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\CreerFormulaires\obj\Debug\net6.0-windows\CreerFormulaires.pdb

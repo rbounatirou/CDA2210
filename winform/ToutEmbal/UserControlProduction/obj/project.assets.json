@@ -34,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ToutEmbal\\UserControlProduction\\UserControlProduction.csproj",
+      "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ToutEmbal\\UserControlProduction\\UserControlProduction.csproj",
       "projectName": "UserControlProduction",
-      "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ToutEmbal\\UserControlProduction\\UserControlProduction.csproj",
+      "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ToutEmbal\\UserControlProduction\\UserControlProduction.csproj",
       "packagesPath": "C:\\Users\\rbounatirou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ToutEmbal\\UserControlProduction\\obj\\",
+      "outputPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ToutEmbal\\UserControlProduction\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -60,8 +60,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ToutEmbal\\ProductionLibrary\\ProductionLibrary.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ToutEmbal\\ProductionLibrary\\ProductionLibrary.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ToutEmbal\\ProductionLibrary\\ProductionLibrary.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ToutEmbal\\ProductionLibrary\\ProductionLibrary.csproj"
             }
           }
         }
@@ -94,7 +94,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

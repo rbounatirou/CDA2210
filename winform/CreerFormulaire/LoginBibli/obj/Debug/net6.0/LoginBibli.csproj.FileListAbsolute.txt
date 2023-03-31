@@ -10,3 +10,15 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\LoginBibli\
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\refint\LoginBibli.dll
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\LoginBibli.pdb
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\ref\LoginBibli.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\bin\Debug\net6.0\LoginBibli.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\bin\Debug\net6.0\LoginBibli.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\bin\Debug\net6.0\LoginBibli.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\LoginBibli.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\LoginBibli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\LoginBibli.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\LoginBibli.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\LoginBibli.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\LoginBibli.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\refint\LoginBibli.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\LoginBibli.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\CreerFormulaire\LoginBibli\obj\Debug\net6.0\ref\LoginBibli.dll

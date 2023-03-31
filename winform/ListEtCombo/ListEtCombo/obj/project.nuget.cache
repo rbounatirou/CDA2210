@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "f7Sh+Z0SdhM3qKpMfAbrA2ixPONGzujVSLvwcmYwj4JvQUv4KY27J5OMIvqJ2swvlY6Mu0+4gKpZn6amxoNK7A==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListEtCombo\\ListEtCombo\\ListEtCombo.csproj",
+  "dgSpecHash": "5ndydmQ9mfG+cY0zVo7o/bCvSPt3eocZ4qzNjP9FZnwj3LX8zjmLhHWNYK7reHgQhu1ABva3TRCx7aPkuH0pZw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListEtCombo\\ListEtCombo\\ListEtCombo.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListEtCombo\\PaysBibli\\PaysBibli.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListEtCombo\\PaysBibli\\PaysBibli.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

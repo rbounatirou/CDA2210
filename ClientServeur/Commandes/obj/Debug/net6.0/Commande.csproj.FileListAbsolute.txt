@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\bin\Debug\net6.0\Commande.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\bin\Debug\net6.0\Commande.dll
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\bin\Debug\net6.0\Commande.pdb
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\obj\Debug\net6.0\Commande.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\obj\Debug\net6.0\Commande.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\obj\Debug\net6.0\Commande.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\obj\Debug\net6.0\Commande.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\obj\Debug\net6.0\Commande.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\obj\Debug\net6.0\Commande.dll
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\obj\Debug\net6.0\refint\Commande.dll
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\obj\Debug\net6.0\Commande.pdb
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\Commandes\obj\Debug\net6.0\ref\Commande.dll

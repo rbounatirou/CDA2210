@@ -1,0 +1,15 @@
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\bin\Debug\net6.0\Client.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\bin\Debug\net6.0\Client.dll
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\bin\Debug\net6.0\Client.pdb
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\bin\Debug\net6.0\Commande.dll
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\bin\Debug\net6.0\Commande.pdb
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\Client.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\Client.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\Client.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\Client.csproj.CopyComplete
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\Client.dll
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\refint\Client.dll
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\Client.pdb
+C:\Users\rbounatirou\Documents\CDA2210\ClientServeur\ClientServeur\obj\Debug\net6.0\ref\Client.dll

@@ -18,3 +18,6 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\Composa
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.genruntimeconfig.cache
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ref\ComposantDefilement.dll
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\CreerFormulaires.FormCoposantDefilement.resources
+C:\Users\rbounatirou\Documents\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\refint\ComposantDefilement.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\ComposantDefilement\ComposantDefilement\obj\Debug\net6.0-windows\ComposantDefilement.pdb

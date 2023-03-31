@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ClientForm/1.0.0": {
+        "dependencies": {
+          "Client": "1.0.0",
+          "Commande": "1.0.0"
+        },
+        "runtime": {
+          "ClientForm.dll": {}
+        }
+      },
+      "Client/1.0.0": {
+        "dependencies": {
+          "Commande": "1.0.0"
+        },
+        "runtime": {
+          "Client.dll": {}
+        }
+      },
+      "Commande/1.0.0": {
+        "runtime": {
+          "Commande.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClientForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Commande/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ServeurConsole/1.0.0": {
+        "dependencies": {
+          "Commande": "1.0.0",
+          "Server": "1.0.0"
+        },
+        "runtime": {
+          "ServeurConsole.dll": {}
+        }
+      },
+      "Commande/1.0.0": {
+        "runtime": {
+          "Commande.dll": {}
+        }
+      },
+      "Server/1.0.0": {
+        "dependencies": {
+          "Commande": "1.0.0"
+        },
+        "runtime": {
+          "Server.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ServeurConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Commande/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

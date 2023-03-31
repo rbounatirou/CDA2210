@@ -20,3 +20,6 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\Emprunt\obj\Debug\n
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\Emprunt\obj\Debug\net6.0-windows\Emprunt.genruntimeconfig.cache
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\Emprunt\obj\Debug\net6.0-windows\ref\Emprunt.dll
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\Emprunt\Emprunt\obj\Debug\net6.0-windows\CreerFormulaires.FormEmprunt.resources
+C:\Users\rbounatirou\Documents\CDA2210\winform\Emprunt\Emprunt\obj\Debug\net6.0-windows\Emprunt.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\Emprunt\Emprunt\obj\Debug\net6.0-windows\refint\Emprunt.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\Emprunt\Emprunt\obj\Debug\net6.0-windows\Emprunt.pdb

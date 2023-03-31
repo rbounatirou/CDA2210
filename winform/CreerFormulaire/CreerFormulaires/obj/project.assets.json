@@ -6,7 +6,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "AdditionneurBibli": "1.0.0"
+          "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Additionneur\\AdditionneurBibli\\AdditionneurBibli.csproj": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Additionneur.dll": {}
@@ -17,36 +17,6 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
-      },
-      "AdditionneurBibli/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/AdditionneurBibli.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AdditionneurBibli.dll": {}
-        }
-      },
-      "BibliDefilement/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/BibliDefilement.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BibliDefilement.dll": {}
-        }
-      },
-      "BibliEmprunt/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/BibliEmprunt.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BibliEmprunt.dll": {}
-        }
       },
       "CheckboxRadio/1.0.0": {
         "type": "project",
@@ -65,7 +35,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "BibliDefilement": "1.0.0"
+          "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ComposantDefilement\\BibliDefilement\\BibliDefilement.csproj": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ComposantDefilement.dll": {}
@@ -81,8 +51,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "BibliEmprunt": "1.0.0",
-          "ValidationSaisieBibli": "1.0.0"
+          "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\BibliEmprunt\\BibliEmprunt.csproj": "1.0.0",
+          "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Emprunt.dll": {}
@@ -111,7 +81,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "PaysBibli": "1.0.0"
+          "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListEtCombo\\PaysBibli\\PaysBibli.csproj": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ListEtCombo.dll": {}
@@ -133,42 +103,12 @@
           "bin/placeholder/LoginBibli.dll": {}
         }
       },
-      "PaysBibli/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/PaysBibli.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PaysBibli.dll": {}
-        }
-      },
-      "TransactionBibli/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/TransactionBibli.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TransactionBibli.dll": {}
-        }
-      },
-      "ValidationSaisieBibli/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/ValidationSaisieBibli.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ValidationSaisieBibli.dll": {}
-        }
-      },
       "ValidationSaisieIHM/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "TransactionBibli": "1.0.0",
-          "ValidationSaisieBibli": "1.0.0"
+          "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ValidationSaisieIHM\\TransactionBibli\\TransactionBibli.csproj": "1.0.0",
+          "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ValidationSaisieIHM.dll": {}
@@ -187,21 +127,6 @@
       "type": "project",
       "path": "../../Additionneur/Additionneur/Additionneur.csproj",
       "msbuildProject": "../../Additionneur/Additionneur/Additionneur.csproj"
-    },
-    "AdditionneurBibli/1.0.0": {
-      "type": "project",
-      "path": "../../Additionneur/AdditionneurBibli/AdditionneurBibli.csproj",
-      "msbuildProject": "../../Additionneur/AdditionneurBibli/AdditionneurBibli.csproj"
-    },
-    "BibliDefilement/1.0.0": {
-      "type": "project",
-      "path": "../../ComposantDefilement/BibliDefilement/BibliDefilement.csproj",
-      "msbuildProject": "../../ComposantDefilement/BibliDefilement/BibliDefilement.csproj"
-    },
-    "BibliEmprunt/1.0.0": {
-      "type": "project",
-      "path": "../../Emprunt/BibliEmprunt/BibliEmprunt.csproj",
-      "msbuildProject": "../../Emprunt/BibliEmprunt/BibliEmprunt.csproj"
     },
     "CheckboxRadio/1.0.0": {
       "type": "project",
@@ -233,21 +158,6 @@
       "path": "../LoginBibli/LoginBibli.csproj",
       "msbuildProject": "../LoginBibli/LoginBibli.csproj"
     },
-    "PaysBibli/1.0.0": {
-      "type": "project",
-      "path": "../../ListEtCombo/PaysBibli/PaysBibli.csproj",
-      "msbuildProject": "../../ListEtCombo/PaysBibli/PaysBibli.csproj"
-    },
-    "TransactionBibli/1.0.0": {
-      "type": "project",
-      "path": "../../ValidationSaisieIHM/TransactionBibli/TransactionBibli.csproj",
-      "msbuildProject": "../../ValidationSaisieIHM/TransactionBibli/TransactionBibli.csproj"
-    },
-    "ValidationSaisieBibli/1.0.0": {
-      "type": "project",
-      "path": "../../ValidationSaisieIHM/ValidationSaisieBibli/ValidationSaisieBibli.csproj",
-      "msbuildProject": "../../ValidationSaisieIHM/ValidationSaisieBibli/ValidationSaisieBibli.csproj"
-    },
     "ValidationSaisieIHM/1.0.0": {
       "type": "project",
       "path": "../../ValidationSaisieIHM/ValidationSaisieIHM/ValidationSaisieIHM.csproj",
@@ -274,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\CreerFormulaires\\CreerFormulaires.csproj",
+      "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\CreerFormulaire\\CreerFormulaires\\CreerFormulaires.csproj",
       "projectName": "CreerFormulaires",
-      "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\CreerFormulaires\\CreerFormulaires.csproj",
+      "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\CreerFormulaire\\CreerFormulaires\\CreerFormulaires.csproj",
       "packagesPath": "C:\\Users\\rbounatirou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\CreerFormulaires\\obj\\",
+      "outputPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\CreerFormulaire\\CreerFormulaires\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -300,29 +210,29 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\Additionneur\\Additionneur\\Additionneur.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\Additionneur\\Additionneur\\Additionneur.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Additionneur\\Additionneur\\Additionneur.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Additionneur\\Additionneur\\Additionneur.csproj"
             },
-            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CheckboxRadio\\CheckboxRadio\\CheckboxRadio.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CheckboxRadio\\CheckboxRadio\\CheckboxRadio.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\CheckboxRadio\\CheckboxRadio\\CheckboxRadio.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\CheckboxRadio\\CheckboxRadio\\CheckboxRadio.csproj"
             },
-            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ComposantDefilement\\ComposantDefilement\\ComposantDefilement.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ComposantDefilement\\ComposantDefilement\\ComposantDefilement.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ComposantDefilement\\ComposantDefilement\\ComposantDefilement.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ComposantDefilement\\ComposantDefilement\\ComposantDefilement.csproj"
             },
-            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\LoginBibli\\LoginBibli.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\CreerFormulaire\\LoginBibli\\LoginBibli.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\CreerFormulaire\\LoginBibli\\LoginBibli.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\CreerFormulaire\\LoginBibli\\LoginBibli.csproj"
             },
-            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\Emprunt\\Emprunt\\Emprunt.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\Emprunt\\Emprunt\\Emprunt.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\Emprunt\\Emprunt.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\Emprunt\\Emprunt.csproj"
             },
-            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListeProp\\ListeProp\\ListeProp.csproj"
             },
-            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListEtCombo\\ListEtCombo\\ListEtCombo.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ListEtCombo\\ListEtCombo\\ListEtCombo.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListEtCombo\\ListEtCombo\\ListEtCombo.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListEtCombo\\ListEtCombo\\ListEtCombo.csproj"
             },
-            "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieIHM\\ValidationSaisieIHM.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\repos\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieIHM\\ValidationSaisieIHM.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieIHM\\ValidationSaisieIHM.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieIHM\\ValidationSaisieIHM.csproj"
             }
           }
         }
@@ -355,8 +265,73 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListEtCombo\\PaysBibli\\PaysBibli.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ListEtCombo\\PaysBibli\\PaysBibli.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\BibliEmprunt\\BibliEmprunt.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\BibliEmprunt\\BibliEmprunt.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ComposantDefilement\\BibliDefilement\\BibliDefilement.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ComposantDefilement\\BibliDefilement\\BibliDefilement.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ValidationSaisieIHM\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ValidationSaisieIHM\\TransactionBibli\\TransactionBibli.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\ValidationSaisieIHM\\TransactionBibli\\TransactionBibli.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Additionneur\\AdditionneurBibli\\AdditionneurBibli.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
+      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Additionneur\\AdditionneurBibli\\AdditionneurBibli.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

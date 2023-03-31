@@ -20,3 +20,6 @@ C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\Validat
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\obj\Debug\net6.0-windows\ValidationSaisieIHM.genruntimeconfig.cache
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\obj\Debug\net6.0-windows\ref\ValidationSaisieIHM.dll
 C:\Users\rbounatirou\Documents\repos\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\obj\Debug\net6.0-windows\CreerFormulaires.FormValidationSaisie.resources
+C:\Users\rbounatirou\Documents\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\obj\Debug\net6.0-windows\ValidationSaisieIHM.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\obj\Debug\net6.0-windows\refint\ValidationSaisieIHM.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\ValidationSaisieIHM\ValidationSaisieIHM\obj\Debug\net6.0-windows\ValidationSaisieIHM.pdb

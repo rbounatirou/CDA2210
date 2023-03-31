@@ -45,7 +45,7 @@ namespace ToutEmbalIHM
                     if (!this.InvokeRequired)
                         added.Enabled = p.EtatProduction == EnumEtatProduction.NON_DEMARRE;
                     else
-                        this.Invoke(() => added.Enabled = p.EtatProduction == EnumEtatProduction.NON_DEMARRE);
+                        this.Invoke(() => { added.Enabled = p.EtatProduction == EnumEtatProduction.NON_DEMARRE; });
                 })
              );
             added.Click += new System.EventHandler((sender, e) =>
@@ -55,10 +55,12 @@ namespace ToutEmbalIHM
             added.Tag = p;
         }
 
+
         private void AjouterItemStop(Production p)
         {
             int prodNb = nbProduction[p.VitesseProduction];
             ToolStripItem added = arreter_menu.DropDownItems.Add(StringForProduction(p) + (prodNb > 1 ? "(" + prodNb + ")" : ""));
+            added.Enabled = false;
             p.ProductionStateChanged += new Production.Event_OnProductionStateChanged(
                 new Action<Production>((p) =>
                 {
@@ -79,6 +81,7 @@ namespace ToutEmbalIHM
         {
             int prodNb = nbProduction[p.VitesseProduction];
             ToolStripItem added = continuer_menu.DropDownItems.Add(StringForProduction(p) + (prodNb > 1 ? "(" + prodNb + ")" : ""));
+            added.Enabled = false;
             p.ProductionStateChanged += new Production.Event_OnProductionStateChanged(
                 new Action<Production>((p) =>
                 {
