@@ -20,7 +20,8 @@ namespace ProductionLibrary
         public delegate void Event_OnProductionStopped(Production prod);
         public delegate void Event_OnProductionStarted(Production prod);
         public delegate void Event_OnProductionReloaded(Production prod);
-        public delegate void Event_OnProductionStateChanged(Production prod);
+        public delegate void Event_OnProductionStateChanged(Production prod); // Action<Production>
+
 
         public event Event_OnProductionQuantityChanged ProductionActuelleQuantityChanged;
         public event Event_OnProductionFinished ProductionFinished;
