@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\bin\Debug\net6.0\InterfaceDP.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\bin\Debug\net6.0\InterfaceDP.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\bin\Debug\net6.0\InterfaceDP.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\obj\Debug\net6.0\InterfaceDP.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\obj\Debug\net6.0\InterfaceDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\obj\Debug\net6.0\InterfaceDP.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\obj\Debug\net6.0\InterfaceDP.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\obj\Debug\net6.0\InterfaceDP.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\obj\Debug\net6.0\InterfaceDP.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\obj\Debug\net6.0\refint\InterfaceDP.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\obj\Debug\net6.0\InterfaceDP.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\InterfaceDP\obj\Debug\net6.0\ref\InterfaceDP.dll

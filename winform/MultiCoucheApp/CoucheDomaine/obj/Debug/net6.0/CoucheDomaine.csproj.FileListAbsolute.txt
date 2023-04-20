@@ -1,0 +1,5 @@
+C:\Users\rbounatirou\Documents\CDA2210\winform\MultiCoucheApp\CoucheDomaine\obj\Debug\net6.0\CoucheDomaine.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\MultiCoucheApp\CoucheDomaine\obj\Debug\net6.0\CoucheDomaine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\winform\MultiCoucheApp\CoucheDomaine\obj\Debug\net6.0\CoucheDomaine.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\MultiCoucheApp\CoucheDomaine\obj\Debug\net6.0\CoucheDomaine.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\winform\MultiCoucheApp\CoucheDomaine\obj\Debug\net6.0\CoucheDomaine.csproj.CoreCompileInputs.cache

@@ -1,0 +1,25 @@
+DROP TABLE personnages;
+DROP table races;
+DROP table comptes;
+
+CREATE TABLE races
+(id int IDENTITY,
+nom varchar(15) NOT NULL,
+PRIMARY KEY(id));
+
+CREATE TABLE personnages
+(
+id int IDENTITY,
+characterName varchar(12) NOT NULL,
+idRace int NOT NULL,
+idCompte int NOT NULL,
+PRIMARY KEY(id));
+
+CREATE TABLE comptes
+(
+id int IDENTITY,
+pseudo varchar(12) NOT NULL,
+PRIMARY KEY(id));
+
+ALTER TABLE personnages ADD CONSTRAINT fk_personnages_idrace FOREIGN KEY(idRace) REFERENCES races(id);
+ALTER TABLE personnages ADD CONSTRAINT fk_personnages_idcompte FOREIGN KEY(idCompte) REFERENCES comptes(id);

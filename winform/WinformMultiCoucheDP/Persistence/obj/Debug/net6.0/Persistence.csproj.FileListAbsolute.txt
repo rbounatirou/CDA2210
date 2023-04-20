@@ -1,0 +1,17 @@
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\bin\Debug\net6.0\Persistence.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\bin\Debug\net6.0\Persistence.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\bin\Debug\net6.0\Persistence.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\Persistence.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\Persistence.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\ref\Persistence.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\bin\Debug\net6.0\InterfaceDP.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\bin\Debug\net6.0\InterfaceDP.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
