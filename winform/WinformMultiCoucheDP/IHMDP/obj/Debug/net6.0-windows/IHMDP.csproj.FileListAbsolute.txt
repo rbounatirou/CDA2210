@@ -67,3 +67,4 @@ C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\IHMDP\bin\De
 C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\IHMDP\bin\Debug\net6.0-windows\Persistence.pdb
 C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\IHMDP\obj\Debug\net6.0-windows\IHMDP.CompteManager.resources
 C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\IHMDP\obj\Debug\net6.0-windows\IHMDP.DataObserver.resources
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformMultiCoucheDP\IHMDP\bin\Debug\net6.0-windows\IHMDP.dll.config

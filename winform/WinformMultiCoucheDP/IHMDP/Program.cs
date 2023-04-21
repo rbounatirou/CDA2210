@@ -1,3 +1,9 @@
+using Persistence.Persistent;
+using InterfaceDP;
+using System.Configuration;
+using System.Reflection;
+using System.Text.RegularExpressions;
+
 namespace IHMDP
 {
     internal static class Program
@@ -8,10 +14,27 @@ namespace IHMDP
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            ApplicationConfiguration.Initialize();            
+            string typeInstanceCompteStr = ConfigurationManager.AppSettings["compte"];
+            Assembly.Load(ConfigurationManager.AppSettings["compteAssembly"]);
+            Type typeInstanceCompte = searchForType(typeInstanceCompteStr);
+            Application.Run(new Form1((ICrudCompte)Activator.CreateInstance(typeInstanceCompte)));
+        }
+
+        private static Type? searchForType(string t)
+        {
+            Type? trt = Type.GetType(t);
+            if (trt != null)
+                return trt;
+            Assembly[] asms = AppDomain.CurrentDomain.GetAssemblies();
+            int i = 0;           
+            
+            while (i < asms.Length && trt == null)
+            {
+                trt = asms[i].GetType(t);
+                i++;
+            }
+            return trt;
         }
     }
 }

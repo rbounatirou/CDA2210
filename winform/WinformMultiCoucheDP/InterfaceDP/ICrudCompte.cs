@@ -11,5 +11,6 @@ namespace InterfaceDP
         public abstract bool Delete(SCompte _from);
 
         public abstract SCompte? Select(int _id);
+
     }
 }

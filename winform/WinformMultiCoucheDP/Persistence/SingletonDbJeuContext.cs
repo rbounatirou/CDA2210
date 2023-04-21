@@ -1,6 +1,6 @@
 ﻿using Persistence.Models;
 
-namespace IHMDP
+namespace Persistence
 {
     public class SingletonDbJeuContext
     {

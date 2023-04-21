@@ -29,7 +29,6 @@ namespace Domain
             }
             return false;
         }
-
         public bool Modifier() => compte.Update(this.info);
     }
 }

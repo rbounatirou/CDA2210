@@ -4,7 +4,7 @@ using InterfaceDP.structures;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Models;
 
-namespace IHMDP.Persistent
+namespace Persistence.Persistent
 {
     public class PersistentCompteEF : ICrudCompte
     {
@@ -45,6 +45,7 @@ namespace IHMDP.Persistent
             structRt.pseudo = c.Pseudo;
             return structRt;
         }
+
 
         public bool Update(SCompte _from)
         {

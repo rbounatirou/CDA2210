@@ -1,6 +1,7 @@
 ﻿using Domain;
-using IHMDP.Persistent;
+using Persistence.Persistent;
 using IHMDP.utils;
+using InterfaceDP;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,13 +23,13 @@ namespace IHMDP
             InitializeComponent();
         }
 
-        public CompteManager(EnumTypeRequete e)
+        public CompteManager(EnumTypeRequete e, ICrudCompte _config)
         {
             InitializeComponent();
             typeRequete = e;
             textBoxPseudo.Enabled = (e == EnumTypeRequete.INSERT || e == EnumTypeRequete.SELECT);
             textBoxId.Enabled = e != EnumTypeRequete.INSERT;
-            compte = new CCompte(new PersistentCompteEF());
+            compte = new CCompte(_config);
             textBoxTypeRequete.Text = e.ToString();
         }
 
