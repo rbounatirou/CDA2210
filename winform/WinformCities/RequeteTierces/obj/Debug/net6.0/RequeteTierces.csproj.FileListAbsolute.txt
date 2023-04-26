@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\bin\Debug\net6.0\RequeteTierces.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\bin\Debug\net6.0\RequeteTierces.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\bin\Debug\net6.0\RequeteTierces.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\obj\Debug\net6.0\RequeteTierces.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\obj\Debug\net6.0\RequeteTierces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\obj\Debug\net6.0\RequeteTierces.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\obj\Debug\net6.0\RequeteTierces.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\obj\Debug\net6.0\RequeteTierces.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\obj\Debug\net6.0\RequeteTierces.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\obj\Debug\net6.0\refint\RequeteTierces.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\obj\Debug\net6.0\RequeteTierces.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\WinformCities\RequeteTierces\obj\Debug\net6.0\ref\RequeteTierces.dll

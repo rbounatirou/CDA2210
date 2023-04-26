@@ -1,13 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "BibliEmprunt/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BibliEmprunt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliEmprunt.dll": {}
+        }
+      },
+      "ValidationSaisieBibli/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ValidationSaisieBibli.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ValidationSaisieBibli.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BibliEmprunt/1.0.0": {
+      "type": "project",
+      "path": "../BibliEmprunt/BibliEmprunt.csproj",
+      "msbuildProject": "../BibliEmprunt/BibliEmprunt.csproj"
+    },
+    "ValidationSaisieBibli/1.0.0": {
+      "type": "project",
+      "path": "../ValidationSaisieBibli/ValidationSaisieBibli.csproj",
+      "msbuildProject": "../ValidationSaisieBibli/ValidationSaisieBibli.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\BibliEmprunt\\BibliEmprunt.csproj",
-      "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj"
+      "BibliEmprunt >= 1.0.0",
+      "ValidationSaisieBibli >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -84,25 +116,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
-      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\BibliEmprunt\\BibliEmprunt.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
-      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\BibliEmprunt\\BibliEmprunt.csproj",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

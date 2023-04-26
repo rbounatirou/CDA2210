@@ -1,27 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1HAk5W3O+XEJlcNr0lF/VEsZp4Ld8ckLPMWiycoWewyFtj/M45tirJbKE8aQecKoatS/mAW3+u4Syv9nadVnrg==",
-  "success": false,
+  "dgSpecHash": "pkTuoimunGyNMPbQDfzcVbqJkOHLbE+cc33AL7/NpDpGpRQYx2axuAXnU1TM+hgJZ/14MJLE9QJPmSKQd9WBmA==",
+  "success": true,
   "projectFilePath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\Emprunt\\Emprunt.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
-      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Les informations relatives au projet sont introuvables pour 'C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\BibliEmprunt\\BibliEmprunt.csproj'. Si vous utilisez Visual Studio, cela peut être dû au fait que le projet est déchargé ou qu'il ne fait pas partie de la solution actuelle. Dans ce cas, exécutez une restauration à partir de la ligne de commande. Sinon, il est possible que le fichier projet soit non valide ou que des cibles nécessaires à la restauration soient manquantes.",
-      "libraryId": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\BibliEmprunt\\BibliEmprunt.csproj",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

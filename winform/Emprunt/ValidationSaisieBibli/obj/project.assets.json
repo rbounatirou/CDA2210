@@ -8,23 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\rbounatirou\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj",
+      "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj",
       "projectName": "ValidationSaisieBibli",
-      "projectPath": "C:\\Users\\user\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\obj\\",
+      "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\ValidationSaisieBibli.csproj",
+      "packagesPath": "C:\\Users\\rbounatirou\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\Emprunt\\ValidationSaisieBibli\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rbounatirou\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +35,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
