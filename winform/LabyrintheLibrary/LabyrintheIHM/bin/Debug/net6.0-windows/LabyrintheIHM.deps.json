@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LabyrintheIHM/1.0.0": {
+        "dependencies": {
+          "LabyrintheLibrary": "1.0.0"
+        },
+        "runtime": {
+          "LabyrintheIHM.dll": {}
+        }
+      },
+      "LabyrintheLibrary/1.0.0": {
+        "runtime": {
+          "LabyrintheLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LabyrintheIHM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LabyrintheLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
