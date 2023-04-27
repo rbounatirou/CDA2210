@@ -31,6 +31,8 @@
             this.panelLabyrinthe = new System.Windows.Forms.Panel();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             this.labelSlide = new System.Windows.Forms.Label();
+            this.buttonBitmap = new System.Windows.Forms.Button();
+            this.btSerialize = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panelLabyrinthe
@@ -59,11 +61,33 @@
             this.labelSlide.TabIndex = 2;
             this.labelSlide.Text = "label1";
             // 
+            // buttonBitmap
+            // 
+            this.buttonBitmap.Location = new System.Drawing.Point(23, 531);
+            this.buttonBitmap.Name = "buttonBitmap";
+            this.buttonBitmap.Size = new System.Drawing.Size(437, 23);
+            this.buttonBitmap.TabIndex = 3;
+            this.buttonBitmap.Text = "Save as bitmap";
+            this.buttonBitmap.UseVisualStyleBackColor = true;
+            this.buttonBitmap.Click += new System.EventHandler(this.buttonBitmap_Click);
+            // 
+            // btSerialize
+            // 
+            this.btSerialize.Location = new System.Drawing.Point(23, 572);
+            this.btSerialize.Name = "btSerialize";
+            this.btSerialize.Size = new System.Drawing.Size(437, 53);
+            this.btSerialize.TabIndex = 4;
+            this.btSerialize.Text = "Serialize labyrinthe";
+            this.btSerialize.UseVisualStyleBackColor = true;
+            this.btSerialize.Click += new System.EventHandler(this.btSerialize_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 536);
+            this.ClientSize = new System.Drawing.Size(465, 637);
+            this.Controls.Add(this.btSerialize);
+            this.Controls.Add(this.buttonBitmap);
             this.Controls.Add(this.labelSlide);
             this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.panelLabyrinthe);
@@ -79,5 +103,7 @@
         private Panel panelLabyrinthe;
         private HScrollBar hScrollBar1;
         private Label labelSlide;
+        private Button buttonBitmap;
+        private Button btSerialize;
     }
 }

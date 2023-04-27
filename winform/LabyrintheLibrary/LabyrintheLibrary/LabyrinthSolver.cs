@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DomainLabyrinthGenerator
+namespace LabyrintheLibrary
 {
-    public enum EnumAxePossible
+    public static class LabyrinthSolver
     {
-        Horizontal,
-        Vertical,
-        None
     }
 }

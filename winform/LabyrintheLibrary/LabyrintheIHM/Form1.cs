@@ -6,17 +6,19 @@ namespace LabyrintheIHM
     {
         private Labyrinthe labyrinthe;
         private List<Labyrinthe> saves;
+        Bitmap bmp;
         public Form1()
         {
             InitializeComponent();
             saves = new();
-            labyrinthe = new Labyrinthe(11,11);
+            labyrinthe = new Labyrinthe(21,21);
             while (!labyrinthe.EstTermine() ||saves.Count> labyrinthe.W * labyrinthe.H)
             {
                 saves.Add(new Labyrinthe(labyrinthe));
                 labyrinthe.GenererUneAction();
 
             }
+            bmp = new Bitmap(panelLabyrinthe.Width, panelLabyrinthe.Height);
             hScrollBar1.Maximum = saves.Count();
             saves.Add(new Labyrinthe(labyrinthe));
             DessinerLabyrinthe(labyrinthe);
@@ -50,7 +52,8 @@ namespace LabyrintheIHM
                 
             }
             int[,] valeur = labyrinthe.Valeurs;
-            Font ft = new Font("Helvetica", 14, FontStyle.Bold);
+            int size = Math.Max((2*Math.Max(tileW,tileH))/4,5);
+            Font ft = new Font("Helvetica", size, FontStyle.Bold);
             for (int i = 0; i < valeur.GetLength(0); i++)
             {
                 for (int j = 0; j < valeur.GetLength(1); j++)
@@ -58,6 +61,7 @@ namespace LabyrintheIHM
                     g.DrawString(valeur[i, j].ToString(), ft, brushText, new PointF(tileW + 2 * i*tileW, tileH + 2 * j*tileH));
                 }
             }
+            //g.DrawImage(bmp, 0, 0, panelLabyrinthe.Width, panelLabyrinthe.Height);
            // panelLabyrinthe.Refresh();
 
         }
@@ -76,5 +80,22 @@ namespace LabyrintheIHM
             panelLabyrinthe.Refresh();
             labelSlide.Text = hScrollBar1.Value + " / " + hScrollBar1.Maximum;
         }
+
+        private void buttonBitmap_Click(object sender, EventArgs e)
+        {
+            Bitmap bmploc = new Bitmap(panelLabyrinthe.Width, panelLabyrinthe.Height);
+
+            //panelLabyrinthe.DrawToBitmap(bmp, new Rectangle(0, 0, panelLabyrinthe.Width, panelLabyrinthe.Height));
+            
+            panelLabyrinthe.CreateGraphics().DrawImage(bmploc, new Rectangle(0, 0, bmp.Width, bmp.Height));
+            Clipboard.SetData(DataFormats.Bitmap, (object)bmploc);
+        }
+
+        private void btSerialize_Click(object sender, EventArgs e)
+        {
+            labyrinthe.Serialize("obj.bin");
+        }
+
+
     }
 }

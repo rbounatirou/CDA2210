@@ -10,3 +10,15 @@ C:\Users\user\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\
 C:\Users\user\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\refint\LabyrintheLibrary.dll
 C:\Users\user\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\LabyrintheLibrary.pdb
 C:\Users\user\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\ref\LabyrintheLibrary.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\bin\Debug\net6.0\LabyrintheLibrary.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\bin\Debug\net6.0\LabyrintheLibrary.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\bin\Debug\net6.0\LabyrintheLibrary.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\LabyrintheLibrary.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\LabyrintheLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\LabyrintheLibrary.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\LabyrintheLibrary.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\LabyrintheLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\LabyrintheLibrary.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\refint\LabyrintheLibrary.dll
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\LabyrintheLibrary.pdb
+C:\Users\rbounatirou\Documents\CDA2210\winform\LabyrintheLibrary\LabyrintheLibrary\obj\Debug\net6.0\ref\LabyrintheLibrary.dll
