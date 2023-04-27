@@ -11,6 +11,9 @@ namespace LabyrintheLibrary
     {
         private Labyrinthe labyrinthe;
         private int initX, initY, endX, endY;
+        private List<EtapeDjikstra> pattern;
+
+        public EtapeDjikstra[]? Pattern { get => (pattern != null ? pattern.ToArray() : null); }
         public Djikstra(Labyrinthe l, int posX, int posY, int posArriveeX, int posArriveeY)
         {
             if (posX < 0 ||
@@ -35,10 +38,11 @@ namespace LabyrintheLibrary
             List<EtapeDjikstra> resume = DeterminerCheminPossibles(0);
             if (resume != null)
             {
+
                 List<EtapeDjikstra> resumeArrivee = resume.FindAll(x => x.PointArrivee.X == endX && x.PointArrivee.Y == endY);
                 resumeArrivee.Sort((x, y) => x.DistanceTotale - y.DistanceTotale);
                 EtapeDjikstra suivi = resumeArrivee[0];
-                List<EtapeDjikstra> pattern = new();
+                pattern = new();
                 
                 while (suivi != null)
                 {
@@ -46,6 +50,7 @@ namespace LabyrintheLibrary
                     suivi = suivi.EtapePrecedente;
                 }
                 pattern.Sort((x, y) => x.DistanceTotale - y.DistanceTotale);
+
             }
         }
         
