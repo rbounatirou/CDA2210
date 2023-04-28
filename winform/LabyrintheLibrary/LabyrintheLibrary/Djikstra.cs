@@ -57,8 +57,6 @@ namespace LabyrintheLibrary
 
         private List<EtapeDjikstra>? DeterminerCheminPossibles(int dst, List<EtapeDjikstra>? ancienneListe = null )
         {
-            if (dst >= labyrinthe.W * labyrinthe.H)
-                return null;
             List<EtapeDjikstra> ets = ancienneListe ?? new();
             List<int> direction = new();
             if (dst == 0)
@@ -81,6 +79,10 @@ namespace LabyrintheLibrary
             if (arrivee.Count > 0 && arrivee.Exists(x => x.DistanceTotale <= dst))
             {
                 return ets;
+            }
+            if(ajouts.Count == 0 && !ets.Exists(x=>x.DistanceTotale > dst))
+            {
+                return null;
             }
             return DeterminerCheminPossibles(dst, ets);
         }

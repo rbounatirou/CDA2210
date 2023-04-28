@@ -31,7 +31,7 @@
             this.panelLabyrinthe = new System.Windows.Forms.Panel();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             this.labelSlide = new System.Windows.Forms.Label();
-            this.buttonBitmap = new System.Windows.Forms.Button();
+            this.buttonLoad = new System.Windows.Forms.Button();
             this.btSerialize = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButtonCoordonees = new System.Windows.Forms.RadioButton();
@@ -83,15 +83,15 @@
             this.labelSlide.TabIndex = 2;
             this.labelSlide.Text = "0";
             // 
-            // buttonBitmap
+            // buttonLoad
             // 
-            this.buttonBitmap.Location = new System.Drawing.Point(13, 561);
-            this.buttonBitmap.Name = "buttonBitmap";
-            this.buttonBitmap.Size = new System.Drawing.Size(437, 23);
-            this.buttonBitmap.TabIndex = 3;
-            this.buttonBitmap.Text = "Save as bitmap";
-            this.buttonBitmap.UseVisualStyleBackColor = true;
-            this.buttonBitmap.Click += new System.EventHandler(this.buttonBitmap_Click);
+            this.buttonLoad.Location = new System.Drawing.Point(13, 561);
+            this.buttonLoad.Name = "buttonLoad";
+            this.buttonLoad.Size = new System.Drawing.Size(437, 23);
+            this.buttonLoad.TabIndex = 3;
+            this.buttonLoad.Text = "Load from file";
+            this.buttonLoad.UseVisualStyleBackColor = true;
+            this.buttonLoad.Click += new System.EventHandler(this.buttonCharger_Click);
             // 
             // btSerialize
             // 
@@ -276,7 +276,7 @@
             this.Controls.Add(this.groupBoxDjikstra);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btSerialize);
-            this.Controls.Add(this.buttonBitmap);
+            this.Controls.Add(this.buttonLoad);
             this.Controls.Add(this.labelSlide);
             this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.panelLabyrinthe);
@@ -300,7 +300,7 @@
         private Panel panelLabyrinthe;
         private HScrollBar hScrollBar1;
         private Label labelSlide;
-        private Button buttonBitmap;
+        private Button buttonLoad;
         private Button btSerialize;
         private GroupBox groupBox1;
         private RadioButton radioButtonAucun;

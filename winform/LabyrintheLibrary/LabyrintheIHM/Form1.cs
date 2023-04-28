@@ -7,33 +7,46 @@ namespace LabyrintheIHM
     {
         private Labyrinthe labyrinthe;
         private List<Labyrinthe> saves;
-        Bitmap bmp;
-        Point[] pointsDjikstra;
+        private Point[] pointsDjikstra;
         public Form1()
         {
             InitializeComponent();
             saves = new();
             labyrinthe = new Labyrinthe(21, 21);
-            numericUpDownDepX.Maximum = numericUpDownEndX.Maximum = labyrinthe.W - 1;
-            numericUpDownDepY.Maximum = numericUpDownEndY.Maximum = labyrinthe.H - 1;
-            while (!labyrinthe.EstTermine() || saves.Count > labyrinthe.W * labyrinthe.H)
-            {
-                saves.Add(new Labyrinthe(labyrinthe));
-                labyrinthe.GenererUneAction();
+            
+            /* while (!labyrinthe.EstTermine() || saves.Count > labyrinthe.W * labyrinthe.H)
+             {
+                 saves.Add(new Labyrinthe(labyrinthe));
+                 labyrinthe.GenererUneAction();
 
-            }
-            bmp = new Bitmap(panelLabyrinthe.Width, panelLabyrinthe.Height);
-            hScrollBar1.Maximum = saves.Count();
-            saves.Add(new Labyrinthe(labyrinthe));
+             }
+
+             hScrollBar1.Maximum = saves.Count();*/
+            labyrinthe.Generer();
+            AjouterCopieLabyrinthe(labyrinthe);
             hScrollBar1.Value = hScrollBar1.Maximum;
             DessinerLabyrinthe(labyrinthe);
+            ChargerCoordLabyrinthe();
+        }
+
+
+        private void ChargerCoordLabyrinthe()
+        {
             pointsDjikstra = new Point[] { new Point(0, 1), new Point(labyrinthe.W - 1, labyrinthe.H - 2) };
+            numericUpDownDepX.Maximum = numericUpDownEndX.Maximum = labyrinthe.W - 1;
+            numericUpDownDepY.Maximum = numericUpDownEndY.Maximum = labyrinthe.H - 1;
             numericUpDownDepX.Value = pointsDjikstra[0].X;
             numericUpDownDepY.Value = pointsDjikstra[0].Y;
             numericUpDownEndX.Value = pointsDjikstra[1].X;
             numericUpDownEndY.Value = pointsDjikstra[1].Y;
         }
+        private void AjouterCopieLabyrinthe(Labyrinthe l)
+        {
+            saves.Add(new Labyrinthe(l));
+             hScrollBar1.Maximum = saves.Count()-1;
+            hScrollBar1.Value = hScrollBar1.Maximum;
 
+        }
         public void DessinerLabyrinthe(Labyrinthe l)
         {
             Graphics g = panelLabyrinthe.CreateGraphics();
@@ -95,11 +108,11 @@ namespace LabyrintheIHM
 
             for (int i = 0; i < labyrinthe.W; i++)
             {
-                g.DrawLine(pen, new Point(i * tileW, 0), new Point(i * tileW, panelLabyrinthe.Height));
+                g.DrawLine(pen, new Point(i * tileW, 0), new Point(i * tileW, labyrinthe.H * tileH));
             }
             for (int i = 0; i < labyrinthe.H; i++)
             {
-                g.DrawLine(pen, new Point(0, i * tileH), new Point(panelLabyrinthe.Width, i * tileH));
+                g.DrawLine(pen, new Point(0, i * tileH), new Point(labyrinthe.W * tileW, i * tileH));
             }
         }
 
@@ -170,23 +183,20 @@ namespace LabyrintheIHM
         private void hScrollBar1_ValueChanged(object sender, EventArgs e)
         {
             labyrinthe = saves[hScrollBar1.Value];
+            ChargerCoordLabyrinthe();
             panelLabyrinthe.Refresh();
             labelSlide.Text = hScrollBar1.Value + " / " + hScrollBar1.Maximum;
         }
 
-        private void buttonBitmap_Click(object sender, EventArgs e)
-        {
-            Bitmap bmploc = new Bitmap(panelLabyrinthe.Width, panelLabyrinthe.Height);
-
-            //panelLabyrinthe.DrawToBitmap(bmp, new Rectangle(0, 0, panelLabyrinthe.Width, panelLabyrinthe.Height));
-
-            panelLabyrinthe.CreateGraphics().DrawImage(bmploc, new Rectangle(0, 0, bmp.Width, bmp.Height));
-            Clipboard.SetData(DataFormats.Bitmap, (object)bmploc);
-        }
 
         private void btSerialize_Click(object sender, EventArgs e)
         {
-            labyrinthe.Serialize("obj.bin");
+            SaveFileDialog dial = new SaveFileDialog();
+            dial.Filter = "binary files(*.bin)|*.bin";
+            if  (dial.ShowDialog() == DialogResult.OK)
+            {
+                labyrinthe.Serialize(dial.FileName);
+            }
         }
 
         private void radioButtonCheckedChanged(object sender, EventArgs e)
@@ -204,5 +214,18 @@ namespace LabyrintheIHM
                 panelLabyrinthe.Refresh();
             }
         }
+
+        private void buttonCharger_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dial = new OpenFileDialog();
+            dial.Filter = "binary files(*.bin)|*.bin";
+            if (dial.ShowDialog() == DialogResult.OK)
+            {
+                AjouterCopieLabyrinthe(Labyrinthe.Deserialize(dial.FileName));
+            }
+            
+        }
+
+
     }
 }
