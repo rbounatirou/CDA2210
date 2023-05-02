@@ -14,5 +14,12 @@ namespace CerealApi.Db
             optionsBuilders.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=db_cereals");
 
         }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            builder.Entity<Cereal>().HasIndex(cereal => cereal.CerealId).IsUnique();
+        }
     }
 }
