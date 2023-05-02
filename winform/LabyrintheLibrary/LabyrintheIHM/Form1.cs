@@ -5,33 +5,23 @@ namespace LabyrintheIHM
 {
     public partial class Form1 : Form
     {
-        private Labyrinthe labyrinthe;
+        private Labyrinthe? labyrinthe;
         private List<Labyrinthe> saves;
         private Point[] pointsDjikstra;
         public Form1()
         {
             InitializeComponent();
             saves = new();
-            labyrinthe = new Labyrinthe(21, 21);
+            labyrinthe = null;
+            hScrollBar1.Value = 0;            
+            hScrollBar1.Maximum = 0;            
             
-            /* while (!labyrinthe.EstTermine() || saves.Count > labyrinthe.W * labyrinthe.H)
-             {
-                 saves.Add(new Labyrinthe(labyrinthe));
-                 labyrinthe.GenererUneAction();
-
-             }
-
-             hScrollBar1.Maximum = saves.Count();*/
-            labyrinthe.Generer();
-            AjouterCopieLabyrinthe(labyrinthe);
-            hScrollBar1.Value = hScrollBar1.Maximum;
-            DessinerLabyrinthe(labyrinthe);
-            ChargerCoordLabyrinthe();
         }
 
 
         private void ChargerCoordLabyrinthe()
         {
+            
             pointsDjikstra = new Point[] { new Point(0, 1), new Point(labyrinthe.W - 1, labyrinthe.H - 2) };
             numericUpDownDepX.Maximum = numericUpDownEndX.Maximum = labyrinthe.W - 1;
             numericUpDownDepY.Maximum = numericUpDownEndY.Maximum = labyrinthe.H - 1;
@@ -45,10 +35,17 @@ namespace LabyrintheIHM
             saves.Add(new Labyrinthe(l));
              hScrollBar1.Maximum = saves.Count()-1;
             hScrollBar1.Value = hScrollBar1.Maximum;
-
+            if (saves.Count() == 1)
+            {
+                labyrinthe = saves[0];
+                ChargerCoordLabyrinthe();
+                panelLabyrinthe.Refresh();
+            }
         }
-        public void DessinerLabyrinthe(Labyrinthe l)
+        public void DessinerLabyrinthe(Labyrinthe? l)
         {
+            if (l == null)
+                return;
             Graphics g = panelLabyrinthe.CreateGraphics();
 
             Color mur = Color.Black;
@@ -226,6 +223,20 @@ namespace LabyrintheIHM
             
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int w = (int)numericUpDownW.Value;
+            int h = (int)numericUpDownH.Value;
+            if (w%2 == 1 && w > 3 && w <= 51 && h%2 == 1 && h > 3 && h <= 51)
+            {
+                Labyrinthe generation = new Labyrinthe(w, h);
+                generation.Generer();
+                AjouterCopieLabyrinthe(generation);
+                
+            } else
+            {
+                MessageBox.Show("Impossible de generer un labyrinthe, sa largeur et longueur doivent pouvoir s'ecrire sous la forme 2k+1 avec k > 1 et k entier naturel");
+            }
+        }
     }
 }

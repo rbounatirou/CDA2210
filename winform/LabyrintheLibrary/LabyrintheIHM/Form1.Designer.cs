@@ -49,17 +49,26 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonChangerDjikstra = new System.Windows.Forms.Button();
+            this.groupBoxLabyrinthe = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.numericUpDownH = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDownW = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDepX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDepY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEndX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEndY)).BeginInit();
             this.groupBoxDjikstra.SuspendLayout();
+            this.groupBoxLabyrinthe.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownH)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownW)).BeginInit();
             this.SuspendLayout();
             // 
             // panelLabyrinthe
             // 
-            this.panelLabyrinthe.Location = new System.Drawing.Point(164, 12);
+            this.panelLabyrinthe.Location = new System.Drawing.Point(23, 25);
             this.panelLabyrinthe.Name = "panelLabyrinthe";
             this.panelLabyrinthe.Size = new System.Drawing.Size(400, 400);
             this.panelLabyrinthe.TabIndex = 0;
@@ -268,11 +277,108 @@
             this.buttonChangerDjikstra.UseVisualStyleBackColor = true;
             this.buttonChangerDjikstra.Click += new System.EventHandler(this.buttonChangerDjikstra_Click);
             // 
+            // groupBoxLabyrinthe
+            // 
+            this.groupBoxLabyrinthe.Controls.Add(this.label6);
+            this.groupBoxLabyrinthe.Controls.Add(this.label5);
+            this.groupBoxLabyrinthe.Controls.Add(this.button1);
+            this.groupBoxLabyrinthe.Controls.Add(this.numericUpDownH);
+            this.groupBoxLabyrinthe.Controls.Add(this.numericUpDownW);
+            this.groupBoxLabyrinthe.Location = new System.Drawing.Point(442, 319);
+            this.groupBoxLabyrinthe.Name = "groupBoxLabyrinthe";
+            this.groupBoxLabyrinthe.Size = new System.Drawing.Size(259, 106);
+            this.groupBoxLabyrinthe.TabIndex = 11;
+            this.groupBoxLabyrinthe.TabStop = false;
+            this.groupBoxLabyrinthe.Text = "Ajouter Labyrinthe";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(139, 37);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(16, 15);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "H";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(39, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(18, 15);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "W";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(39, 64);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(184, 36);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Generer";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // numericUpDownH
+            // 
+            this.numericUpDownH.Increment = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.numericUpDownH.Location = new System.Drawing.Point(161, 35);
+            this.numericUpDownH.Maximum = new decimal(new int[] {
+            51,
+            0,
+            0,
+            0});
+            this.numericUpDownH.Minimum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numericUpDownH.Name = "numericUpDownH";
+            this.numericUpDownH.Size = new System.Drawing.Size(62, 23);
+            this.numericUpDownH.TabIndex = 1;
+            this.numericUpDownH.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            // 
+            // numericUpDownW
+            // 
+            this.numericUpDownW.Increment = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
+            this.numericUpDownW.Location = new System.Drawing.Point(64, 35);
+            this.numericUpDownW.Maximum = new decimal(new int[] {
+            51,
+            0,
+            0,
+            0});
+            this.numericUpDownW.Minimum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numericUpDownW.Name = "numericUpDownW";
+            this.numericUpDownW.Size = new System.Drawing.Size(67, 23);
+            this.numericUpDownW.TabIndex = 0;
+            this.numericUpDownW.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 673);
+            this.Controls.Add(this.groupBoxLabyrinthe);
             this.Controls.Add(this.groupBoxDjikstra);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btSerialize);
@@ -290,6 +396,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEndY)).EndInit();
             this.groupBoxDjikstra.ResumeLayout(false);
             this.groupBoxDjikstra.PerformLayout();
+            this.groupBoxLabyrinthe.ResumeLayout(false);
+            this.groupBoxLabyrinthe.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownH)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownW)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,5 +428,11 @@
         private Label label1;
         private Button buttonChangerDjikstra;
         private RadioButton radioButtonCoordonees;
+        private GroupBox groupBoxLabyrinthe;
+        private Label label6;
+        private Label label5;
+        private Button button1;
+        private NumericUpDown numericUpDownH;
+        private NumericUpDown numericUpDownW;
     }
 }
