@@ -11,57 +11,35 @@ namespace CerealApi.Controllers
     [ApiController]
     public class CerealsController : ControllerBase
     {
-        CerealDbContext context;
+        private Repository<Cereal> repository;
 
         public CerealsController() : base()
         {
-            context = new CerealDbContext();
-            
+            repository = new Repository<Cereal>(new CerealDbContext());
+
         }
 
         // GET: api/<CerealsController>
         [HttpGet]
-        public IEnumerable<Cereal> Get() => context.Cereals.ToList();
+        public IEnumerable<Cereal> Get() => repository.Get();
 
 
         // GET api/<CerealsController>/5
         [HttpGet("{id}")]
-        public Cereal Get(int id) => context.Cereals.Find(id);
+        public Cereal? Get(int id) => repository.Get(id);
 
         // POST api/<CerealsController>
         [HttpPost]
-        public void Post([FromBody] Cereal value)
-        {
-            context.Cereals.Add(value);
-            context.SaveChanges();
-        }
+        public void Post([FromBody] Cereal value) => repository.Post(value);
 
         // PUT api/<CerealsController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Cereal value)
-        {
-            Cereal get = Get(id);
-            
-            if (get != null)
-            {
-                get.Name = value.Name;
-                get.Protein = value.Protein;
-                get.Calories = value.Calories;
-                context.Cereals.Update(get);
-                context.SaveChanges();
-            }
-        }
+        public void Put(int id, [FromBody] Cereal value) => repository.Put(id, value);
 
         // DELETE api/<CerealsController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-            Cereal get = Get(id);
-            if (get != null)
-            {
-                context.Cereals.Remove(get);
-                context.SaveChanges();
-            }
-        }
+        public void Delete(int id) => repository.Delete(id);
+
+        
     }
 }

@@ -19,7 +19,8 @@ namespace CerealApi.Db
         {
             base.OnModelCreating(builder);
 
-            builder.Entity<Cereal>().HasIndex(cereal => cereal.CerealId).IsUnique();
+            builder.Entity<Cereal>().HasIndex(cereal => cereal.Name).IsUnique();
+            
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\bin\Debug\net6.0\TestComplexity.exe
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\bin\Debug\net6.0\TestComplexity.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\bin\Debug\net6.0\TestComplexity.runtimeconfig.json
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\bin\Debug\net6.0\TestComplexity.dll
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\bin\Debug\net6.0\TestComplexity.pdb
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\TestComplexity.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\TestComplexity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\TestComplexity.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\TestComplexity.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\TestComplexity.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\TestComplexity.dll
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\refint\TestComplexity.dll
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\TestComplexity.pdb
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\TestComplexity.genruntimeconfig.cache
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\TestComplexity\TestComplexity\obj\Debug\net6.0\ref\TestComplexity.dll

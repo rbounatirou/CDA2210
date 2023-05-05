@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CerealApi", "CerealApi\CerealApi.csproj", "{50A82F92-3389-4119-B2B3-E21ECED8C445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CerealApi", "CerealApi\CerealApi.csproj", "{50A82F92-3389-4119-B2B3-E21ECED8C445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT", "JWT\JWT.csproj", "{05C844DC-6C5F-4B7D-B934-B009A632F17B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{50A82F92-3389-4119-B2B3-E21ECED8C445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50A82F92-3389-4119-B2B3-E21ECED8C445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50A82F92-3389-4119-B2B3-E21ECED8C445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C844DC-6C5F-4B7D-B934-B009A632F17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C844DC-6C5F-4B7D-B934-B009A632F17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C844DC-6C5F-4B7D-B934-B009A632F17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C844DC-6C5F-4B7D-B934-B009A632F17B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -34,17 +34,17 @@ namespace CerealApi.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("Protein")
                         .HasColumnType("int");
 
                     b.HasKey("CerealId");
 
-                    b.HasIndex("CerealId")
+                    b.HasIndex("Name")
                         .IsUnique();
 
-                    b.ToTable("Cereals");
+                    b.ToTable("Cereals", (string)null);
                 });
 #pragma warning restore 612, 618
         }
