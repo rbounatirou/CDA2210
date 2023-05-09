@@ -7,12 +7,14 @@ namespace ApiUser.Models
     public class User : Model
     {
         [Required]
-        //[StringLength(16)]
-        [MaxLength(16)]
+        [StringLength(maximumLength: 16, MinimumLength =2)]
+        [RegularExpression(@"^[a-zA-Z]+(?:\-[a-zA-Z]+)?$")]
         //[Column("user_name")]
+
         public string? Username { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Le mot de passe est obligatoire")]
+        [RegularExpression(@"^[a-zA-Z0-9]{8,}$")]
         public string? Password { get; set; }
 
     }

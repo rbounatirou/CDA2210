@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUser", "ApiUser\ApiUser.csproj", "{A0220854-102D-4307-83EB-6056691C3264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiUser", "ApiUser\ApiUser.csproj", "{A0220854-102D-4307-83EB-6056691C3264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUser.Models", "ApiUser.Models\ApiUser.Models.csproj", "{6016E3C3-4E45-4583-88BB-F7704F4FAC57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiUser.Models", "ApiUser.Models\ApiUser.Models.csproj", "{6016E3C3-4E45-4583-88BB-F7704F4FAC57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUser.Databases", "ApiUser.Databases\ApiUser.Databases.csproj", "{D11A5FB9-F03E-439C-B655-BE5D9A3AC5CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6016E3C3-4E45-4583-88BB-F7704F4FAC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6016E3C3-4E45-4583-88BB-F7704F4FAC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6016E3C3-4E45-4583-88BB-F7704F4FAC57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11A5FB9-F03E-439C-B655-BE5D9A3AC5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11A5FB9-F03E-439C-B655-BE5D9A3AC5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11A5FB9-F03E-439C-B655-BE5D9A3AC5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11A5FB9-F03E-439C-B655-BE5D9A3AC5CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\bin\Debug\net6.0\ApiUser.Models.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\bin\Debug\net6.0\ApiUser.Models.runtimeconfig.json
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\bin\Debug\net6.0\ApiUser.Models.dll
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\bin\Debug\net6.0\ApiUser.Models.pdb
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\ApiUser.Models.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\ApiUser.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\ApiUser.Models.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\ApiUser.Models.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\ApiUser.Models.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\ApiUser.Models.dll
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\refint\ApiUser.Models.dll
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\ApiUser.Models.pdb
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\ApiUser.Models.genruntimeconfig.cache
+C:\Users\rbounatirou\Documents\CDA2210\algo\dotnet\ApiUser\ApiUser.Models\obj\Debug\net6.0\ref\ApiUser.Models.dll
