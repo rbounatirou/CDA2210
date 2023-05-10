@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ApiUser.Databases;
 using ApiUser.Models;
@@ -24,44 +19,57 @@ namespace ApiUser.Controllers
 
         // GET: api/Users
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUser()
+        public async Task<ActionResult<IEnumerable<UserReadViewModel>>> GetUser()
         {
           if (_context.Users == null)
           {
               return NotFound();
           }
-            return await _context.Users.ToListAsync();
+            List<UserReadViewModel> list = new();
+            await _context.Users.ForEachAsync(u =>
+            {
+                UserReadViewModel r = new UserReadViewModel() {  Id = u.Id, Username= u.Username};
+                list.Add(r);
+            });
+            return list;
         }
 
         // GET: api/Users/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int? id)
+        public async Task<ActionResult<UserReadViewModel>> GetUser(int? id)
         {
           if (_context.Users == null)
           {
               return NotFound();
           }
             var user = await _context.Users.FindAsync(id);
-
-            if (user == null)
+            if (user is User userConcrete)
+            {
+                return new UserReadViewModel() {  Id = userConcrete.Id, Username = userConcrete.Username };
+            } else
             {
                 return NotFound();
-            }
-
-            return user;
+            }           
         }
 
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int? id, User user)
+        public async Task<IActionResult> PutUser(int? id, UserUpdateViewModel user)
         {
             if (id != user.Id)
             {
                 return BadRequest();
             }
-
-            _context.Entry(user).State = EntityState.Modified;
+            if (_context.Users.FirstOrDefault(u => user.Id == u.Id) is User userInDb)
+            {
+                userInDb.Username = user.Username;
+                _context.Entry(userInDb).State = EntityState.Modified;
+            } else
+            {
+                return NotFound();
+            }
+            
 
             try
             {
