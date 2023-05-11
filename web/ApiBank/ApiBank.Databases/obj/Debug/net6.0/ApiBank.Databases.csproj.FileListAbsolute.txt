@@ -1,0 +1,17 @@
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\bin\Debug\net6.0\ApiBank.Databases.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\bin\Debug\net6.0\ApiBank.Databases.runtimeconfig.json
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\bin\Debug\net6.0\ApiBank.Databases.dll
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\bin\Debug\net6.0\ApiBank.Databases.pdb
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\bin\Debug\net6.0\ApiBank.Models.dll
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\bin\Debug\net6.0\ApiBank.Models.pdb
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ApiBank.Databases.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ApiBank.Databases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ApiBank.Databases.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ApiBank.Databases.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ApiBank.Databases.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ApiBank.Databases.csproj.CopyComplete
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ApiBank.Databases.dll
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\refint\ApiBank.Databases.dll
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ApiBank.Databases.pdb
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ApiBank.Databases.genruntimeconfig.cache
+C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Databases\obj\Debug\net6.0\ref\ApiBank.Databases.dll

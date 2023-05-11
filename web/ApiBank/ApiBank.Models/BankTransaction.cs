@@ -1,22 +1,29 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ApiBank.Models
 {
     public class BankTransaction : Model
     {
         [Required]
+        [DataType(DataType.DateTime)]
+       
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd HH:mm:ss}")]
         public DateTime? TransactionDate { get; set; }
 
         [Required]
-        [Range(100000000000.0d,int.MaxValue, ErrorMessage = "TransactionFrom incorrect")]
-        public int TransactionFrom { get; set; }
+        [Range(100000000000.0d,long.MaxValue, ErrorMessage = "TransactionFrom incorrect")]
+        public long TransactionFrom { get; set; }
 
         [Required]
-        [Range(100000000000.0d, int.MaxValue, ErrorMessage = "TransactionTo incorrect")]
-        public int TransectionTo { get; set; }
+        [Range(100000000000.0d, long.MaxValue, ErrorMessage = "TransactionTo incorrect")]
+        public long TransactionTo { get; set; }
 
         [Required]
-        [Range(100000000000.0d, 99000, ErrorMessage = "Montant incorrect")]
-        public double? TransactionAmmount { get; set; }
+        [Precision(7,2)]
+        [Range(0.01d, 99000.00d, ErrorMessage =  "Montant incorrect")]
+        
+        public decimal? TransactionAmmount { get; set; }
     }
 }
