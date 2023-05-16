@@ -30,24 +30,30 @@ namespace ApiBank.Databases.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("Id"));
 
-                    b.Property<decimal?>("TransactionAmmount")
+                    b.Property<decimal?>("TransactionAmount")
                         .IsRequired()
                         .HasPrecision(7, 2)
-                        .HasColumnType("decimal(7,2)");
+                        .HasColumnType("decimal(7,2)")
+                        .HasColumnName("transaction_amount");
 
                     b.Property<DateTime?>("TransactionDate")
                         .IsRequired()
-                        .HasColumnType("datetime2");
+                        .HasColumnType("datetime2")
+                        .HasColumnName("transaction_date");
 
-                    b.Property<long>("TransactionFrom")
-                        .HasColumnType("bigint");
+                    b.Property<string>("TransactionFrom")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("transaction_from");
 
-                    b.Property<long>("TransactionTo")
-                        .HasColumnType("bigint");
+                    b.Property<string>("TransactionTo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("transaction_to");
 
                     b.HasKey("Id");
 
-                    b.ToTable("BankTransactions", (string)null);
+                    b.ToTable("BankTransactions");
                 });
 #pragma warning restore 612, 618
         }

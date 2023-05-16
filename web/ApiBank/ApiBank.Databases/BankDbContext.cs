@@ -16,7 +16,7 @@ namespace ApiBank.Databases
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            //builder.Entity<BankTransaction>().Property(b => b.TransactionDate)
+            //builder.Entity<BankTransaction>().Property(b => b.TransactionDate).HasPrecision(3);
         }
     }
 }

@@ -55,7 +55,7 @@ namespace ApiUser.Controllers
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int? id, UserUpdateViewModel user)
+        public async Task<IActionResult> PutUser(int? id, User user)
         {
             if (id != user.Id)
             {
