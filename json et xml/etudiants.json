@@ -1,0 +1,23 @@
+ {
+        "intitule":"Marketing",
+        "dureeMois": 3,
+        "dateDebut":"01/01/2023",
+        "dateFin":"01/04/2023",
+        "etudiants":[
+        {
+            "nom":"Groupame",
+            "prenom":"Cerise",
+            "datenaissance":"01/01/2000"            
+        },
+        {
+            "nom":"Groupame",
+            "prenom":"Myrtille",
+            "datenaissance":"01/01/2000"            
+        },
+        {
+            "nom":"Groupame",
+            "prenom":"Fraise",
+            "datenaissance":"01/01/2000"           
+        }
+    ]    
+}

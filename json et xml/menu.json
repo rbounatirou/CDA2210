@@ -1,0 +1,29 @@
+{
+    "entrees" : [
+        {"nom":"Salade ecureuil",
+        "prix":0.45,
+        "description":"Salade avec des noix"},
+        {"nom":"Salade folle",
+        "prix":0.45,
+        "description":"Salade avec des fruits"}
+    ],
+    "plats":[
+        {"nom":"Riz creole, boulettes d'agneau",
+        "prix":2.75,
+        "description":"Petite portion de riz créole et boulettes d'agneau"},
+        {"nom":"Cordon bleu et pates",
+        "prix":2.75,
+        "description":"Cordon bleu et pates, que dire de plus"},
+        {"nom":"Pizza 4 fromages",
+        "prix":2.75,
+        "description":"Pizza aux 4 fromages (selon les fromages disponibles)"}
+    ],
+    "desserts":[
+        {"nom":"Flan bio au caramel",
+        "prix":0.45,
+        "description":"Un délicat et somptueux flan bio au lait issue de fermes eco responsable, labelisé Max Havelar, et agriculteur du coeur au caramel certifié éco responable, fait à base de sucre issue de betterave elle même cultivée dans le bon respect des normes européenne en matière d'écologie."},
+        {"nom":"Yaourt surprise",
+        "prix":0.45,
+        "description":"Parfum surprise"}
+    ]
+}

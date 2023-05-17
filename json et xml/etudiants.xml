@@ -1,0 +1,26 @@
+<formation>
+    <intitule>Marketing</intitule>
+    <duree unite="mois">3</duree>
+    <datedebut>01/01/2023</datedebut>
+    <datefin>01/04/2023</datefin>
+    <etudiants>
+        <etudiant>
+            <nom>Groupama</nom>
+            <prenom>Cerise</prenom>
+            <datenaissance>01/01/2000</datenaissance>
+            <mail>cerise@groupama.fr</mail>
+        </etudiant>
+        <etudiant>
+            <nom>Groupama</nom>
+            <prenom>Myrtille</prenom>
+            <datenaissance>01/01/2000</datenaissance>
+            <mail>myrtille@groupama.fr</mail>
+        </etudiant>
+        <etudiant>
+            <nom>Groupama</nom>
+            <prenom>Fraise</prenom>
+            <datenaissance>01/01/2000</datenaissance>
+            <mail>frais@groupama.fr</mail>
+        </etudiant>
+    </etudiants>
+</formation>
