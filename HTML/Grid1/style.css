@@ -1,0 +1,116 @@
+:root{
+    --primary-color : #bbccff;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: "A"
+    "B"
+    "C"
+    "D"
+    "E";
+    gap: 8px;
+}
+
+body > *{
+    background-color: var(--primary-color);
+
+}
+
+header{
+    grid-area: A;
+}
+
+#ads{
+    grid-area: B;
+}
+
+nav{
+    grid-area: C;
+}
+
+main{
+    grid-area: D;
+}
+
+footer{
+    grid-area: E;
+}
+
+article{
+    padding: 5px;
+}
+
+.artgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto ;
+    grid-template-areas: "a"
+                            "b"
+                            "c"
+                            "d"
+                            "e"
+                            "f";
+                            gap: 8px;
+}
+
+.artgrid section{
+    background-color: white;
+    
+}
+
+.artgrid section:nth-child(6n){
+    grid-area: a;
+}
+
+.artgrid section:nth-child(6n+1){
+    grid-area: b;
+}
+
+.artgrid section:nth-child(6n+2){
+    grid-area: c;
+}
+
+.artgrid section:nth-child(6n+3){
+    grid-area:d;
+}
+
+.artgrid section:nth-child(6n+4){
+    grid-area: e;
+}
+
+.artgrid section:nth-child(6n+5){
+    grid-area: f;
+}
+
+#artTitre
+{
+    grid-area: g;
+}
+
+@media screen and (min-width: 1024px){
+
+    body{
+        display: grid;
+        grid-template-columns: 15% 70% 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "A A B"
+                            "C D D"
+                            "C E E";
+        
+    
+    }
+    
+    .artgrid{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto ;
+        grid-template-areas:"a b"
+                            "c d"
+                            "e f";
+    }
+}
