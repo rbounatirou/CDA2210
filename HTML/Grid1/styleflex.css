@@ -1,0 +1,38 @@
+:root{
+    --primary-color : #bbccff;
+}
+
+body > *{
+    background-color: var(--primary-color);
+}
+
+.artgrid section{
+    background-color: white;
+    
+}
+
+header, nav, #ads, article, footer{
+    padding: 0.4em;
+}
+
+.artgrid section{
+    padding: 0.2em;
+}
+
+
+.artgrid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artgrid section{
+    flex-basis: 45%;
+}
+
+.artgrid section:nth-child(2n){
+    margin-left: 0.5em;
+}
+
+.artgrid section{
+    margin-bottom: 0.5em;
+}

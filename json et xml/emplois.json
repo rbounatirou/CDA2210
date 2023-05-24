@@ -1,0 +1,52 @@
+[{
+    "intitule":"Developpeur PHP",
+    "ville":"Paris",
+    "descriptionPoste":{
+        "taches":["Developpement backend", "Machine à café"],
+        "avantages":["café gratuit"],
+        "profilRecherche":"Nous recherchons un développeur PHP qui aime le café pour travailler chez Nespresso France"
+    },
+    "competences":["Connaissance solide du PHP", 
+    "Notion de SQL",
+     "Notion de CSS/HTML",
+    "Utilisation de logiciel de bureautique",
+    "Faire fonctionner la machine à café"],
+    "dateDebut": "01/01/2024",
+    "salaireAnnuel":10000,
+    "mail":"a@b.fr"
+},
+{
+    "intitule":"Developpeur Java",
+    "ville":"Mulhouse",
+    "descriptionPoste":{
+        "taches":["Developpement backend", "Machine à café"],
+        "avantages":["café gratuit"],
+        "profilRecherche":"Nous recherchons un développeur PHP qui aime le café pour travailler chez Nespresso Mulhouse"
+    },
+    "competences":["Connaissance solide du JAVA", 
+    "Notion de SQL",
+     "Capables de realiser des sites web simples",
+    "Utilisation de logiciel de bureautique",
+    "Faire fonctionner la machine à café"],
+    "dateDebut": "01/01/2024",
+    "salaireAnnuel":10000,
+    "mail":"a@b.fr"
+},
+{
+    "intitule":"Developpeur NodeJS",
+    "ville":"Toulouse",
+    "descriptionPoste":{
+        "taches":["Developpement backend", "Machine à café"],
+        "avantages":["café gratuit"],
+        "profilRecherche":"Nous recherchons un développeur PHP qui aime le café pour travailler chez Nespresso Toulouse"
+    },
+    "competences":["Connaissance solide du NodeJS", 
+    "Notion de SQL",
+    "Notion de HTML/CSS",
+    "Utilisation de logiciel de bureautique",
+    "Faire fonctionner la machine à café"],
+    "dateDebut": "01/01/2024",
+    "salaireAnnuel":10000,
+    "mail":"a@b.fr"
+}
+]

@@ -1,0 +1,97 @@
+:root{
+    --light: white;
+    --dark: #222222;
+    --primary-color: #0075F2;
+    --secondary-color: #E3F2FD;
+    --tertiary-color: #DB5461;
+}
+
+header{
+    background-color: var(--primary-color);
+    padding: 0.6em;
+}
+
+
+footer{
+    background-color: var(--primary-color);
+    padding: 0.6em;
+}
+
+main aside:hover{
+    padding: 80% 40%;
+    transition-property: padding;
+    transition-duration: 4s;
+    background-color: #68B0AB;
+    color:#FAF3DD;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "A B"
+                        "A C"
+                        "A D";
+}
+
+body{
+    background-color: var(--secondary-color);
+}
+
+#aside{
+    grid-area:A;
+}
+
+
+
+main > *
+{
+    border: 1px solid #000000;
+}
+
+#skills{
+    grid-area:B;
+}
+
+#xp{
+    grid-area:C;
+}
+
+#formations{
+    grid-area:D;
+}
+
+section > h1:first-child{
+    margin-top: 0;
+}
+
+main section {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+main section:last-child
+{
+    margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--tertiary-color);
+    padding:5px;
+}
+@media screen and (max-width: 1024px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "B"
+                            "C"
+                            "D"
+                            "A";
+    }
+
+}
+
+@media print{
+
+}

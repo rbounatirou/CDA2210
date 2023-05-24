@@ -1,0 +1,74 @@
+<emplois>
+    <emploi>
+        <intitule>Developpeur PHP</intitule>
+        <ville>Paris</ville>
+        <descriptionPoste>
+            <taches>
+                <tache>Developpement backend</tache>
+                <tache>Machine à café</tache>
+            </taches>
+            <avantages>
+                <avantage>café gratuit</avantage>
+            </avantages>
+            <profilRecherche>Nous recherchons un développeur PHP qui aime le café pour travailler chez Nespresso France</profilRecherche>
+        </descriptionPoste>
+        <competences>
+            <competence>Connaissance solide du PHP</competence>
+            <competence>Notion de SQL</competence>
+            <competence>Notion de CSS/HTML</competence>
+            <competence>Utilisation de logiciel de bureautique</competence>
+            <competence>Faire fonctionner la machine à café</competence>
+        </competences>
+        <dateDebut>01/01/2024</dateDebut>
+        <salaireAnnuel devise="euros">16000</salaireAnnuel>
+        <mail>jaimelecafe@nespresso.fr</mail>
+    <emploi>
+    <emploi>
+        <intitule>Developpeur Java</intitule>
+        <ville>Mulhouse</ville>
+        <descriptionPoste>
+            <taches>
+                <tache>Developpement backend</tache>
+                <tache>Machine à café</tache>
+            </taches>
+            <avantages>
+                <avantage>café gratuit</avantage>
+            </avantages>
+            <profilRecherche>Nous recherchons un développeur Java qui aime le café pour travailler chez Nespresso Mulhouse</profilRecherche>
+        </descriptionPoste>
+        <competences>
+            <competence>Connaissance solide du JAVA</competence>
+            <competence>Notion de SQL</competence>
+            <competence>Capable de rééaliser des sites webs simples</competence>
+            <competence>Utilisation de logiciel de bureautique</competence>
+            <competence>Faire fonctionner la machine à café</competence>
+        </competences>
+        <dateDebut>01/01/2024</dateDebut>
+        <salaireAnnuel devise="euros">16000</salaireAnnuel>
+        <mail>jaimelecafe@nespresso.fr</mail>
+    <emploi>
+    <emploi>
+        <intitule>Developpeur NodeJS</intitule>
+        <ville>Toulouse</ville>
+        <descriptionPoste>
+            <taches>
+                <tache>Developpement backend</tache>
+                <tache>Machine à café</tache>
+            </taches>
+            <avantages>
+                <avantage>café gratuit</avantage>
+            </avantages>
+            <profilRecherche>Nous recherchons un développeur NodeJs qui aime le café pour travailler chez Nespresso Toulouse</profilRecherche>
+        </descriptionPoste>
+        <competences>
+            <competence>Connaissance solide du PHP</competence>
+            <competence>Notion de SQL</competence>
+            <competence>Notion de CSS/HTML</competence>
+            <competence>Utilisation de logiciel de bureautique</competence>
+            <competence>Faire fonctionner la machine à café</competence>
+        </competences>
+        <dateDebut>01/01/2024</dateDebut>
+        <salaireAnnuel devise="euros">16000</salaireAnnuel>
+        <mail>jaimelecafe@nespresso.fr</mail>
+    <emploi>
+    <emploi>

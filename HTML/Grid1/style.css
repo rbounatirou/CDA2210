@@ -114,3 +114,11 @@ article{
                             "e f";
     }
 }
+
+header, nav, #ads, article, footer{
+    padding: 0.4em;
+}
+
+.artgrid section{
+    padding: 0.2em;
+}
