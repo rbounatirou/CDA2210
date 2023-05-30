@@ -11,14 +11,71 @@ html{
 
 body{
     font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    margin:0;
 }
+
+main > nav{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+main > section{
+    width: 70vw;
+}
+
+main > aside{
+    width: 15vw;
+}
+
+main > nav{
+    width: 15vw;
+}
+
+
+
+main > nav > item{
+    background-color: var(--light);    
+    margin:5px;
+}
+
+main{
+    flex-grow: 4;
+    display: flex;
+    flex-direction: row;    
+}
+
 
 *{
     box-sizing: border-box;
 }
 
-header, footer{
-    background-color: var(--primary-color);
+header{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    height: 70vh;
+}
+
+footer{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header, footer, main{
+    margin: 0;
 }
 
 main > nav, main > aside{
