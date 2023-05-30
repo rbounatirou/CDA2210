@@ -103,6 +103,7 @@ body{
 
 main{
     background-color: rgb(128,128,128,0.7);
+    backdrop-filter: blur(3px);
 }
 
 #navigation > ul{
@@ -110,10 +111,7 @@ main{
     color: var(--light);
 }
 
-.datetable .formathigher{
-    font-size: 1.8rem;
-    font-style: bold;
-}
+
 
 #navigation > ul > li{
     border-radius: 0 0 1rem 1rem;
@@ -127,18 +125,6 @@ main{
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-name: ongletanim;
-}
-
-.datetable > tbody > tr:nth-child(2n) > td:nth-child(2n){
-    background-color: rgba(0,0,0,0.3);
-}
-
-.datetable > tbody > tr:nth-child(2n+1) > td:nth-child(2n+1){
-    background-color: rgba(0,0,0,0.3);
-}
-
-.datetable > tbody > tr:nth-child(2n){
-    background-color: var(--secondary-alpha);
 }
 
 
@@ -220,30 +206,57 @@ ul > li{
 }
 
 .datetable{
-    border-collapse: collapse; 
+    border-collapse:separate;
+    border-spacing: 0; 
 }
 
 
-.datetable > tbody > tr > td {
-    border: 1px solid var(--light);
+
+.datetable > tbody > tr > td:first-child {
+    border-radius: 0 1rem 1rem 0;
     padding: 0.5rem 1rem;
+}
+
+.datetable > tbody > tr:nth-child(2n) > td:first-child {
+    border-right: 0.3rem solid var(--light);
+}
+
+.datetable > tbody > tr:nth-child(2n+1) > td:first-child {
+    border-right: 0.3rem solid var(--primary);
 }
 
 .datetable > tbody > tr > td:first-child{
     vertical-align:top;
     text-align: right;
     font-weight: bold;
-
 }
 
-.datetable{
-    background-color: var(--primary-alpha);
+
+
+.datetable > tbody > tr > td{
+    margin: 0;
+    padding: 1rem;
+    
 }
 
 .datetable .formatlower{
     font-size: 1.2rem;
     font-weight: normal;
 }
+
+.datetable .formathigher{
+    font-size: 1.8rem;
+    font-style: bold;
+}
+
+.datetable > tbody > tr:nth-child(2n) > td:nth-child(2n+1){
+    background-color: var(--primary-alpha);
+}
+
+.datetable > tbody > tr:nth-child(2n+1) > td:nth-child(2n+1){
+    background-color: var(--secondary-alpha);
+}
+
 
 footer{
     display: flex;
