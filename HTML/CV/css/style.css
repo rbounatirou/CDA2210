@@ -4,6 +4,7 @@
     --secondary: #C0D6DF;
     --secondary-alpha: rgba(192, 214, 223,0.8);
     --tertiary: #166088;
+    --tertiary-alpha: rgba(22, 96, 136, 0.4);
     --light: #ffffff;
 }
 
@@ -47,8 +48,35 @@ header{
     flex-basis: 20vh;
 }
 
+#headergrid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "B C" "D D" "E E";
+}
+
+#headergrid  > h1{
+    grid-area: B;
+}
+
+#headergrid > h2{
+    grid-area: D;
+}
+
+#headergrid > #blocliens{
+    grid-area: E;
+}
+
+#headergrid  > #age{
+    grid-area: C;
+}
+
 main{
     flex-basis: 65vh;
+}
+
+#age{
+    padding-left: 1rem;
 }
 
 footer{
@@ -59,12 +87,12 @@ footer{
 }
 
 #photo {
-    min-width: 20rem;
-    min-height: 20rem;
-    width: 20rem;
+    min-width: 15rem;
+    min-height: 15rem;
+    width: 15rem;
     background-image: url("../img/photo.jpg");
-    background-size: 20rem;
-    height: 20rem;
+    background-size: 15rem;
+    height: 15rem;
     border-radius: 50%;
     border: 0.5rem solid var(--secondary);
 }
@@ -102,7 +130,7 @@ body{
 }
 
 main{
-    background-color: rgb(128,128,128,0.7);
+    background-color: var(--tertiary-alpha);
     backdrop-filter: blur(3px);
 }
 
@@ -160,19 +188,19 @@ main{
 }
 
 .mail{
-    background-image: url("/CV/img/mail.png");
+    background-image: url("/img/mail.png");
 }
 
 .tel{
-    background-image: url("/CV/img/tel.png");
+    background-image: url("/img/tel.png");
 }
 
 .linkedin{
-    background-image: url("/CV/img/linkedin.png");
+    background-image: url("/img/linkedin.png");
 }
 
 .pdf{
-    background-image: url("/CV/img/pdf.png");
+    background-image: url("/img/pdf.png");
 }
 
 .liens > a{
@@ -222,7 +250,7 @@ ul > li{
 }
 
 .datetable > tbody > tr:nth-child(2n+1) > td:first-child {
-    border-right: 0.3rem solid var(--primary);
+    border-right: 0.3rem solid var(--light);
 }
 
 .datetable > tbody > tr > td:first-child{
@@ -250,11 +278,11 @@ ul > li{
 }
 
 .datetable > tbody > tr:nth-child(2n) > td:nth-child(2n+1){
-    background-color: var(--primary-alpha);
+    background-color: var(--primary);
 }
 
 .datetable > tbody > tr:nth-child(2n+1) > td:nth-child(2n+1){
-    background-color: var(--secondary-alpha);
+    background-color: var(--secondary);
 }
 
 
@@ -267,7 +295,7 @@ footer{
 }
 
 footer > a{
-    margin-right: 15rem;
+    margin-right: 7rem;
 }
 
 footer > a:last-child{
@@ -366,7 +394,18 @@ footer > a:last-child{
         grid-area: D;
         margin-left: 15%;
     }
+
+    #photo{
+        width: 20rem;
+        height: 20rem;
+        background-size: 20rem;
+    }
+
+    footer > a{
+        margin-right: 15rem;
+    }
 }
+
 
 @media print{
     .nonprintable{

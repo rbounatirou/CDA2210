@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codes postaux</title>
+        <script src="/js/main.js" type="module"></script>
+        <script src="/js/second.js" type="module"></script>
+    </head>
+    <body>
+        <h1>Codes postaux</h1>
+        <form action="" method="GET">
+            
+            <input list="cp-nom-list" type="search" id="coucou" name="input-user">
+            <button>Valider</button>
+        </form>
+        <datalist id="cp-nom-list">            
+        </datalist>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Code Postal</th>
+                        <th>Code Commune</th>
+                        <th>Nom Commune</th>
+                        <th>libelle Acheminement</th>
+                    </tr>
+                </thead>
+                <tbody id = "areatoload">
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
