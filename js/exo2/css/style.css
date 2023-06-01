@@ -1,0 +1,36 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body > main > table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+body > main > table > thead > tr > th{
+    border-left: 1px solid black;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+body > main > table > thead > tr > th:last-child{
+    border-right: none;
+}
+
+body > main > table > thead > tr{
+    background-color: #C0C0C0;
+}
+
+.precisionline{
+    text-align: center;
+    background-color: #C0C0C0;
+    font-weight: bold;
+}

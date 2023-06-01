@@ -1,0 +1,60 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.deleteBt, .duplicateBt{
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.deleteBt{
+    background-color: rgb(220, 91, 91);
+}
+
+.duplicateBt{
+    background-color: rgb(47, 91, 185);
+}
+
+table > thead > tr > th{
+    padding: 1rem;
+}
+
+table, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table > tbody > tr:last-child{
+    font-weight: bold;
+}
+
+table > tbody > tr > td:last-child{
+    padding: 0.5rem;
+}
+
+table > tbody > tr > td:last-child > .duplicateBt{
+    margin-right: 0.5rem;
+}
+
+#maintitle, #maindesc{
+    color: grey;
+    margin: 0.5rem;
+}
+
+#maindesc{
+    font-style: italic;
+    font-size: 2.2rem;
+}
+
+#maintitle{
+    font-size: 3rem;
+}
