@@ -13,6 +13,16 @@ class CerealsCollection{
 
         }
     }
+
+    remove(id){
+        let idf = this.findIndexOfData(id);
+        if (idf >= 0)
+            this.datas.data.splice(idf,1);
+    }
+
+    findIndexOfData(id){
+        return this.datas.data.findIndex(d=> d.id == id);
+    }
 }
 
 export { CerealsCollection };

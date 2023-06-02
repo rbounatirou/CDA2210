@@ -47,7 +47,7 @@ function fillDataOfTotalMonthSalary(){
 
 function calculateMail(employe){
     let values = employe.employee_name.trim().toLowerCase().split(' ');
-    return values[0] + '.' + values[1] + '@email.com';
+    return values[0].charAt(0) + '.' + values[1] + '@email.com';
 }
 
 function calculateMonthSalary(employe){

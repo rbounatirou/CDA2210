@@ -17,6 +17,8 @@ body{
     --hover : #664;
     --line-grey: #444;
     --light : #ffffff;
+    --main-labels: yellowgreen;
+    --column-id-font: yellow;
     /* Region des nutriscores */
     --nutri-a : darkgreen;
     --nutri-b: #009900CC;
@@ -24,6 +26,18 @@ body{
     --nutri-d: #cc6600cc;
     --nutri-e: #cc0000cc;
     
+}
+
+header > fieldset{
+    background-color: var(--column-id);
+}
+
+header > h1{
+    color: var(--main-labels);
+}
+
+#table > thead {
+    color: var(--main-labels);
 }
 
 #table{
@@ -35,9 +49,32 @@ body{
 }
 
 header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "A B";
+}
+
+header > #titre{
+    grid-area: A;
+}
+
+header > #formulaires{
+    grid-area: B;
+}
+
+
+#formulaires > fieldset {
+    color: var(--light);
+}
+
+
+#formulaires{
     display: flex;
     flex-direction: row;
 }
+
+
 
 #filter{
     display: flex;
@@ -48,8 +85,54 @@ header > h1{
     margin-right: 10rem;
 }
 
-header > fieldset {
+
+#table{
+    border-collapse: collapse;
+}
+
+#table > thead > tr > th{
+    padding: 0.5rem;
+}
+
+#table >  tbody > tr > td:first-child{
+    background-color: var(--column-id);
+    color: var(--column-id-font);
+    text-align: center;
+}
+
+#table > tbody > tr:hover > td:not(.nutriscore){
+    background-color: var(--hover);
     color: var(--light);
-    display: inline-block;
-    vertical-align: middle;
+}
+
+#table td {
+    padding: 0.5rem;
+}
+
+.nutriscore{
+    text-align: center;
+}
+
+.nutriscore.A{
+    background-color: var(--nutri-a);
+}
+
+.nutriscore.B{
+    background-color: var(--nutri-b);
+}
+
+.nutriscore.C{
+    background-color: var(--nutri-c);
+}
+
+.nutriscore.D{
+    background-color: var(--nutri-d);
+}
+
+.nutriscore.E{
+    background-color: var(--nutri-e);
+}
+
+#table > thead > tr{
+    background-color: var(--line-grey);
 }
