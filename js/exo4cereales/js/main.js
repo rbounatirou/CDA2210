@@ -138,13 +138,12 @@ function loadAllElement(){
         });
         element.appendChild(tr);
     });
-    loadFooter();
+    loadFooter(datas);
 }
 
 
-function loadFooter()
+function loadFooter(datas)
 {
-    let datas = collection.datas.data;
     let element = document.querySelector('#bodyOfTable');
     // --
     let tr = document.createElement('tr');
@@ -153,7 +152,7 @@ function loadFooter()
     let tdname = document.createElement('td');
     tdname.innerHTML =  datas.length + ' éléments';
     let tdcalories = document.createElement('td');
-    tdcalories.innerHTML = 'Moyenne calories ' + getAverageCalories();
+    tdcalories.innerHTML = 'Moyenne calories ' + getAverageCalories(datas);
     // --
     let tdcaloriesColSpan = Object.keys(datas[0]).length;
     tdcalories.colSpan  = tdcaloriesColSpan -2;
@@ -165,8 +164,7 @@ function loadFooter()
 }
 
 
-function getAverageCalories(){
-    let datas = collection.datas.data;
+function getAverageCalories(datas){
     let sum = 0;
     datas.forEach(d=> sum+=d.calories);
     return Math.round(sum/datas.length);
