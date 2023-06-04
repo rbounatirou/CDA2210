@@ -4,7 +4,10 @@ const collection = new CerealsCollection();
 await collection.load().then(()=>{
     loadHeaderTableInfo();
     loadAllElement();
-    document.querySelector('#searchCereal').addEventListener('keyup', e=>loadCerealList(e.target));
+    document.querySelector('#searchCereal').addEventListener('keyup', e=> {
+        loadCerealList(e.target);
+        reset();
+    });
     document.querySelector('#nutriscoreField').querySelectorAll('.nutribox').forEach(d => 
         {
             d.addEventListener('click', () => {
@@ -12,6 +15,8 @@ await collection.load().then(()=>{
             });
         }
     );
+    document.querySelector('#saveBt').addEventListener('click',()=>{saveData();})
+    document.querySelector('#reloadBt').addEventListener('click',()=>{reloadData();})
     document.querySelector('#categoriesList').addEventListener('change', () => reset());
 
     loadDataFromNutriscores();
@@ -99,45 +104,54 @@ function loadDataFromNutriscoresFromData(datas){
 }
 
 
+function loadDataWithFilters(){
+    let value = document.querySelector('#searchCereal').value;
+    //console.log(value);
+    let datas = (value != "" ? looklike(value) : collection.datas.data);
+    datas = applySecondaryFiter(datas);
+    return datas;
+}
 
-function getElementByFiletNutriscoreFromDatas(datas, ntr){
-
+function applySecondaryFiter(datas){
+    let rt = loadDataFromNutriscoresFromData(datas);
+    rt = getElementByFilterCategorieFromData(rt);
+    return rt;
 }
 
 function loadAllElement(){
-    let datas = collection.datas.data;
-    datas = loadDataFromNutriscoresFromData(datas);
-    datas = getElementByFilterCategorieFromData(datas);
+    let datas = loadDataWithFilters();
     let element = document.querySelector('#bodyOfTable');
-    datas.forEach(d => {
-        let tr = document.createElement('tr');
-        let value = Object.values(d);
-        let keys = Object.values(d);
-        let td = [];
-        for (let v of value){
-            let td = document.createElement('td');
-            td.innerHTML = v;
-            tr.appendChild(td);
-        }
-        let tdNs = document.createElement('td');
-        let ns = calculateNutriscore(d);
-        tdNs.classList.add('nutriscore');
-        tdNs.classList.add(ns);
-        
-        tdNs.innerHTML = ns;
-        tr.appendChild(tdNs);
-        let tdDel = document.createElement('td');
-        let labelDel = document.createElement('label');
-        labelDel.innerHTML='X';
-        tdDel.appendChild(labelDel);
-        tr.appendChild(tdDel);
-        labelDel.addEventListener('click', e=> {
-            collection.remove(d.id);
-            element.innerHTML="";
-            loadAllElement();
+    if (Array.isArray(datas) && datas.length > 0){
+        datas.forEach(d => {
+            let tr = document.createElement('tr');
+            let value = Object.values(d);
+            let keys = Object.values(d);
+            let td = [];
+            for (let v of value){
+                let td = document.createElement('td');
+                td.innerHTML = v;
+                tr.appendChild(td);
+            }
+            let tdNs = document.createElement('td');
+            let ns = calculateNutriscore(d);
+            tdNs.classList.add('nutriscore');
+            tdNs.classList.add(ns);
+            
+            tdNs.innerHTML = ns;
+            tr.appendChild(tdNs);
+            let tdDel = document.createElement('td');
+            let labelDel = document.createElement('label');
+            labelDel.innerHTML='X';
+            tdDel.appendChild(labelDel);
+            tr.appendChild(tdDel);
+            labelDel.addEventListener('click', e=> {
+                collection.remove(d.id);
+                element.innerHTML="";
+                loadAllElement();
+            });
+            element.appendChild(tr);
         });
-        element.appendChild(tr);
-    });
+    }
     loadFooter(datas);
 }
 
@@ -154,7 +168,7 @@ function loadFooter(datas)
     let tdcalories = document.createElement('td');
     tdcalories.innerHTML = 'Moyenne calories ' + getAverageCalories(datas);
     // --
-    let tdcaloriesColSpan = Object.keys(datas[0]).length;
+    let tdcaloriesColSpan = Object.keys(collection.datas.data[0]).length;
     tdcalories.colSpan  = tdcaloriesColSpan -2;
     tr.appendChild(tdid);
     tr.appendChild(tdname);
@@ -213,9 +227,22 @@ function loadCerealList(element){
         option.value = d.name;
         datalist.appendChild(option);
     });
+   
 }
 
 function looklike(str){
     let datas = collection.datas.data;
-    return datas.filter(d=> d.name.includes(str));
+    datas = applySecondaryFiter(datas);
+    return datas.filter(d=> d.name.toLowerCase().includes(str.toLowerCase()));
+}
+
+function saveData(){
+    let dataSave = JSON.stringify(loadDataWithFilters());
+    console.log(dataSave);
+    localStorage.setItem('savedDatas', dataSave);
+}
+
+function reloadData(){
+    localStorage.removeItem('savedDatas');
+    collection.load().then(()=>reset());
 }

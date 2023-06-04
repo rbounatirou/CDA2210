@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/js/main.js" type="module"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titre">Cereals</h1>
+        <div id="formulaires">
+            <fieldset>
+                <legend>Rechercher</legend>
+                <input id="searchCereal" list="cerealList" type="search" placeholder="Nom de cereale">
+                <datalist id="cerealList">
+
+                </datalist>
+            </fieldset>
+            <fieldset id="filter">
+                <legend>Filter</legend>
+                <fieldset id="nutriscoreField">
+                    <legend>Nutriscore</legend>
+                    <label for="nutriA">A</label>
+                    <input type="checkbox" id="nutriA" class="nutribox">
+                    <label for="nutriB">B</label>
+                    <input type="checkbox" id="nutriB" class="nutribox">
+                    <label for="nutriC">C</label>
+                    <input type="checkbox" id="nutriC" class="nutribox">
+                    <label for="nutriD">D</label>
+                    <input type="checkbox" id="nutriD" class="nutribox">
+                    <label for="nutriE">E</label>
+                    <input type="checkbox" id="nutriE" class="nutribox">
+                </fieldset>
+                <fieldset>
+                    <legend>Catégorie</legend>
+                    <select id="categoriesList">
+                        <option value="0">Tous</option>
+                        <option value="1">Sans sucre</option>
+                        <option value="2">Pauvre en Sel</option>
+                        <option value="3">Boost</option>
+                    </select>
+                </fieldset>
+            </fieldset>
+            <fieldset id="persistenceFieldset">
+                <legend>Persistence</legend>
+                <button id="saveBt">Sauvegarder</button>
+                <button id="reloadBt">Recharger</button>
+            </fieldset>
+        </div>
+    </header>
+    <main>
+        <table id="table">
+            <thead id ="firstLineOfTable">
+            </thead>
+            <tbody id="bodyOfTable">
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
