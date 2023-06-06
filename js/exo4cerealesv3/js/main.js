@@ -1,7 +1,7 @@
 import { CerealsCollection } from "./CerealsCollection.js";
 
 const collection = new CerealsCollection();
-await collection.load().then(()=>{
+collection.load().then(()=>{
     loadHeaderTableInfo();
     loadAllElement();
     document.querySelector('#searchCereal').addEventListener('keyup', e=> {
