@@ -26,10 +26,13 @@
         </table>
         <table v-for="datastat in watchedValue">
             <tr>
-                <td></td>
+                <td v-bind:colspan="cards.getFirst().getKeys().length">Carte avec le plus de : "{{ datastat }}"</td>
             </tr>
             <tr>
-                <td></td>
+                <td v-for="data in cards.getHigherStats(datastat).getKeys()">{{ data }}</td>
+            </tr>
+            <tr>
+                <td v-for="data in cards.getHigherStats(datastat).getValues()">{{ data }}</td>
             </tr>
         </tr>
     </div>
