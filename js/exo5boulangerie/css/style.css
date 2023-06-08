@@ -1,0 +1,157 @@
+:root{
+    --entete : rgb(40, 43, 45);
+    --maincolor: rgb(68,71,78);
+    --black: black;
+    --light: white;
+    --log: rgb(140,140,140);
+    --commande-header: rgb(44, 51, 44);
+    --commande-secondary : rgb(63, 75, 61);
+}
+
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var(--maincolor);
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    width:50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+main > section{
+    width: 100%;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.entete
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--entete);
+    padding: 0.5rem;    
+}
+
+.entete > *{
+    margin-right: 10rem;
+}
+
+
+#boulangeriefigure{
+    background-image: url("/../img/boulangerie.png");
+    transform: scaleX(-1); /* Inversion axe X */
+    background-size: cover;
+    min-width: 15rem;
+    min-height: 15rem;
+    max-width: 35rem;
+    max-height: 35rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+section > *{
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+    border-top: 3px black solid;
+}
+
+section > *:last-child{
+    border: 3px black solid;
+
+}
+
+#divInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#boulangerieinfos{
+    margin-right: 10rem;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+header{
+    margin-bottom: 0.5rem;
+}
+
+#headerTable{
+    border-collapse: collapse;
+    margin-right: 0.5rem;
+    border: 2px solid var(--black);
+}
+
+#headerTable > tbody> tr > td, #headerTable > tbody > tr > th{
+    padding: 0.5rem;
+}
+
+#headerTable > tbody > tr:first-child{
+    background-color: var(--commande-header);
+}
+
+#headerTable > tbody > tr{
+    background-color: var(--commande-secondary);
+}
+
+#millicon{
+    display: inline-block;
+    min-width: 1.6rem;
+    min-height: 1.6rem;
+    background-image: url("/../img/moulin.png");
+    background-size: contain;
+}
+
+main > section{
+    margin-bottom: 1rem;
+}
+
+#commandetable{
+    border-collapse: collapse;
+    
+}
+
+#commandetable > thead > tr > th, #commandetable > tbody > tr > td{
+    padding: 2rem;
+}
+
+
+#commandetable > thead > tr {
+    background-color: var(--commande-header);
+}
+
+#commandetable > tbody > tr:nth-child(2n){
+    background-color: var(--commande-secondary);
+}
+
+.logbody{
+    background-color: var(--log);
+}
