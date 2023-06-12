@@ -98,7 +98,14 @@ header{
     justify-content: space-between;
 }
 
+#commandetable
+{
+    width: 100%;
+}
 
+#commandetable > thead > tr > th:last-child{
+    width: 40%;
+}
 
 header{
     margin-bottom: 0.5rem;
@@ -110,9 +117,7 @@ header{
     border: 2px solid var(--black);
 }
 
-#headerTable > tbody> tr > td, #headerTable > tbody > tr > th{
-    padding: 0.5rem;
-}
+
 
 #headerTable > tbody > tr:first-child{
     background-color: var(--commande-header);
@@ -152,6 +157,20 @@ main > section{
     background-color: var(--commande-secondary);
 }
 
-.logbody{
+#logbody{
     background-color: var(--log);
+}
+
+
+.progressback{
+    background-color: darkgreen;
+    width:100%;
+    height: 3.0rem;
+    border-radius: 0.5rem;
+}
+
+.progressback > .progressover{
+    background-color: yellow;
+    height: 100%;
+    border-radius: 0.5rem;
 }

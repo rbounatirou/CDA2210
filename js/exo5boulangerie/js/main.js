@@ -1,5 +1,7 @@
 import { Boulangerie } from './bakery/Boulangerie.js';
 import { EnumEtatCommande } from './bakery/EnumEtatCommande.js';
+import { CommandAugmenterNiveau } from './bakery/CommandAugmenterNiveau.js';
+import { CommandAugmenterMoulin } from './bakery/CommandAugmenterMoulin.js';
 const bl = new Boulangerie();
 
 majIHM();
@@ -13,6 +15,19 @@ document.querySelector('#openclosebt').addEventListener('click',e=>{
         bl.ouvrirBoulangerie();
         e.target.innerHTML = "Fermer boulangerie";
     }
+
+});
+
+bl.journal.eventChange.push(majLog);
+
+document.querySelector('#btlvupboulangerie').addEventListener('click', e=>{
+    bl.journal.executerCommande(new CommandAugmenterNiveau(bl));
+        //majLog();
+});
+
+document.querySelector('#btlvupmill').addEventListener('click', e=>{
+    bl.journal.executerCommande(new CommandAugmenterMoulin(bl));
+        //majLog();
 });
 
 setInterval( () => {
@@ -25,6 +40,12 @@ function majIHM(){
     majHeader();
     majInfos();
     majCommandes();
+}
+
+function majLog(){
+    let el = document.querySelector('#logbody');
+    el.innerHTML = "";
+    bl.journal.commands.forEach((d, i) =>  el.innerHTML += d.log() + (i < bl.journal.commands.length ? "<br>" : "" ));
 }
 
 function majHeader(){
@@ -67,6 +88,16 @@ function majCommandes(values){
         let tr = createLineForCommande(d);
         element.appendChild(tr);
     });
+    for (let i = 0; i < (10-commandes.length); i++){
+        let tr = document.createElement('tr');
+        let td = document.createElement('td');
+        if (commandes.length > 0)
+       
+        td.colSpan =  6;
+        td.innerHTML = "En attente...";
+        tr.appendChild(td);
+        element.appendChild(tr);
+    }
 }
 
 function createLineForCommande(commande){
@@ -91,7 +122,17 @@ function createLineForCommande(commande){
     } else {
         switch (commande.EnumEtatCommande){
             case EnumEtatCommande.Accepte:
-                tdbt.innerHTML = "Commande accepte";
+                
+                let divContainer = document.createElement('div');
+                divContainer.className = 'progressback';
+                if (bl.activeCommandes[0].numero == commande.numero){
+                    let divProgress = document.createElement('div');
+                   
+                    divProgress.className = 'progressover';
+                    divProgress.style.width =  (Math.round(bl.qteBaguetteStock/commande.qteDemande*100))+'%';
+                    divContainer.appendChild(divProgress);
+                }
+                tdbt.appendChild(divContainer);
                 break;
             case EnumEtatCommande.Refuse:
                 tdbt.innerHTML = "Commande refuse";

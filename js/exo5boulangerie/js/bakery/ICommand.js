@@ -6,6 +6,10 @@ class ICommand{
     execute() {
         return false;
     }
+
+    log(){
+        return "";
+    }
 }
 
 export { ICommand };
