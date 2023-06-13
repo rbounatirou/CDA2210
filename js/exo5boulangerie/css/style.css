@@ -165,7 +165,7 @@ main > section{
 .progressback{
     background-color: darkgreen;
     width:100%;
-    height: 3.0rem;
+    height: 1.6rem;
     border-radius: 0.5rem;
 }
 
@@ -173,4 +173,12 @@ main > section{
     background-color: yellow;
     height: 100%;
     border-radius: 0.5rem;
+}
+
+#btHeader{
+    height: 7.0rem;
+}
+
+#btHeader > button{
+    height:100%;
 }

@@ -7,24 +7,33 @@ import { EnumEtatCommande } from './EnumEtatCommande.js';
 class Boulangerie{
     constructor(){
         if (localStorage.getItem('boulangerie') != null){
-
+            let resp = JSON.parse(localStorage.getItem('boulangerie'));
+            this.qteOr = resp.qteOr;
+            this.qteOrGagne = resp.qteOrGagne;
+            this.nbMoulins = resp.nbMoulins;
+            this.niveau = resp.niveau;
+            this.qteFarine = resp.qteFarine;
+            this.qteOrDepense = resp.qteOrDepense;
+            this.qteFarineProduite = resp.qteFarineProduite;
+            this.qteBaguetteProduite = resp.qteFarineProduite;
+            this.qteBaguetteStock = resp.qteBaguetteStock;
+            
         } else {
             this.qteOr = 200;
             this.nbMoulins = 1;
             this.qteFarine = 500;
             this.niveau = 1;
-            this.estOuverte = false;
             this.qteBaguetteStock = 0;
-            this.sesCommandes = [];
-            this.activeCommandes = [];
-            this.refuseComandes = [];
-            this.journal = new CommandManager();
             // Pour le debut
             this.qteOrGagne = 0;
             this.qteOrDepense = 0;
             this.qteFarineProduite = 0;
             this.qteBaguetteProduite = 0;
         }
+        this.sesCommandes = [];
+        this.activeCommandes = [];
+        this.estOuverte = false;
+        this.journal = new CommandManager();
     }
 
     fermerBoulangerie(){
@@ -83,7 +92,7 @@ class Boulangerie{
 
     effectuerMaintenance(){
         let priceEachSeconds = this.getPrixMaintenance();
-        console.log(priceEachSeconds);
+        
         if (this.qteOr > priceEachSeconds){
             this.qteOr -= priceEachSeconds;
             this.qteOrDepense += priceEachSeconds;
@@ -103,8 +112,16 @@ class Boulangerie{
         return false;
     }
 
+    sauvegarder(){
+        if (this.estOuverte){
+            this.fermerBoulangerie();
+        }
+        localStorage.setItem('boulangerie', JSON.stringify(this, ['qteOr', 'nbMoulins', 'niveau',
+        'qteFarine', 'qteOrGagne', 'qteOrDepense', 'qteFarineProduite', 'qteBaguetteProduite', 'qteBaguetteStock']));
+    }
+
     genererCommande(){
-        
+        //console.log(generer());
         if (this.sesCommandes.length  < 10){
             this.sesCommandes.push(new Commande(this));
         }
@@ -141,8 +158,17 @@ class Boulangerie{
                 com.controlerCommande();
             }
 
+            // ON RETIRE LES COMMANDES INUTILES DANS LE ACTIVE COMMANDES
+            this.activeCommandes.forEach((d,i) => {
+                if (d.EnumEtatCommande != EnumEtatCommande.Accepte){
+                    this.activeCommandes.splice(i,1);
+                }
+            });
+
             // ON TRAITE LES COMMANDES ACTIVES
-            this.manageActiveCommands();
+            if (this.activeCommandes.length >= 0){
+                this.manageActiveCommands();
+            }
             
             // ON RETIRE LES COMMANDES INUTILES
             this.sesCommandes.forEach((d, i) => { 
@@ -172,14 +198,20 @@ class Boulangerie{
     }
 
     manageActiveCommands(){
-        while (this.activeCommandes.length >0 && this.activeCommandes[0].qteDemande <= this.qteBaguetteStock){
-            let commande = this.activeCommandes[0];
-            if (this.journal.executerCommande(new CommandLivrer(this, commande))){
-                this.qteBaguetteStock -= commande.qteDemande;
-                this.qteOrGagne += commande.calculerPrixTotal();
-                this.qteOr += commande.calculerPrixTotal();
-                this.activeCommandes.splice(0,1);                    
-            }
+        if (!Array.isArray(this.activeCommandes) || this.activeCommandes.length <= 0)
+            return;
+        let rt= true;
+        while (this.activeCommandes.length > 0 &&this.activeCommandes[0].qteDemande <= this.qteBaguetteStock &&
+                rt ){                
+                rt = this.journal.executerCommande(new CommandLivrer(this, this.activeCommandes[0]));
+                if (rt){
+                    //console.log('Livree');
+                    let commande = this.activeCommandes[0];
+                    this.qteBaguetteStock -= commande.qteDemande;
+                    this.qteOrGagne += commande.calculerPrixTotal();
+                    this.qteOr += commande.calculerPrixTotal();
+                    this.activeCommandes.splice(0,1);
+                }                
         } 
     }
 

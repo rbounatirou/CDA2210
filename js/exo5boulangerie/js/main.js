@@ -5,9 +5,18 @@ import { CommandAugmenterMoulin } from './bakery/CommandAugmenterMoulin.js';
 const bl = new Boulangerie();
 
 majIHM();
+setInterval( () => {
+    bl.doEverySecondJob();
+    majIHM();
+}, 300);
+/*
+// POUR LA SAUVEGARDE A LA FERMETURE
+window.onbeforeunload = ()=>bl.sauvegarder();*/
 
+
+bl.journal.eventChange.push(majLog);
 document.querySelector('#openclosebt').addEventListener('click',e=>{
-    console.log(e.target);
+    
     if (bl.estOuverte){
         bl.fermerBoulangerie();
         e.target.innerHTML = "Ouvrir boulangerie";
@@ -18,7 +27,17 @@ document.querySelector('#openclosebt').addEventListener('click',e=>{
 
 });
 
-bl.journal.eventChange.push(majLog);
+
+
+document.querySelector('#sauvegarderbt').addEventListener('click', ()=>{
+    bl.sauvegarder()
+});
+
+document.querySelector('#redemarrerbt').addEventListener('click', () => {
+    localStorage.removeItem('boulangerie');
+    window.location.reload();
+});
+
 
 document.querySelector('#btlvupboulangerie').addEventListener('click', e=>{
     bl.journal.executerCommande(new CommandAugmenterNiveau(bl));
@@ -30,10 +49,6 @@ document.querySelector('#btlvupmill').addEventListener('click', e=>{
         //majLog();
 });
 
-setInterval( () => {
-    bl.doEverySecondJob();
-    majIHM();
-}, 1000);;
 
 
 function majIHM(){
