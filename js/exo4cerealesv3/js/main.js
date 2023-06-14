@@ -1,7 +1,9 @@
 import { CerealsCollection } from "./CerealsCollection.js";
 
 const collection = new CerealsCollection();
-collection.load().then(()=>{
+let keyOfSort = "id";
+let orderOfSort = "asc";
+await collection.load().then(()=>{
     loadHeaderTableInfo();
     loadAllElement();
     document.querySelector('#searchCereal').addEventListener('keyup', e=> {
@@ -38,6 +40,11 @@ function loadHeaderTableInfo(){
         let th = document.createElement('th');
         th.innerHTML = kn.toUpperCase();
         tr.appendChild(th);
+        th.addEventListener('click', ()=> {
+            keyOfSort = kn;
+            reset();
+            orderOfSort = (orderOfSort == "asc" ? "desc" : "asc");
+        });
     });
     let thNs = document.createElement('th');
     let thDel = document.createElement('th')
@@ -119,6 +126,15 @@ function applySecondaryFiter(datas){
 function loadAllElement(){
     let datas = loadDataWithFilters();
     let element = document.querySelector('#bodyOfTable');
+    datas.sort((a,b) => { if (keyOfSort != "name"){
+        let rt = (a[keyOfSort]-b[keyOfSort]);
+        return (orderOfSort == "asc" ? rt : -rt);
+    } else {
+        
+        let rt = (String(a[keyOfSort]).localeCompare(String(b[keyOfSort])));
+        return (orderOfSort == "asc" ? rt : -rt);
+
+    }});
     if (Array.isArray(datas) && datas.length > 0){
         datas.forEach(d => {
             let tr = document.createElement('tr');

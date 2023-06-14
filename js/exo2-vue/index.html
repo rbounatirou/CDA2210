@@ -12,11 +12,11 @@
 <body>
     <div id="app">
         <h1>{{ title }}</h1>
-        <table v-if="cards != null">
+        <table v-if="cards != null && cards.cardsCollection.length > 0">
             <thead>
             </thead>
                 <tr>
-                    <th v-for="data in cards.getFirst().getKeys()">{{ data }}</td>
+                    <th v-for="data in carsKeys">{{ data }}</td>
                 </tr>
             <tbody>
                 <tr v-for="card in cards.cardsCollection">
@@ -26,10 +26,10 @@
         </table>
         <table v-for="datastat in watchedValue">
             <tr>
-                <td v-bind:colspan="cards.getFirst().getKeys().length">Carte avec le plus de : "{{ datastat }}"</td>
+                <td v-bind:colspan="cardKeys.length">Carte avec le plus de : "{{ datastat }}"</td>
             </tr>
             <tr>
-                <td v-for="data in cards.getHigherStats(datastat).getKeys()">{{ data }}</td>
+                <td v-for="data in cardKeys">{{ data }}</td>
             </tr>
             <tr>
                 <td v-for="data in cards.getHigherStats(datastat).getValues()">{{ data }}</td>

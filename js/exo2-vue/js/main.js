@@ -18,6 +18,10 @@ const app = {
 
          console.log(this.cards);
 
+    },
+
+    computed: {
+        cardKeys() { return this.cards.getFirst().getKeys(); }
     }
 
 }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" type="module" ></script>
+    <title>Boulangerie</title>
+</head>
+<body>
+    <header>
+        <h1>Le boulanger</h1>
+        <table id="headerTable">
+            <tbody>
+                <tr>
+                    <th>Or gagné</th>
+                    <th>Or dépensé</th>
+                    <th>Farine produite</th>
+                    <th>Baguette produites</th>
+                </tr>
+                <tr id="statsEntete">
+                    
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <body>
+        <main>
+            <section>
+                <div class="entete">
+                    <h1>Boulangerie</h1>   
+                    <div id="btHeader">                 
+                        <button id="openclosebt">Ouvrir la boulangerie</button>
+                        <button id="sauvegarderbt">Sauvegarder</button>
+                        <button id="redemarrerbt">Effacer sauvegarde</button>
+                    </div>
+                </div>
+                <div id="divInfo">
+                    <figure id="boulangeriefigure">
+
+                    </figure>
+                    <div id="boulangerieinfos">
+                        <p>Niveau <span id="boulangerieNiveau">1</span>&#9889; <button id="btlvupboulangerie">+</button><span id="boulangerieNextPrice">100</span></p>
+                        <p>Moulins <span id="moulinsNombre">1</span><span id="millicon"></span> <button id="btlvupmill">+</button> <span id="moulinsNextPrice">80</span></p>
+                        <p>Or <span id="quantiteOr">250</span>&#128176;</p>
+                        <p>Farine <span id="quantiteFarine">500</span>&#129356;</p>
+                        <p>Baguette <span id="quantiteBaguette">2000</span>&#129366;</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="entete">
+                    <h1>Commandes</h1>
+                </div>
+                <div class="sectionmain">
+                    <table id="commandetable">
+                        <thead>
+                            <tr>
+                                <th>&#128242;</th>
+                                <th>&#129366;</th>
+                                <th>&#128176;/&#129366;</th>
+                                <th>&#128176;&#128176;&#128176;</th>
+                                <th>&#8986;</th>
+                                <th>&#128483;</th>
+                            </tr>
+                        </thead>
+                        <tbody id="commandesbody">
+
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section>
+                <div class="entete">
+                    <h1>Log</h1>
+                </div>
+                <div id="logbody">
+                    Pour le moment cette section est vide
+                </div>
+            </section>
+        </main>
+    </body>
+</body>
+</html>
