@@ -1,6 +1,6 @@
 :root{
     --primary: #4A6FA5;
-    --primary-alpha: rgba(74, 111, 165, 0.8); 
+    --primary-alpha: rgba(74, 111, 165, 0.6); 
     --secondary: #C0D6DF;
     --secondary-alpha: rgba(192, 214, 223,0.8);
     --tertiary: #166088;
@@ -80,7 +80,7 @@ main{
 }
 
 footer{
-    background-color: var(--tertiary);
+    background-color: var(--primary);
     color: var(--light);
     justify-content: flex-end;
     flex-basis: 15vh;
@@ -130,7 +130,7 @@ body{
 }
 
 main{
-    background-color: var(--tertiary-alpha);
+    background-color: var(--primary-alpha);
     backdrop-filter: blur(3px);
 }
 
@@ -172,10 +172,6 @@ main{
     height: 2.5rem;
 }
 
-#centresinteret  span{
-    font-weight: bold;
-
-}
 
 .lien > p{
     margin:0.5rem;
@@ -278,11 +274,27 @@ ul > li{
 }
 
 .datetable > tbody > tr:nth-child(2n) > td:nth-child(2n+1){
-    background-color: var(--primary);
+    background-color: var(--tertiary);
 }
 
 .datetable > tbody > tr:nth-child(2n+1) > td:nth-child(2n+1){
     background-color: var(--secondary);
+}
+
+/* TABLEAU PROJETS */
+
+#tableprojets {
+    border-collapse: collapse;
+}
+
+#tableprojets > * > tr > *:nth-child(2n+1){
+    background-color: var(--tertiary);
+    padding: 1rem;
+}
+
+#tableprojets > * > tr > *:nth-child(2n){
+    background-color: var(--secondary);
+    padding: 1rem;
 }
 
 
@@ -300,6 +312,12 @@ footer > a{
 
 footer > a:last-child{
     margin-right: 0;
+}
+
+
+span{
+    font-weight: bold;
+    font-style: italic;
 }
 
 @keyframes ongletanim{
