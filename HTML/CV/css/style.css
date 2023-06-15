@@ -18,7 +18,7 @@ html{
 }
 
 body{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -48,28 +48,18 @@ header{
     flex-basis: 20vh;
 }
 
-#headergrid{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "B C" "D D" "E E";
+
+
+
+
+#headergrid h1{
+    font-size: 1.8rem;
 }
 
-#headergrid  > h1{
-    grid-area: B;
+#headergrid h2{
+    font-size: 1.4rem;
 }
 
-#headergrid > h2{
-    grid-area: D;
-}
-
-#headergrid > #blocliens{
-    grid-area: E;
-}
-
-#headergrid  > #age{
-    grid-area: C;
-}
 
 main{
     flex-basis: 65vh;
@@ -87,14 +77,15 @@ footer{
 }
 
 #photo {
-    min-width: 15rem;
-    min-height: 15rem;
-    width: 15rem;
+    min-width: 10rem;
+    min-height: 10rem;
+    width: 10rem;
     background-image: url("../img/photo.jpg");
-    background-size: 15rem;
-    height: 15rem;
+    background-size: 10rem;
+    height: 10rem;
     border-radius: 50%;
     border: 0.5rem solid var(--secondary);
+    margin: 2rem;
 }
 
 
@@ -121,12 +112,14 @@ footer{
     
 }
 
+
 body{
     background-image: url("../img/loremimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: sans-serif;
+    overflow-x: scroll;
 }
 
 main{
@@ -140,15 +133,20 @@ main{
 }
 
 #infos > section > h1{
-    font-size: 2.8rem;;
+    font-size: 2.6rem;
 }
 
+#navigation > ul{
+    padding: 0;
+}
 
 #navigation > ul > li{
     border-radius: 0 0 1rem 1rem;
     border: 1px solid var(--light);
     overflow-x: hidden;
     padding: 1rem;
+    font-size: 1.2rem;
+
 }
 
 #navigation > ul > li:hover{
@@ -340,7 +338,7 @@ footer > a:last-child{
 span{
     font-weight: bold;
     font-style: italic;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 @keyframes ongletanim{
@@ -380,33 +378,19 @@ span{
     grid-area: D;
 }
 
-@media screen and (min-width:1024px) {
-    #navigation{
-        text-align: center;
+@media screen and (min-width: 720px){
+    body{
+        font-size: 1.6rem;
     }
 
-
-    #infos{
-        margin-left: 5rem;
+    #headergrid h1{
+        font-size: 2.6rem;
     }
     
-
-    #navigation > ul{
-        flex-direction: column; 
-        justify-content: center;
-        padding-left: 0;           
+    #headergrid h2{
+        font-size: 1.7rem;
     }
-
-
-    #articleprincipal{
-        flex-direction: row;
-        margin-left: 0;
-    }
-
     
-    #navigation > ul > li{        
-        border-radius: 0 1rem 1rem 0;
-    }
 
     #competencesgrid{
         display: grid;
@@ -435,6 +419,80 @@ span{
         grid-area: D;
         margin-left: 15%;
     }
+    span{
+        font-size: 1.8rem;
+    }
+
+    
+    #headergrid{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "B C" "D D" "E E";    
+    
+    }
+
+    #photo {
+        min-width: 15rem;
+        min-height: 15rem;
+        width: 15rem;
+        background-image: url("../img/photo.jpg");
+        background-size: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        border: 0.5rem solid var(--secondary);
+    }
+
+    #headergrid  > h1{
+        grid-area: B;
+    }
+    
+    #headergrid > h2{
+        grid-area: D;
+    }
+    
+    #headergrid > #blocliens{
+        grid-area: E;
+    }
+    
+    #headergrid  > #age{
+        grid-area: C;
+    }
+
+    #navigation > ul > li {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #navigation{
+        text-align: center;
+    }
+
+
+    #infos{
+        margin-left: 5rem;
+    }
+    
+
+    #navigation > ul{
+        flex-direction: column; 
+        justify-content: center;
+        padding-left: 0;           
+    }
+
+
+    #articleprincipal{
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    
+    #navigation > ul > li{        
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    
 
     #photo{
         width: 20rem;
@@ -448,6 +506,10 @@ span{
 
     #articleprincipal{
         padding-right: 30%;
+    }
+
+    #infos > section > h1{
+        font-size: 2.6rem;
     }
 }
 
