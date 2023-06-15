@@ -139,6 +139,9 @@ main{
     color: var(--light);
 }
 
+#infos > section > h1{
+    font-size: 2.8rem;;
+}
 
 
 #navigation > ul > li{
@@ -279,6 +282,8 @@ ul > li{
 
 .datetable > tbody > tr:nth-child(2n+1) > td:nth-child(2n+1){
     background-color: var(--secondary);
+    color: black;
+    text-shadow: none;
 }
 
 /* TABLEAU PROJETS */
@@ -294,9 +299,26 @@ ul > li{
 
 #tableprojets > * > tr > *:nth-child(2n){
     background-color: var(--secondary);
+    color: black;
+    text-shadow: none;
     padding: 1rem;
 }
 
+#tableprojets > * > tr{
+    border-bottom: 1px solid black;
+}
+
+#tableprojets > tbody > tr:last-child{
+    border: none;
+}
+
+
+
+#tableprojets > tbody > tr > td > ul > li{
+    list-style: circle;
+}
+
+/* --- */
 
 footer{
     display: flex;
@@ -318,6 +340,7 @@ footer > a:last-child{
 span{
     font-weight: bold;
     font-style: italic;
+    font-size: 1.8rem;
 }
 
 @keyframes ongletanim{
@@ -421,6 +444,10 @@ span{
 
     footer > a{
         margin-right: 15rem;
+    }
+
+    #articleprincipal{
+        padding-right: 30%;
     }
 }
 

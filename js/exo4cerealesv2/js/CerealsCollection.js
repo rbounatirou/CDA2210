@@ -1,4 +1,6 @@
 class CerealsCollection{
+
+    
     constructor(){
         this.datasource = 'https://arfp.github.io/tp/web/frontend/cereals/cereals.json';
         this.datas = [];
