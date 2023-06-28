@@ -61,25 +61,25 @@ header{
 }
 
 /* NAVIGATION */
-#navigation > ul {
+#navigation > menu {
     list-style: none;
 }
 
-#navigation > ul > li{
+#navigation > menu > li{
     margin-right: 1rem;
 }
 
-#navigation >  ul > li{
+#navigation >  menu > li{
     display: inline;
     padding: .5rem;    
 }
 
-#navigation > ul > li > a{
+#navigation > menu > li > a{
     text-decoration: none;
     
 }
 
-#navigation > ul > li:not(#accessibility) > a{
+#navigation > menu > li:not(#accessibility) > a{
     color: white;
 }
 
@@ -208,4 +208,35 @@ header > fieldset > *{
 footer{
     justify-content: center;
     padding: 1rem;
+}
+
+/* INFOBULLES */
+.infobulle{
+    position: relative;
+    cursor: help;
+    border-bottom: 1px dotted black;
+    
+    
+}
+
+
+.infobulle:hover::after,
+.infobulle:focus::after{
+    content: attr(aria-label);
+    position: absolute;
+    top: 1.4rem;
+    width: 20rem;
+    left: 0%;
+    z-index: 1;
+    white-space: no-wrap;
+    background-color: aquamarine;
+    border-radius: .5rem;
+    border: 1px solid rgba(0,0,0,0.4);
+    padding: 0.5rem;
+}
+
+#imgDesc{
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
 }

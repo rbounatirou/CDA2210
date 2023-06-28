@@ -1,0 +1,13 @@
+.cell{
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid black;
+}
+
+.cell.R{
+    background-color: red;
+}
+
+.cell.Y{
+    background-color: yellow;
+}

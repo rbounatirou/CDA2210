@@ -1,0 +1,48 @@
+.organigramme{
+    box-shadow: 0 0 0.3rem 0.3rem rgba(0,0,0,0.2);
+    padding: 1rem;
+    width: fit-content;
+}
+
+#presentationequipe{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'A A A A' 'B B B B' 'C D E F';
+    gap: 1rem;
+}
+
+#equipetitre{
+    grid-area: A;
+}
+
+#directrice{
+    grid-area: B;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#communication{
+    grid-area: C;
+}
+
+#relation{
+    grid-area: D;
+}
+
+#accessibilite{
+    grid-area: E;
+}
+
+#mascotte{
+    grid-area: F;
+}
+
+#implantationequipe > ul{
+    list-style: none;
+}
+
+#implantationequipe > ul > li{
+    margin-bottom: .5rem;
+}
