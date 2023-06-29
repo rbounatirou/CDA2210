@@ -5,10 +5,13 @@ document.querySelector('#imgDesc').addEventListener('click', e=> onClickHide(e.t
 
 function onClickHide(target, elementToHide, flipText, unFlipText){
     let val = target.dataset.fold;
+    // AJOUT DU STYLE ET DES ARIAS POUR MASQUER LE CONTENU
     if (val == 1){
         elementToHide.classList.remove('hiddensection');
+        elementToHide.ariaHidden="false";
     } else {
         elementToHide.classList.add('hiddensection');
+        elementToHide.ariaHidden="true";
     }
     target.dataset.fold = (target.dataset.fold == 1 ? 0 : 1);
     target.innerText = (target.dataset.fold == 0? unFlipText : flipText);
