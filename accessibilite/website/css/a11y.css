@@ -45,6 +45,12 @@
 #lblcodearea{
     display: block;
 }
+
+#imgDesc{
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
 /* 
 #mainsecion.clicked:not(.hidden){
     animation: 2s ease-in foldanim;

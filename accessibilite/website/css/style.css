@@ -103,106 +103,6 @@ main > section{
     color: white;
 }
 
-/* AUTRES */
-
-#wcagprincipes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1r;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'A A A A' 'B C D E';
-    gap: 2rem;
-    text-align: justify;
-}
-
-#wcagprincipes > #maintitle{
-    grid-area: A;
-}
-
-#wcagprincipes > #principeA{
-    grid-area: B;
-}
-
-#wcagprincipes > #principeB{
-    grid-area: C;
-}
-
-#wcagprincipes > #principeC{
-    grid-area: D;
-}
-
-#wcagprincipes > #principeD{
-    grid-area: E;
-}
-
-#wcagprincipes > .principe{
-    padding: 1rem;
-    background-color: var(--secondary);
-    border-radius: 0.8rem;
-    box-shadow: 0 0 0.5rem 0.5rem rgba(0,0,0,0.4) ;
-}
-
-/* PRESENTATION */
-
-#presentation{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: justify;
-}
-
-#presentation > h1{
-    font-size: 4rem;
-}
-
-#presentation > h2{
-    font-size: 2rem;
-}
-
-/* LOGO */
-
-#logo{
-    width: 5rem;
-    height: 5rem;
-}
-
-#logo > img{
-    width: 100%;
-    height: 100%;
-}
-
-/* TABLEAUX */
-
-.tableaupresentation{
-    width: 100%;
-}
-
-.tableaupresentation, .tablegraph{
-    border-collapse: collapse;
-}
-
-
-.tableaupresentation > * > tr > th{
-    background-color: var(--table-lines);
-    color: white;
-}
-
-.tableaupresentation > * > tr > *{
-    border: var(--table-border-line);
-}
-
-/* TABLEAU GRAPH */
-
-
-
-.tablegraph > * > tr > *{
-    border: 1px solid black;
-}
-
-.tablegraph{
-    border: 3px solid black;
-    width: 100%;
-}
-
 /* PETIS ELEMENTS */
 #searchbt{
     background-color: var(--button-color);
@@ -219,6 +119,18 @@ main > section{
 footer{
     justify-content: center;
     padding: 1rem;
+}
+
+/* LOGO */
+
+#logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+#logo > img{
+    width: 100%;
+    height: 100%;
 }
 
 /* INFOBULLES */
@@ -246,8 +158,3 @@ footer{
     padding: 0.5rem;
 }
 
-#imgDesc{
-    display: block;
-    margin-bottom: 1rem;
-    font-weight: bold;
-}
