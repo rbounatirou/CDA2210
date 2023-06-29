@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/handicaps.css">
+        <link rel="stylesheet" href="/css/accessconfig.min.css">
+         <script src="/js/accessconfig.min.js" type="text/javascript"></script>
+        <title>Site web formation accessibilité</title>
+    </head>
+    <body>
+        <header>
+            <a href="#mainarticle" id="liencontenu">Aller au contenu</a>
+            <div id="espacenavigation">
+                <figure id="logo">
+                    <img src="/img/a11yNow.png" alt="Logo A11y now">
+                </figure>
+                <nav id="navigation">
+                    <menu>
+                        <li><a href="/index.html">Accueil</a></li>
+                        <li><a href="/pages/handicaps.html">Handicaps</a></li>
+                        <li><a href="/pages/a11y.html">A11y</a></li>
+                        <li><a href="/pages/donation.html">Faites un don</a></li>
+                        <li><a href="/pages/equipe.html">Equipe</a></li>
+                        <li id="accessibility">
+                            <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
+                                data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}'>
+                            </div>
+                        </li>
+                    </menu>
+                </nav>
+                <fieldset>
+                    <legend>Zone de recherche</legend>
+                    <label for="searchbar"class="sr-only">Recherche</label>
+                    <input id="searchbar" type="search" placeholder="Recherche">
+                    <button id="searchbt">Rechercher</button>
+                </fieldset>
+            </div>  
+        </header>
+        <main>
+            <article id="mainarticle">
+                <h1>Symboles et types de handicaps</h1>
+                <section class="artsection">
+                    <img src="/img/handicap-visuel.jpg" alt="Symbole handicap visuel" class="symbolehandicap">
+                    <section class="infosection">
+                        <h1>Handicap visuel</h1>
+                        <p>Le handicap visuel désigne les limitations fonctionnelles liées à la vision, que ce soit une cécité totale ou partielle. Les personnes atteintes de handicap visuel peuvent utiliser des aides techniques telles que les plages brailles, les synthèses vocales, ou les dispositifs d'agrandissement de texte pour accéder à l'information.</p>
+                    </section>
+                </section>
+                <section class="artsection">
+                    <img src="/img/handicap-auditif.jpg" alt="Symbole handicap auditif" class="symbolehandicap">
+                    <section class="infosection">
+                        <h1>Handicap auditif</h1>
+                        <p>Le handicap auditif concerne les limitations fonctionnelles liées à l'ouïe, que ce soit une surdité totale ou partielle. Les personnes atteintes de handicap auditif peuvent utiliser des appareils auditifs, des boucles magnétiques ou des sous-titres pour accéder à l'information sonore.</p>
+                    </section>
+                </section>
+                <section class="artsection">
+                    <img src="/img/handicap-moteur.jpg" alt="Symbole handicap moteur" class="symbolehandicap">
+                    <section class="infosection">
+                        <h1>Handicap moteur</h1>
+                        <p>Le handicap moteur concerne les limitations physiques comme l'incapacité à utiliser une souris ou la nécessité d'avoir une temps de réponse plus lent.</p>
+                    </section>
+                </section>
+                <section class="artsection">
+                    <img src="/img/handicap-cognitif.jpg" alt="Symbole handicap cognitif" class="symbolehandicap">
+                    <section class="infosection">
+                        <h1>Handicap cognitif</h1>
+                        <p>Le handicap cognitif concerne les problèmes de troubles de l'apprentissage, l'incapacité à se souvenir ou à se concentrer sur de grandes quantités d'informations, difficultés de lecture et de compréhension, difficultés à prendre des décisions.</p>
+                    </section>
+                </section>
+                <h2>Quelques matériels d'accessibilité</h2>
+                <section id="exempleaccessibilite">
+                    <figure>
+                        <img src="/img/image-cane-non-voyant.jpg" alt="" class="symbolehandicap">
+                        <figcaption>Canne pour personnes aveugles</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/img/plage-braille.png" alt="">
+                        <figcaption>Plage braille</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/img/synthese-vocale.png" alt="">
+                        <figcaption>Synthèse vocale</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/img/image-trackball.jpg" alt="">
+                        <figcaption>Trackball (remplace la souris)</figcaption>
+                    </figure>
+                </section>
+            </section>
+        </main>
+        <footer>
+            Contactez-nous pour plus d'informations sur l'accessibilité.
+        </footer>    
+    </body>
+</html>

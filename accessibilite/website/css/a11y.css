@@ -6,6 +6,7 @@
 #mainsection{
     padding-bottom: 3rem;
     text-align: center;
+    width: 60%;
 }
 
 
@@ -36,8 +37,10 @@
 #codearea{
     background-color: black;
     color: white;
-    width: 80%;
+    width: 100%;
+    text-align: left;
 }
+
 
 #lblcodearea{
     display: block;

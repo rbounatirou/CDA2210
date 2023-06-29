@@ -6,29 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="stylesheet" href="/css/style.css">
     <link  rel="stylesheet" href="/css/a11y.css">
+    <link rel="stylesheet" href="/css/accessconfig.min.css">
+    <script src="/js/accessconfig.min.js" type="text/javascript"></script>
     <script src="/js/accordeon.js" type="module"></script>
     <title>Site web formation accessibilité</title>
 </head>
 <body>
     <header>        
-        <figure id="logo">
-            <img src="/img/a11yNow.png" alt="Logo A11y now">
-        </figure>        
-        <nav id="navigation">
-            <menu>
-                <li><a href="/index.html">Accueil</a></li>
-                <li><a href="/pages/a11y.html">A11y</a></li>
-                <li><a href="/pages/donation.html">Faites un don</a></li>
-                <li><a href="/pages/equipe.html">Equipe</a></li>
-                <li id="accessibility">Paramètres accessibilité</li>
-            </menu>
-        </nav>
-        <fieldset>
-            <legend>Zone de recherche</legend>
-            <label for="searchbar"class="sr-only">Recherche</label>
-            <input id="searchbar" type="search" placeholder="Recherche">
-            <button id="searchbt">Rechercher</button>
-        </fieldset>
+        <a href="#mainsection" id="liencontenu">Aller au contenu</a>
+        <div id="espacenavigation">
+            <figure id="logo">
+                <img src="/img/a11yNow.png" alt="Logo A11y now">
+            </figure>
+            <nav id="navigation">
+                <menu>
+                    <li><a href="/index.html">Accueil</a></li>
+                    <li><a href="/pages/handicaps.html">Handicaps</a></li>
+                    <li><a href="/pages/a11y.html">A11y</a></li>
+                    <li><a href="/pages/donation.html">Faites un don</a></li>
+                    <li><a href="/pages/equipe.html">Equipe</a></li>
+                    <li id="accessibility">
+                        <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
+                            data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}'>
+                        </div>
+                    </li>
+                </menu>
+            </nav>
+             <fieldset>
+                <legend>Zone de recherche</legend>
+                <label for="searchbar"class="sr-only">Recherche</label>
+                <input id="searchbar" type="search" placeholder="Recherche">
+                <button id="searchbt">Rechercher</button>
+            </fieldset>
+        </div>  
     </header>
     <main>
         <section id="mainsection">
@@ -47,7 +57,8 @@
             <button id="imgDesc" data-fold="1">Afficher la description de l'image</button>
             <div id="imgDescDiv" class="hiddensection">
                 <label for="codearea" id="lblcodearea">Voici le contenu de l'image</label>
-                <textarea id="codearea">
+                <pre id="codearea">
+                    <code>
                     &lt;!DOCTYPE html&gt;
                     &lt;html lang="fr"&gt;
                     &lt;head&gt;
@@ -76,7 +87,8 @@
                         &lt;/footer&gt;
                     &lt;/body&gt;
                     &lt;/html&gt;
-                </textarea>
+                    </code>
+                </pre>
             </div>          
             <img class="accessibilityimage" src="/img/image-clavier.png" alt="">
             <h2>Accès au clavier (image informative)</h2>
@@ -93,11 +105,11 @@
             <img class="accessibilityimage" src="/img/ara.png" alt="">
             <p>
                 <b>ARA</b> bous propose une méthodologie pour réaliser 3 types d'audit
-                <br><b>Rapide</b> (25 critères du <em class="infobulle" aria-label="Référentiel général d'amélioration de l'accessibilité">RGAA</em>)
-                <br><b>Complémentaire</b> (50 critères du <em class="infobulle" aria-label="Référentiel général d'amélioration de l'accessibilité">RGAA</em>)
-                <br><b>Complet</b> dit de conformité (106 critères du <em class="infobulle" aria-label="Référentiel général d'amélioration de l'accessibilité">RGAA</em>)
-                <br><a href="#">Lien pour effectuer un audit d'un site web</a>
-                <br><a href="#">Lien vers une liste d'outils pour tester l'accessibilité</a>
+                <br><b>Rapide</b> (25 critères du <abbr title="Référentiel général d'amélioration de l'accessibilité" en="fr">RGAA</abbr>)
+                <br><b>Complémentaire</b> (50 critères du <abbr title="Référentiel général d'amélioration de l'accessibilité" en="fr">RGAA</abbr>)
+                <br><b>Complet</b> dit de conformité (106 critères du <abbr title="Référentiel général d'amélioration de l'accessibilité" en="fr">RGAA</abbr>)
+                <br><a href="https://ara.numerique.gouv.fr/audits/nouveau" title="Page vers l'outil d'audit ARA dans une nouvelle fenêtre" target="_blank"> Lien pour effectuer un audit d'un site web</a>
+                <br><a href="https://ara.numerique.gouv.fr/ressources/outils" title="Page vers des outils d'estimation d'accessibilité dans une nouvelle fenêtre" target="_blank">Lien vers une liste d'outils pour tester l'accessibilité</a>
             </p>
         </section>
     </main>

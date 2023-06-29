@@ -42,21 +42,24 @@ main{
     text-align: center;
 }
 
+main > section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
  /* HEADER */
  header, footer{
     background-color: var(--primary);
     color: #ffffff;
-    display: flex;
-    flex-direction: row;
+    padding: 1rem;
 }
 
-header{
+#espacenavigation{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 1rem;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -84,15 +87,20 @@ header{
 }
 
 
-header > fieldset {
+#espacenavigation > fieldset {
     text-align: center;
     display: flex;
 }
 
 /* RECHERCHE */
-header > fieldset > *{    
+#espacenavigation > fieldset > *{    
     margin-top: auto;
     margin-bottom: auto;
+}
+
+#liencontenu{
+    text-decoration: none;
+    color: white;
 }
 
 /* AUTRES */
@@ -164,6 +172,10 @@ header > fieldset > *{
 
 /* TABLEAUX */
 
+.tableaupresentation{
+    width: 100%;
+}
+
 .tableaupresentation, .tablegraph{
     border-collapse: collapse;
 }
@@ -198,9 +210,8 @@ header > fieldset > *{
     border-radius: .5rem;
 }
 
-#accessibility{
-    background-color: #e9e9ed;
-    color: black;
+#accessibility > div{
+    display: inline;
 }
 
 /* FOOTER */

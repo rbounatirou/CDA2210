@@ -2,6 +2,7 @@
     box-shadow: 0 0 0.3rem 0.3rem rgba(0,0,0,0.2);
     padding: 1rem;
     width: fit-content;
+    height: 100%;
 }
 
 #presentationequipe{

@@ -6,28 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/equipe.css">
+    <link rel="stylesheet" href="/css/accessconfig.min.css">
+    <script src="/js/accessconfig.min.js" type="text/javascript"></script>
     <title>Site web formation accessibilité</title>
 </head>
 <body>
     <header>
-        <figure id="logo">
-            <img src="/img/a11yNow.png" alt="Logo A11y now">
-        </figure>
-        <nav id="navigation">
-            <menu>
-                <li><a href="/index.html">Accueil</a></li>
-                <li><a href="/pages/a11y.html">A11y</a></li>
-                <li><a href="/pages/donation.html">Faites un don</a></li>
-                <li><a href="/pages/equipe.html">Equipe</a></li>
-                <li id="accessibility">Paramètres accessibilité</li>
-            </menu>
-        </nav>
-        <fieldset>
-            <legend>Zone de recherche</legend>
-            <label for="searchbar"class="sr-only">Recherche</label>
-            <input id="searchbar" type="search" placeholder="Recherche">
-            <button id="searchbt">Rechercher</button>
-        </fieldset>
+        <a href="#presentation" id="liencontenu">Aller au contenu</a>
+        <div id="espacenavigation">
+            <figure id="logo">
+                <img src="/img/a11yNow.png" alt="Logo A11y now">
+            </figure>
+            <nav id="navigation">
+                <menu>
+                    <li><a href="/index.html">Accueil</a></li>
+                    <li><a href="/pages/handicaps.html">Handicaps</a></li>
+                    <li><a href="/pages/a11y.html">A11y</a></li>
+                    <li><a href="/pages/donation.html">Faites un don</a></li>
+                    <li><a href="/pages/equipe.html">Equipe</a></li>
+                    <li id="accessibility">
+                        <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
+                            data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}'>
+                        </div>
+                    </li>
+                </menu>
+            </nav>
+             <fieldset>
+                <legend>Zone de recherche</legend>
+                <label for="searchbar"class="sr-only">Recherche</label>
+                <input id="searchbar" type="search" placeholder="Recherche">
+                <button id="searchbt">Rechercher</button>
+            </fieldset>
+        </div>  
     </header>
     <main>
         <section id="presentation">
@@ -44,7 +54,7 @@
             <section class="organigramme" id="communication">
                 <img src="/img/communication.png" alt="">
                 <h1>Communication</h1>
-                <i>Barabara Coiffure</i>
+                <i>Barbara Coiffure</i>
             </section>
             <section class="organigramme" id="relation">
                 <img src="/img/rh.png" alt="">
@@ -65,20 +75,20 @@
         <section id="implantationequipe">
             <h1>Notre implantation est pourtant réelle (enfin presque ;) )</h1>
             <ul>
-                <li><a href="#">Paris</a> le siège (France) - 4 bénévoles</li>
-                <li><a href="#">New York</a> (États-Unis) - 12 bénévoles</li>
-                <li><a href="#">Londres</a> (Royaume-Uni) - 18 bénévoles</li>
-                <li><a href="#">Tokyo</a> (Japon) - 10 bénévoles</li>
-                <li><a href="#">Berlin</a> (Allemagne) - 8 bénévoles</li>
-                <li><a href="#">Moscou</a> (Russie) - 1 bénévole</li>
-                <li><a href="#">Pékin</a> (Chine) - 200 bénévoles</li>
-                <li><a href="#">Sydney</a> (Australie) - 9 bénévoles</li>
-                <li><a href="#">São Paulo</a> (Brésil) - 7 bénévoles</li>
-                <li><a href="#">Dubai</a> (Émirats atabes unis) - 13 bénévoles</li>
-                <li><a href="#">Rome</a> (Italie) - 11 bénévoles</li>
-                <li><a href="#">Mexico</a> (Mexique) - 16 bénévoles</li>
-                <li><a href="#">Singapour</a> (Singapour) - 19 bénévoles</li>
-                <li><a href="#">Mumbai</a> (Inde) - 6 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Paris" title="Page wikipedia de Paris dans un nouvel onglet" target="_blank">Paris</a> le siège (France) - 4 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/New_York" title="Page wikipedia de New York dans un nouvel onglet" target="_blank">New York</a> (États-Unis) - 12 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Londres" title="Page wikipedia de Londres dans un nouvel onglet" target="_blank">Londres</a> (Royaume-Uni) - 18 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Tokyo" title="Page wikipedia de Tokyo dans un nouvel onglet" target="_blank">Tokyo</a> (Japon) - 10 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Berlin" title="Page wikipedia de Berlin dans un nouvel onglet" target="_blank">Berlin</a> (Allemagne) - 8 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Moscou" title="Page wikipedia de Moscou dans un nouvel onglet" target="_blank">Moscou</a> (Russie) - 1 bénévole</li>
+                <li><a href="https://fr.wikipedia.org/wiki/P%C3%A9kin" title="Page wikipedia de Pékin dans un nouvel onglet" target="_blank">Pékin</a> (Chine) - 200 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Sydney" title="Page wikipedia de Sydney dans un nouvel onglet" target="_blank">Sydney</a> (Australie) - 9 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/S%C3%A3o_Paulo" title="Page wikipedia de São Paulo dans un nouvel onglet" target="_blank">São Paulo</a> (Brésil) - 7 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Duba%C3%AF_(%C3%A9mirat)" title="Page wikipedia de Dubaï dans un nouvel onglet" target="_blank">Dubai</a> (Émirats atabes unis) - 13 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Rome" title="Page wikipedia de Rome dans un nouvel onglet" target="_blank">Rome</a> (Italie) - 11 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Mexico" title="Page wikipedia de Mexico dans un nouvel onglet" target="_blank">Mexico</a> (Mexique) - 16 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Singapour" title="Page wikipedia de Singapour dans un nouvel onglet" target="_blank">Singapour</a> (Singapour) - 19 bénévoles</li>
+                <li><a href="https://fr.wikipedia.org/wiki/Bombay" title="Page wikipedia de Mumbai dans un nouvel onglet" target="_blank">Mumbai</a> (Inde) - 6 bénévoles</li>
             </ul>
         </section>
     </main>

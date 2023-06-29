@@ -1,4 +1,4 @@
-onload();
+//onload();
 
 
 document.querySelector('#imgDesc').addEventListener('click', e=> onClickHide(e.target, document.querySelector('#imgDescDiv'), "Afficher la description de l'image", "Masquer la description de l'image"))
