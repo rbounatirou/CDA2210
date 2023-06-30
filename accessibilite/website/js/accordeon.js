@@ -9,9 +9,11 @@ function onClickHide(target, elementToHide, flipText, unFlipText){
     if (val == 1){
         elementToHide.classList.remove('hiddensection');
         elementToHide.ariaHidden="false";
+        target.getAttribute('aria-expanded') = 'false';
     } else {
         elementToHide.classList.add('hiddensection');
         elementToHide.ariaHidden="true";
+        target.getAttribute('aria-expanded') = 'false';
     }
     target.dataset.fold = (target.dataset.fold == 1 ? 0 : 1);
     target.innerText = (target.dataset.fold == 0? unFlipText : flipText);

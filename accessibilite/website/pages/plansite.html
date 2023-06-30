@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/equipe.css">
+    <link rel="stylesheet" href="/css/accessconfig.min.css">
+    <script src="/js/accessconfig.min.js" type="text/javascript"></script>
+    <title>Site web formation accessibilité</title>
+</head>
+<body>
+    <header>
+        <a href="#lienutiles" id="liencontenu">Aller au contenu</a>
+        <div id="espacenavigation">
+            <figure id="logo">
+                <img src="/img/a11yNow.png" alt="Logo A11y now">
+            </figure>
+            <nav id="navigation">
+                <menu>
+                    <li><a href="/index.html">Accueil</a></li>
+                    <li><a href="/pages/handicaps.html">Handicaps</a></li>
+                    <li><a href="/pages/a11y.html">A11y</a></li>
+                    <li><a href="/pages/donation.html">Faites un don</a></li>
+                    <li><a href="/pages/equipe.html">Equipe</a></li>
+                    <li><a href="/pages/plansite.html">Plan du site</a></li>
+                    <li id="accessibility">
+                        <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
+                            data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}'>
+                        </div>
+                    </li>
+                </menu>
+            </nav>
+             <fieldset>
+                <legend>Zone de recherche</legend>
+                <label for="searchbar"class="sr-only">Recherche</label>
+                <input id="searchbar" type="search" placeholder="Recherche">
+                <button id="searchbt">Rechercher</button>
+            </fieldset>
+        </div>  
+    </header>
+    <main>
+        <section id="lienutiles">
+            <ul>
+                <li>
+                    <a href="/index.html">Accueil</a>
+                    <ol>
+                        <li><a href="/index.html#presentation">Bienvenue sur HandiA11y</a></li>
+                        <li><a href="/index.html#wcagprincipes">Le WCAG et les 4 principes A11y</a></li>
+                        <li><a href="/index.html#critereswcag">Les critères WCAG 2.1 sous forme de tableau</a></li>
+                        <li><a href="/index.html#conformitewwcag">Les 3 niveau de conformité WCAG 2.1</a></li>
+                        <li><a href="/index.html#commonfailwcag"><span lang="en">Most common WCAG failures by WebAIM</span></a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="/pages/handicaps.html">Handicaps</a>
+                    <ol>
+                        <li><a href="/pages/handicaps.html#mainarticle">Symboles et types de handicap</a></li>
+                        <li><a href="/pages/handicaps.html#exempleaccessibilite">Quelques matériels d'accesibilité</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="/pages/a11y.html">A11y</a>
+                    <ol>
+                        <li><a href="/pages/a11y.html#mainsection">Quelques bonnes pratiques d'accessibilité</a></li>
+                        <li><a href="/pages/a11y.html#audit-title">Comment faire un audit?</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="/pages/donation.html">Faites un don (formulaire)</a>
+                </li>
+                <li>
+                    <a href="/pages/equipe.html">Equipe</a>
+                    <ol>
+                        <li><a href="/pages/equipe.html#presentation">Notre présence dans le monde</a></li>
+                        <li><a href="/pages/equipe.html#presentationequipe">Organigramme de la société</a></li>
+                        <li><a href="/pages/equipe.html#implantationequipe">Liste des implantations dans le monde</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#">Plan du site</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        © 2023 HandiA11y. Tous droits réservés.
+    </footer>    
+</body>
+</html>

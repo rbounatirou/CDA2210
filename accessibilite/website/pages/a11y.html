@@ -25,6 +25,7 @@
                     <li><a href="/pages/a11y.html">A11y</a></li>
                     <li><a href="/pages/donation.html">Faites un don</a></li>
                     <li><a href="/pages/equipe.html">Equipe</a></li>
+                    <li><a href="/pages/plansite.html">Plan du site</a></li>
                     <li id="accessibility">
                         <div id="accessconfig" data-accessconfig-buttonname="Paramètres d’accessibilité"
                             data-accessconfig-params='{ "Prefix" : "a42-ac", "ContainerClass" : "","ModalCloseButton" : "","ModalTitle" : "","FormFieldset" : "","FormFieldsetLegend" : "","FormRadio" : ""}'>
@@ -41,7 +42,7 @@
         </div>  
     </header>
     <main>
-        <section id="mainsection">
+        <section id="mainsection">            
             <h1>Quelques bonnes pratiques d'accessibilité</h1>
             <img class="accessibilityimage" src="/img/decorative-image.jpg" alt="">
             <h2>Images décoratives</h2>
@@ -54,7 +55,7 @@
             <p>Utiliser des balises HTML sémantiques appropriées (telles que &lt;main&gt;, &lt;section&gt;, &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt;)
                 pour améliorer la structure et la compréhension du contenu par les technologies d'assistance
             </p>
-            <button id="imgDesc" data-fold="1">Afficher la description de l'image</button>
+            <button aria-expanded='false' id="imgDesc" data-fold="1">Afficher la description de l'image</button>
             <div id="imgDescDiv" class="hiddensection" aria-hidden="true">
                 <label for="codearea" id="lblcodearea">Voici le contenu de l'image</label>
                 <pre id="codearea">
@@ -101,7 +102,7 @@
             <p>Utiliser des balises HTML sémantiques pour les formulaires (telles que &lt;form&gt;, &lt;input&gt;, &lt;label&gt;, &lt;select&gt; &lt;textarea&gt;, etc...) pour améliorer l'accessibilité
                 et la compréhension du contenu par les technologies d'assistance.
             </p>
-            <h2>Comment réaliser un audit d'accessibilité de votre site web?</h2>        
+            <h2 id="audit-title">Comment réaliser un audit d'accessibilité de votre site web?</h2>        
             <img class="accessibilityimage" src="/img/ara.png" alt="">
             <p>
                 <b>ARA</b> bous propose une méthodologie pour réaliser 3 types d'audit
