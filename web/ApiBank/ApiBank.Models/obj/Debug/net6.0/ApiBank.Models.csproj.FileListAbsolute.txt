@@ -12,3 +12,17 @@ C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6
 C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.pdb
 C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.genruntimeconfig.cache
 C:\Users\rbounatirou\Documents\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ref\ApiBank.Models.dll
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\bin\Debug\net6.0\ApiBank.Models.deps.json
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\bin\Debug\net6.0\ApiBank.Models.runtimeconfig.json
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\bin\Debug\net6.0\ApiBank.Models.dll
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\bin\Debug\net6.0\ApiBank.Models.pdb
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.csproj.AssemblyReference.cache
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.AssemblyInfoInputs.cache
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.AssemblyInfo.cs
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.csproj.CoreCompileInputs.cache
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.dll
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\refint\ApiBank.Models.dll
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.pdb
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ApiBank.Models.genruntimeconfig.cache
+D:\git\CDA2210\web\ApiBank\ApiBank.Models\obj\Debug\net6.0\ref\ApiBank.Models.dll
