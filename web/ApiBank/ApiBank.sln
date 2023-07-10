@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiBank.Models", "ApiBank.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiBank.Databases", "ApiBank.Databases\ApiBank.Databases.csproj", "{93CAD2E9-F885-4FDD-AE94-871C3E6CCFCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiBank.WebApp", "ApiBank.WebApp\ApiBank.WebApp.csproj", "{9ACD857B-5DC8-409A-A1C6-78E5D03ECDAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiBank.WebApp", "ApiBank.WebApp\ApiBank.WebApp.csproj", "{9ACD857B-5DC8-409A-A1C6-78E5D03ECDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAPI", "TestAPI\TestAPI.csproj", "{5BE4FACA-7BD4-4900-ACEC-75B82058F356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9ACD857B-5DC8-409A-A1C6-78E5D03ECDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ACD857B-5DC8-409A-A1C6-78E5D03ECDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ACD857B-5DC8-409A-A1C6-78E5D03ECDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE4FACA-7BD4-4900-ACEC-75B82058F356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE4FACA-7BD4-4900-ACEC-75B82058F356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE4FACA-7BD4-4900-ACEC-75B82058F356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE4FACA-7BD4-4900-ACEC-75B82058F356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
