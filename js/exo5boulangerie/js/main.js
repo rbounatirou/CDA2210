@@ -8,7 +8,7 @@ majIHM();
 setInterval( () => {
     bl.doEverySecondJob();
     majIHM();
-}, 300);
+}, 1000);
 /*
 // POUR LA SAUVEGARDE A LA FERMETURE
 window.onbeforeunload = ()=>bl.sauvegarder();*/

@@ -1,0 +1,33 @@
+:root{
+    --bgcolor-thead: #0d8a5a;
+    --color-thead: #fffe0a;
+    --color-tbody: blue;
+}
+
+.legumostable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.legumostable{
+    border-collapse: separate;
+}
+
+.legumostable > thead > tr > th{
+    padding: .5rem;
+    background-color: var(--bgcolor-thead);
+    color: var(--color-thead);
+}
+
+
+.legumostable > tbody{
+    color: var(--color-tbody);
+}
+
+.legumostable > tbody > tr> td > span{
+    padding: 0 .5rem;
+}
+
+.legumostable > tbody > tr> td:not(:last-child){
+    padding-right: 1.6rem;
+}

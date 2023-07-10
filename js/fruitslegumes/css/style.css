@@ -1,0 +1,58 @@
+:root{
+    --bgcolor-menuzone: #0d8a5a;
+    --light: white;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* PROPRIETES DU HEADER */
+
+header{
+    background-image: url('/src/legumos.jpg');
+    background-size: cover;
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header > nav{
+    background-color: var(--bgcolor-menuzone);
+    
+}
+
+
+header > nav > ul{
+    padding: 0 15%;
+}
+
+header > nav > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header > nav > ul > li {
+    display: inline;
+    padding: 0 1.5rem;
+    font-size: 2.4rem;
+    color: var(--light);
+}
+
+header > nav > ul > li:nth-child(2){
+    margin-right: auto;
+}
+
+
