@@ -1,0 +1,49 @@
+:root{
+    --entete: #a8cca7;
+    --dark: #222222;
+    --odd-lines: #313040;
+    --even-lines: #232234;
+    --lines-between: rgba(255,255,255,0.3);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var(--dark);
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+main > h1{
+    font-size: 2.2rem;
+}
+
+.flight-tab{
+    border-collapse: collapse;
+}
+
+.flight-tab > tbody >  tr >td:nth-child(2n+1){
+    background-color: var(--even-lines);
+}
+
+.flight-tab > tbody > tr > td:nth-child(2n){
+    background-color: var(--odd-lines);
+}
+
+.flight-tab > * > tr > *{
+    padding: .5rem;
+}
+
+.flight-tab > tbody > tr > td {
+    border: 2px solid var(--lines-between);
+}
+
+.flight-tab > thead{
+    color: var(--entete);
+}
