@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\bin\Debug\net6.0\CompositeAddition.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\bin\Debug\net6.0\CompositeAddition.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\bin\Debug\net6.0\CompositeAddition.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\obj\Debug\net6.0\CompositeAddition.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\obj\Debug\net6.0\CompositeAddition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\obj\Debug\net6.0\CompositeAddition.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\obj\Debug\net6.0\CompositeAddition.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\obj\Debug\net6.0\CompositeAddition.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\obj\Debug\net6.0\CompositeAddition.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\obj\Debug\net6.0\refint\CompositeAddition.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\obj\Debug\net6.0\CompositeAddition.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeAddition\CompositeAddition\obj\Debug\net6.0\ref\CompositeAddition.dll
