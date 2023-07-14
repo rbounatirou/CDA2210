@@ -24,7 +24,7 @@ namespace CompositeFigure.Shapes
             this.saPosition = position;
         }
 
-        public abstract void AccepterVisite(IVisiteurDeFigure f);
+        public abstract void AccepterVisite(IVisiteurDeFigure<string> f);
 
         public abstract Figure Clone();
 

@@ -34,7 +34,7 @@ namespace CompositeFigure.Shapes.ConcreteShapes
 
 
 
-        public override void AccepterVisite(IVisiteurDeFigure f)
+        public override void AccepterVisite(IVisiteurDeFigure<string> f)
         {
             f.VisiterEnsembleFigure(this);
         }

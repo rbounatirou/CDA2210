@@ -32,7 +32,8 @@ namespace CompositeFigure.Shapes.ConcreteShapes
             return new Carre(this);
         }
 
-        public override void AccepterVisite(IVisiteurDeFigure f)
+
+        public override void AccepterVisite(IVisiteurDeFigure<string> f)
         {
             f.VisiterCarre(this);
         }

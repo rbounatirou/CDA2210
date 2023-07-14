@@ -2,9 +2,9 @@
 
 namespace CompositeFigure.Visiteur
 {
-    public interface IVisiteurDeFigure
+    public interface IVisiteurDeFigure<T>
     {
-        public abstract void VisiterEnsembleFigure(EnsembleFigure e);
-        public abstract void VisiterCarre(Carre c);
+        public abstract T VisiterEnsembleFigure(EnsembleFigure e);
+        public abstract T VisiterCarre(Carre c);
     }
 }
