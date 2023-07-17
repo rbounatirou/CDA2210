@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProjetFigureConsole/1.0.0": {
+        "dependencies": {
+          "CompositeFigure": "1.0.0"
+        },
+        "runtime": {
+          "ProjetFigureConsole.dll": {}
+        }
+      },
+      "CompositeFigure/1.0.0": {
+        "runtime": {
+          "CompositeFigure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjetFigureConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CompositeFigure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

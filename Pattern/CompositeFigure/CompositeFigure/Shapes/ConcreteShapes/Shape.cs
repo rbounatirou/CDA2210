@@ -8,6 +8,7 @@ namespace CompositeFigure.Shapes.ConcreteShapes
 {
     public abstract class Shape : Figure
     {
+        
         public Shape(Coordonnee? c, double angle) : base(c, angle)
         {
             if (c == null)

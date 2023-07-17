@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\bin\Debug\net6.0\CompositeFigure.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\bin\Debug\net6.0\CompositeFigure.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\bin\Debug\net6.0\CompositeFigure.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\obj\Debug\net6.0\CompositeFigure.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\obj\Debug\net6.0\CompositeFigure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\obj\Debug\net6.0\CompositeFigure.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\obj\Debug\net6.0\CompositeFigure.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\obj\Debug\net6.0\CompositeFigure.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\obj\Debug\net6.0\CompositeFigure.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\obj\Debug\net6.0\refint\CompositeFigure.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\obj\Debug\net6.0\CompositeFigure.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\CompositeFigure\CompositeFigure\obj\Debug\net6.0\ref\CompositeFigure.dll

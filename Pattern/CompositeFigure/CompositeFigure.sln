@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeFigure", "CompositeFigure\CompositeFigure.csproj", "{D2BA59B1-BB06-496D-BF16-3DE769E8AEA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetFigureConsole", "ProjetFigureConsole\ProjetFigureConsole.csproj", "{E8A78668-875F-40D8-9B37-44249F07E129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectWinform", "ProjectWinform\ProjectWinform.csproj", "{BEBEA09F-251B-4A51-8996-9712C06D6E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D2BA59B1-BB06-496D-BF16-3DE769E8AEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2BA59B1-BB06-496D-BF16-3DE769E8AEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2BA59B1-BB06-496D-BF16-3DE769E8AEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A78668-875F-40D8-9B37-44249F07E129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A78668-875F-40D8-9B37-44249F07E129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A78668-875F-40D8-9B37-44249F07E129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A78668-875F-40D8-9B37-44249F07E129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBEA09F-251B-4A51-8996-9712C06D6E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBEA09F-251B-4A51-8996-9712C06D6E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBEA09F-251B-4A51-8996-9712C06D6E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBEA09F-251B-4A51-8996-9712C06D6E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

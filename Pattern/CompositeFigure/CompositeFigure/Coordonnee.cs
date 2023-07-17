@@ -11,6 +11,9 @@ namespace CompositeFigure
         private double x;
         private double y;
 
+        public double X { get => x; private set { x = value; } }
+        public double Y { get => y; private set { y = value; } }
+
         public Coordonnee(double _x, double _y)
         {
             this.x = _x;

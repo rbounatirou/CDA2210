@@ -1,33 +1,46 @@
-﻿using CompositeFigure.Visiteur;
+﻿using CompositeFigure.Shapes.ConcreteShapes;
+using CompositeFigure.Visiteur;
 namespace CompositeFigure.Shapes
 {
-    public abstract class Figure
+    public abstract class Figure : ICloneable
     {
         protected double angleEnRadian;
         protected Coordonnee? saPosition;
 
-        public Figure( )
+        public double AngleEnRadian { get => angleEnRadian; private set { angleEnRadian = value; } }
+        public Coordonnee? Position { get => saPosition; private set { saPosition = value; } }
+
+
+        public Figure( ) : this(new Coordonnee(0,0))
         {
-            this.angleEnRadian = 0;
-            this.saPosition = null;
         }
 
-        public Figure(Coordonnee? position)
+        public Figure(Coordonnee? position) : this(position, 0)
         {
-            this.angleEnRadian = 0;
-            this.saPosition = position;
         }
 
         public Figure(Coordonnee? position, double angleRadian)
         {
             this.angleEnRadian = angleEnRadian;
-            this.saPosition = position;
+            this.saPosition = position ?? new Coordonnee(0, 0);
         }
 
-        public abstract void AccepterVisite(IVisiteurDeFigure<string> f);
+        public abstract T AccepterVisite<T>(IVisiteurDeFigure<T> f);
+        public abstract string AccepterVisite(IVisiteurDeFigure<string> f);
 
-        public abstract Figure Clone();
+        public abstract object Clone();
 
-        
+        public EnsembleFigure CreerGroupe(Figure avec)
+        {
+           return new EnsembleFigure(new Coordonnee(0,0),0, new List<Figure>() { this, avec});
+        }
+
+        public virtual  Figure[] DissocierGroupe() { return new Figure[] { this };  }
+
+        public virtual void RegrouperElementEnUnGroupe(params int[] idEls) { return; }
+
+        public abstract bool IsOnHitbox(double x, double y, double w, double h);
+
+        public virtual void DissocierElementEnPlusieurs(int idElement) { return; }
     }
 }
