@@ -48,6 +48,7 @@
             panelDessiner.Name = "panelDessiner";
             panelDessiner.Size = new Size(408, 426);
             panelDessiner.TabIndex = 1;
+            panelDessiner.Click += panelDessiner_Click;
             panelDessiner.Paint += panelDessiner_Paint;
             // 
             // Form1
