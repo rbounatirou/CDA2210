@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\bin\Debug\net6.0\ExempleCommand.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\bin\Debug\net6.0\ExempleCommand.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\bin\Debug\net6.0\ExempleCommand.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\obj\Debug\net6.0\ExempleCommand.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\obj\Debug\net6.0\ExempleCommand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\obj\Debug\net6.0\ExempleCommand.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\obj\Debug\net6.0\ExempleCommand.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\obj\Debug\net6.0\ExempleCommand.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\obj\Debug\net6.0\ExempleCommand.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\obj\Debug\net6.0\refint\ExempleCommand.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\obj\Debug\net6.0\ExempleCommand.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExempleCommand\ExempleCommand\obj\Debug\net6.0\ref\ExempleCommand.dll
