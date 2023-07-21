@@ -81,7 +81,7 @@ namespace ExemplePatternCommand
             {
                 command = new CommandAllerEnBas(val, charlie);
             }
-            invoker.ExercuterCommande(command);
+            invoker.ExecuterCommande(command);
 
         }
 

@@ -27,7 +27,7 @@ namespace ExempleCommand.Command
             redo = new Stack<ICommand>();
         }
 
-        public bool ExercuterCommande(ICommand c)
+        public bool ExecuterCommande(ICommand c)
         {
             if (c.Executer())
             {

@@ -9,22 +9,22 @@ namespace ExempleCommand.Command
     public class CommandAllerAGauche : ICommand
     {
         private int nbPixel;
-        private Personnage personnage;
+        private Personnage sonReveiver;
         
         public CommandAllerAGauche(int pixel, Personnage cible)
         {
             nbPixel = pixel;
-            personnage = cible;
+            sonReveiver = cible;
         }
 
         public bool Executer()
         {
-            return personnage.DeplacerAGauche(nbPixel);
+            return sonReveiver.DeplacerAGauche(nbPixel);
         }
 
         public bool Annuler()
         {
-            return personnage.DeplacerADroite(nbPixel);
+            return sonReveiver.DeplacerADroite(nbPixel);
         }
 
         public string GetString()
