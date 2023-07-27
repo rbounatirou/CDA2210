@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\bin\Debug\net6.0\ExpressionCompositeScrachNico.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\bin\Debug\net6.0\ExpressionCompositeScrachNico.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\bin\Debug\net6.0\ExpressionCompositeScrachNico.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\obj\Debug\net6.0\ExpressionCompositeScrachNico.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\obj\Debug\net6.0\ExpressionCompositeScrachNico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\obj\Debug\net6.0\ExpressionCompositeScrachNico.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\obj\Debug\net6.0\ExpressionCompositeScrachNico.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\obj\Debug\net6.0\ExpressionCompositeScrachNico.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\obj\Debug\net6.0\ExpressionCompositeScrachNico.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\obj\Debug\net6.0\refint\ExpressionCompositeScrachNico.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\obj\Debug\net6.0\ExpressionCompositeScrachNico.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\ExpressionCompositeScrachNico\ExpressionCompositeScrachNico\obj\Debug\net6.0\ref\ExpressionCompositeScrachNico.dll

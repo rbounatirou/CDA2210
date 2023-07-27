@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\bin\Debug\net6.0\PaternDecoratorPizza.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\bin\Debug\net6.0\PaternDecoratorPizza.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\bin\Debug\net6.0\PaternDecoratorPizza.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\obj\Debug\net6.0\PaternDecoratorPizza.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\obj\Debug\net6.0\PaternDecoratorPizza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\obj\Debug\net6.0\PaternDecoratorPizza.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\obj\Debug\net6.0\PaternDecoratorPizza.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\obj\Debug\net6.0\PaternDecoratorPizza.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\obj\Debug\net6.0\PaternDecoratorPizza.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\obj\Debug\net6.0\refint\PaternDecoratorPizza.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\obj\Debug\net6.0\PaternDecoratorPizza.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\PaternDecoratorPizza\PaternDecoratorPizza\obj\Debug\net6.0\ref\PaternDecoratorPizza.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleProject/1.0.0": {
+        "dependencies": {
+          "ExpressionCompositeScrachNico": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleProject.dll": {}
+        }
+      },
+      "ExpressionCompositeScrachNico/1.0.0": {
+        "runtime": {
+          "ExpressionCompositeScrachNico.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExpressionCompositeScrachNico/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
