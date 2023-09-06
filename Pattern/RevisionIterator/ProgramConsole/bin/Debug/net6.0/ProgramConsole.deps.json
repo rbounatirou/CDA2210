@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProgramConsole/1.0.0": {
+        "dependencies": {
+          "BibliIterator": "1.0.0"
+        },
+        "runtime": {
+          "ProgramConsole.dll": {}
+        }
+      },
+      "BibliIterator/1.0.0": {
+        "runtime": {
+          "BibliIterator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProgramConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliIterator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

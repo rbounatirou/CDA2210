@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\bin\Debug\net6.0\BibliIterator.deps.json
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\bin\Debug\net6.0\BibliIterator.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\bin\Debug\net6.0\BibliIterator.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\obj\Debug\net6.0\BibliIterator.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\obj\Debug\net6.0\BibliIterator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\obj\Debug\net6.0\BibliIterator.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\obj\Debug\net6.0\BibliIterator.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\obj\Debug\net6.0\BibliIterator.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\obj\Debug\net6.0\BibliIterator.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\obj\Debug\net6.0\refint\BibliIterator.dll
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\obj\Debug\net6.0\BibliIterator.pdb
+C:\Users\rbounatirou\Documents\CDA2210\Pattern\RevisionIterator\BibliIterator\obj\Debug\net6.0\ref\BibliIterator.dll

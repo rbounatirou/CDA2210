@@ -34,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheIHM\\LabyrintheIHM.csproj",
+      "projectUniqueName": "C:\\Users\\rbounatirou\\Documents\\GIT\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheIHM\\LabyrintheIHM.csproj",
       "projectName": "LabyrintheIHM",
-      "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheIHM\\LabyrintheIHM.csproj",
+      "projectPath": "C:\\Users\\rbounatirou\\Documents\\GIT\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheIHM\\LabyrintheIHM.csproj",
       "packagesPath": "C:\\Users\\rbounatirou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheIHM\\obj\\",
+      "outputPath": "C:\\Users\\rbounatirou\\Documents\\GIT\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheIHM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -60,8 +60,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheLibrary\\LabyrintheLibrary.csproj": {
-              "projectPath": "C:\\Users\\rbounatirou\\Documents\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheLibrary\\LabyrintheLibrary.csproj"
+            "C:\\Users\\rbounatirou\\Documents\\GIT\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheLibrary\\LabyrintheLibrary.csproj": {
+              "projectPath": "C:\\Users\\rbounatirou\\Documents\\GIT\\CDA2210\\winform\\LabyrintheLibrary\\LabyrintheLibrary\\LabyrintheLibrary.csproj"
             }
           }
         }
@@ -94,7 +94,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
