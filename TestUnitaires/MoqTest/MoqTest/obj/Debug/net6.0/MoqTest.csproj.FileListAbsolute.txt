@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\bin\Debug\net6.0\MoqTest.deps.json
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\bin\Debug\net6.0\MoqTest.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\bin\Debug\net6.0\MoqTest.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\obj\Debug\net6.0\MoqTest.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\obj\Debug\net6.0\MoqTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\obj\Debug\net6.0\MoqTest.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\obj\Debug\net6.0\MoqTest.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\obj\Debug\net6.0\MoqTest.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\obj\Debug\net6.0\MoqTest.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\obj\Debug\net6.0\refint\MoqTest.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\obj\Debug\net6.0\MoqTest.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\MoqTest\MoqTest\obj\Debug\net6.0\ref\MoqTest.dll

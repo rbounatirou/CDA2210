@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\bin\Debug\net6.0\AleatoireMockLib.deps.json
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\bin\Debug\net6.0\AleatoireMockLib.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\bin\Debug\net6.0\AleatoireMockLib.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\obj\Debug\net6.0\AleatoireMockLib.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\obj\Debug\net6.0\AleatoireMockLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\obj\Debug\net6.0\AleatoireMockLib.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\obj\Debug\net6.0\AleatoireMockLib.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\obj\Debug\net6.0\AleatoireMockLib.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\obj\Debug\net6.0\AleatoireMockLib.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\obj\Debug\net6.0\refint\AleatoireMockLib.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\obj\Debug\net6.0\AleatoireMockLib.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\AleatoireMockLib\AleatoireMockLib\obj\Debug\net6.0\ref\AleatoireMockLib.dll
