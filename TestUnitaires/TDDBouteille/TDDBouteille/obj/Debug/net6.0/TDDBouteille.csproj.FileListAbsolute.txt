@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\bin\Debug\net6.0\TDDBouteille.deps.json
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\bin\Debug\net6.0\TDDBouteille.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\bin\Debug\net6.0\TDDBouteille.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\obj\Debug\net6.0\TDDBouteille.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\obj\Debug\net6.0\TDDBouteille.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\obj\Debug\net6.0\TDDBouteille.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\obj\Debug\net6.0\TDDBouteille.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\obj\Debug\net6.0\TDDBouteille.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\obj\Debug\net6.0\TDDBouteille.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\obj\Debug\net6.0\refint\TDDBouteille.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\obj\Debug\net6.0\TDDBouteille.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDBouteille\TDDBouteille\obj\Debug\net6.0\ref\TDDBouteille.dll

@@ -1,0 +1,15 @@
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\bin\Debug\net6.0\Barnabe.exe
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\bin\Debug\net6.0\Barnabe.deps.json
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\bin\Debug\net6.0\Barnabe.runtimeconfig.json
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\bin\Debug\net6.0\Barnabe.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\bin\Debug\net6.0\Barnabe.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\Barnabe.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\Barnabe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\Barnabe.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\Barnabe.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\Barnabe.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\Barnabe.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\refint\Barnabe.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\Barnabe.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\Barnabe.genruntimeconfig.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\algo\dotnet\Barnabe\Barnabe\obj\Debug\net6.0\ref\Barnabe.dll

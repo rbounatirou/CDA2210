@@ -1,0 +1,15 @@
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\bin\Debug\net6.0\TDDFizzbuzz.exe
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\bin\Debug\net6.0\TDDFizzbuzz.deps.json
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\bin\Debug\net6.0\TDDFizzbuzz.runtimeconfig.json
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\bin\Debug\net6.0\TDDFizzbuzz.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\bin\Debug\net6.0\TDDFizzbuzz.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\TDDFizzbuzz.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\TDDFizzbuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\TDDFizzbuzz.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\TDDFizzbuzz.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\TDDFizzbuzz.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\TDDFizzbuzz.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\refint\TDDFizzbuzz.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\TDDFizzbuzz.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\TDDFizzbuzz.genruntimeconfig.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\TDDFizzbuzzz\TDDFizzbuzzz\obj\Debug\net6.0\ref\TDDFizzbuzz.dll

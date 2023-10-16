@@ -1,0 +1,12 @@
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\bin\Debug\net6.0\FizzBuzz.deps.json
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\bin\Debug\net6.0\FizzBuzz.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\bin\Debug\net6.0\FizzBuzz.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.csproj.AssemblyReference.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.AssemblyInfoInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.AssemblyInfo.cs
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\obj\Debug\net6.0\refint\FizzBuzz.dll
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\obj\Debug\net6.0\FizzBuzz.pdb
+C:\Users\rbounatirou\Documents\GIT\CDA2210\TestUnitaires\FizzBuzz\FizzBuzz\obj\Debug\net6.0\ref\FizzBuzz.dll
